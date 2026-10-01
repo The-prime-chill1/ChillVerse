@@ -51,13 +51,25 @@ export default function Navbar() {
     { label: 'Contact', path: '/contact' }
   ];
 
+  // Lock background scroll when mobile menu is open
+  React.useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [mobileMenuOpen]);
+
   return (
     <header className="navbar-wrapper">
       {/* Main Glass Navbar */}
       <nav className="main-navbar">
         <div className="container nav-content">
           {/* Logo */}
-          <Link to="/" className="brand-logo-wrap" aria-label="CHILLVERSE Home">
+          <Link to="/" className="brand-logo-wrap" aria-label="CHILLVERSE Home" onClick={() => setMobileMenuOpen(false)}>
             <BrandLogo height={38} showSubtitle={false} />
           </Link>
 
@@ -211,97 +223,124 @@ export default function Navbar() {
             </button>
           </div>
         </div>
+      </nav>
 
-        {/* Mobile Navigation Drawer */}
-        {mobileMenuOpen && (
-          <div className="mobile-nav-drawer">
+      {/* Mobile Navigation Drawer Fullscreen Overlay */}
+      {mobileMenuOpen && (
+        <div className="mobile-nav-drawer" role="dialog" aria-label="Mobile Navigation">
+          <div className="mobile-nav-inner-container">
+            {/* Search Form */}
             <form onSubmit={handleSearchSubmit} className="mobile-search-form">
               <Search size={16} className="text-secondary" />
               <input 
-                type="text"
-                placeholder="Search anime, games, lore..."
+                type="text" 
+                placeholder="Search anime, games, lore, music..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="mobile-search-input"
+                autoFocus={false}
               />
-              <button type="submit" className="btn-primary-fire">Search</button>
+              <button type="submit" className="mobile-search-submit-btn">
+                Search
+              </button>
             </form>
 
+            {/* Live Presence Status Pill */}
+            <div className="mobile-live-chip">
+              <span className="pulse-indicator"></span>
+              <span className="nav-live-badge-text">LIVE</span>
+              <span className="text-secondary">•</span>
+              <span className="text-xs text-white"><strong>{visitorCount}</strong> {visitorCount === 1 ? 'Fan' : 'Fans'} Online</span>
+              <span className="text-secondary">•</span>
+              <span className="text-xs text-cyan font-mono">{currentTime?.timeStr || '17:00:00'}</span>
+            </div>
+
+            {/* Mobile Auth Button */}
+            {user ? (
+              <button 
+                type="button" 
+                onClick={() => { dummyLogout(); setMobileMenuOpen(false); }} 
+                className="mobile-auth-btn is-logged-in"
+              >
+                <User size={16} className="text-orange" />
+                <span>Signed in as <strong>{user.username || 'Fan'}</strong> (Tap to Sign Out)</span>
+              </button>
+            ) : (
+              <button 
+                type="button" 
+                onClick={() => { openModal('auth', {}); setMobileMenuOpen(false); }} 
+                className="mobile-auth-btn"
+              >
+                <User size={16} className="text-orange" />
+                <span>Sign In / Create Account</span>
+              </button>
+            )}
+
+            {/* 8 Fandom Realms */}
+            <div className="mobile-section-title">
+              <Sparkles size={13} className="text-orange inline mr-1" />
+              <span>8 FANDOM REALMS</span>
+            </div>
+            <div className="mobile-categories-grid">
+              {categories.map(c => (
+                <Link
+                  key={c.id}
+                  to={`/category/${c.id}`}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="mobile-cat-card"
+                  style={{ borderColor: `${c.color}35` }}
+                >
+                  <div className="mobile-cat-icon-wrap" style={{ background: c.glow, color: c.color }}>
+                    <c.Icon size={18} />
+                  </div>
+                  <div className="mobile-cat-info">
+                    <span className="mobile-cat-name">{c.name}</span>
+                    <span className="mobile-cat-sub">{c.subtitle}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+
+            {/* Portal Exploration Links */}
+            <div className="mobile-section-title">
+              <Film size={13} className="text-cyan inline mr-1" />
+              <span>PORTAL EXPLORATION</span>
+            </div>
             <div className="mobile-links-list">
-              {/* Mobile Live Presence Pill */}
-              <div className="mobile-live-chip">
-                <span className="pulse-indicator"></span>
-                <span className="nav-live-badge-text">LIVE</span>
-                <span className="text-secondary">•</span>
-                <span className="text-xs text-white"><strong>{visitorCount}</strong> {visitorCount === 1 ? 'Fan' : 'Fans'} Online</span>
-                <span className="text-secondary">•</span>
-                <span className="text-xs text-cyan font-mono">{currentTime?.timeStr || '17:00:00'}</span>
-              </div>
-
-              {/* Mobile Auth Button */}
-              {user ? (
-                <button 
-                  type="button" 
-                  onClick={() => { dummyLogout(); setMobileMenuOpen(false); }} 
-                  className="mobile-auth-btn"
-                >
-                  <User size={16} className="text-orange" />
-                  <span>Signed in as {user.username || 'Fan'} (Tap to Sign Out)</span>
-                </button>
-              ) : (
-                <button 
-                  type="button" 
-                  onClick={() => { openModal('auth', {}); setMobileMenuOpen(false); }} 
-                  className="mobile-auth-btn"
-                >
-                  <User size={16} className="text-orange" />
-                  <span>Sign In / Create Account</span>
-                </button>
-              )}
-
               <Link to="/" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                Home
+                <span className="mobile-link-icon-dot"></span>
+                <span>Home Hub</span>
               </Link>
-              
-              <div className="mobile-section-title">8 FANDOM REALMS</div>
-              <div className="mobile-categories-grid">
-                {categories.map(c => (
-                  <Link
-                    key={c.id}
-                    to={`/category/${c.id}`}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="mobile-cat-pill"
-                    style={{ borderColor: c.color + '40' }}
-                  >
-                    <c.Icon size={14} style={{ color: c.color }} />
-                    <span>{c.name}</span>
-                  </Link>
-                ))}
-              </div>
-
-              <div className="mobile-section-title">PORTAL EXPLORATION</div>
               <Link to="/media" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <Film size={15} className="inline mr-2 text-orange" /> Trailers &amp; 4K Player
+                <Film size={16} className="text-orange" />
+                <span>Trailers &amp; 4K Player</span>
               </Link>
               <Link to="/calendar" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <Calendar size={15} className="inline mr-2 text-cyan" /> Releases &amp; Schedule
+                <Calendar size={16} className="text-cyan" />
+                <span>Releases &amp; Schedule</span>
               </Link>
               <Link to="/shop" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <ShoppingBag size={15} className="inline mr-2 text-amber" /> Merch Vault ({cartCount})
+                <ShoppingBag size={16} className="text-amber" />
+                <span>Merch Vault</span>
+                {cartCount > 0 && <span className="mobile-badge-pill">{cartCount}</span>}
               </Link>
               <Link to="/bookmarks" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <Bookmark size={15} className="inline mr-2 text-purple" /> Saved &amp; Notes ({bookmarks.length})
+                <Bookmark size={16} className="text-purple" />
+                <span>Saved &amp; Notes</span>
+                {bookmarks.length > 0 && <span className="mobile-badge-pill">{bookmarks.length}</span>}
               </Link>
               <Link to="/about" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <Info size={15} className="inline mr-2 text-secondary" /> About Platform
+                <Info size={16} className="text-secondary" />
+                <span>About Platform</span>
               </Link>
               <Link to="/contact" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <MapPin size={15} className="inline mr-2 text-secondary" /> Contact &amp; HQ
+                <MapPin size={16} className="text-secondary" />
+                <span>Contact HQ</span>
               </Link>
             </div>
           </div>
-        )}
-      </nav>
+        </div>
+      )}
     </header>
   );
 }
