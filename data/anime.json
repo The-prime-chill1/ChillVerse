@@ -1,5 +1,226 @@
 [
   {
+    "id": "ani-ramparts-ice-s2",
+    "title": "The Ramparts of Ice Season 2",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "Romance & Slice of Life",
+    "year": 2026,
+    "date": "2026-10-01",
+    "tags": [
+      "Romance",
+      "Drama",
+      "Seasonal Premiere",
+      "2026"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/ArmDp-zijuc/maxresdefault.jpg",
+    "youtubeId": "ArmDp-zijuc",
+    "description": "Fuyuki and Koyuki's delicate, introspective bond deepens through the frigid winter semester as emotional barriers begin to melt.",
+    "popularity": 98,
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/ArmDp-zijuc/maxresdefault.jpg"
+  },
+  {
+    "id": "ani-blue-box",
+    "title": "Blue Box",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "Sports & Romance",
+    "year": 2024,
+    "date": "2024-10-03",
+    "tags": [
+      "Sports",
+      "Romance",
+      "Badminton",
+      "2024"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/O5Q-8qX9Qv0/maxresdefault.jpg",
+    "youtubeId": "O5Q-8qX9Qv0",
+    "description": "Badminton player Taiki Inomata trains alongside basketball prodigy Chinatsu Kano as their morning gymnasium routine sparks an inspiring romance.",
+    "popularity": 97,
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/O5Q-8qX9Qv0/maxresdefault.jpg"
+  },
+  {
+    "id": "ani-dandadan",
+    "title": "Dandadan",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "Supernatural & Sci-Fi Comedy",
+    "year": 2024,
+    "date": "2024-10-03",
+    "tags": [
+      "Supernatural",
+      "Aliens",
+      "Ghosts",
+      "Science SARU",
+      "2024"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/qUqj2xN3qB4/maxresdefault.jpg",
+    "youtubeId": "qUqj2xN3qB4",
+    "description": "A high school girl who believes in ghosts and a boy who believes in aliens make a wager that plunges them into bizarre occult confrontations.",
+    "popularity": 99,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/6y5K99ZkWQpU1bQ5z9f5f0sF6y9.jpg"
+  },
+  {
+    "id": "ani-solo-leveling",
+    "title": "Solo Leveling (Arise)",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "Action & Dark Fantasy",
+    "year": 2024,
+    "date": "2024-01-07",
+    "tags": [
+      "A-1 Pictures",
+      "Hunters",
+      "Manhwa",
+      "2024"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/LauZ6WV4-gE/maxresdefault.jpg",
+    "youtubeId": "LauZ6WV4-gE",
+    "description": "After surviving a double dungeon slaughter, the weakest E-Rank Hunter Sung Jinwoo awakens a quest window granting him infinite growth as the Shadow Monarch.",
+    "popularity": 100,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/geCRueV3ElhRTr0xtJuPxJ8PGQE.jpg"
+  },
+  {
+    "id": "ani-kaiju-no8",
+    "title": "Kaiju No. 8",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "Action & Sci-Fi",
+    "year": 2024,
+    "date": "2024-04-13",
+    "tags": [
+      "Production I.G",
+      "Kaiju",
+      "Defense Force",
+      "2024"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/7n_mU_EB0q4/maxresdefault.jpg",
+    "youtubeId": "7n_mU_EB0q4",
+    "description": "Kafka Hibino cleans up kaiju corpses until an organism enters his body, granting him the power to transform into a catastrophic humanoid monster.",
+    "popularity": 97,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/q9T8n6Z3c4pY6F8R6G5pQ6w7Y8k.jpg"
+  },
+  {
+    "id": "ani-demon-slayer",
+    "title": "Demon Slayer: Hashira Training Arc",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "Shonen & Supernatural",
+    "year": 2024,
+    "date": "2024-05-12",
+    "tags": [
+      "ufotable",
+      "Shonen",
+      "Swords",
+      "2024"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/VQGCKyvzIM4/maxresdefault.jpg",
+    "youtubeId": "VQGCKyvzIM4",
+    "description": "Tanjiro and the Hashira undergo grueling physical trials to awaken the Demon Slayer Mark as the battle inside the Infinity Castle approaches.",
+    "popularity": 99,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg"
+  },
+  {
+    "id": "ani-jujutsu-kaisen-s2",
+    "title": "Jujutsu Kaisen: Shibuya Incident",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "Shonen & Dark Sorcery",
+    "year": 2023,
+    "date": "2023-08-31",
+    "tags": [
+      "MAPPA",
+      "Sorcery",
+      "Gojo",
+      "2023"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/f7T48i4WaP8/maxresdefault.jpg",
+    "youtubeId": "f7T48i4WaP8",
+    "description": "On Halloween night in Shibuya, special grade curses execute a barrier trap to seal Satoru Gojo, igniting a war across Tokyo.",
+    "popularity": 100,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/hFWP5HkbVEe40zXgrTeikXHBs5P.jpg"
+  },
+  {
+    "id": "ani-frieren",
+    "title": "Frieren: Beyond Journey's End",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "High Fantasy & Drama",
+    "year": 2023,
+    "date": "2023-09-29",
+    "tags": [
+      "Madhouse",
+      "Elves",
+      "Adventure",
+      "GOTY"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/qgQunxD0qMo/maxresdefault.jpg",
+    "youtubeId": "qgQunxD0qMo",
+    "description": "Following the defeat of the Demon King, elven mage Frieren reflects on the fleeting lifespans of her human companions across centuries.",
+    "popularity": 99,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/dqZENchTd7lp5zht7BdlqM7RBhD.jpg"
+  },
+  {
+    "id": "ani-delicious-in-dungeon",
+    "title": "Delicious in Dungeon",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "Fantasy & Culinary Comedy",
+    "year": 2024,
+    "date": "2024-01-04",
+    "tags": [
+      "Studio Trigger",
+      "Netflix",
+      "Culinary",
+      "Fantasy"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/7j_f_08p3lQ/maxresdefault.jpg",
+    "youtubeId": "7j_f_08p3lQ",
+    "description": "Laios and his adventuring party sustain themselves deep inside a cursed dungeon by cooking gourmet meals out of slain monsters.",
+    "popularity": 96,
+    "featured": false,
+    "poster": "https://img.youtube.com/vi/7j_f_08p3lQ/maxresdefault.jpg"
+  },
+  {
+    "id": "ani-cyberpunk-edgerunners",
+    "title": "Cyberpunk: Edgerunners",
+    "category": "anime",
+    "type": "title",
+    "format": "series",
+    "genre": "Sci-Fi & Cyberpunk",
+    "year": 2022,
+    "date": "2022-09-13",
+    "tags": [
+      "Studio Trigger",
+      "Netflix",
+      "Night City",
+      "Hiroyuki Imaishi"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/JtqIas3bYhg/maxresdefault.jpg",
+    "youtubeId": "JtqIas3bYhg",
+    "description": "A street kid trying to survive in Night City installs a black-market military Sandevistan spine, becoming an edgerunner mercenary.",
+    "popularity": 99,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/7JkWZ3y1dFz6V8w7Y9P6mN8sX3C.jpg"
+  },
+  {
     "id": "ani-0001",
     "title": "Demon Slayer: Kimetsu no Yaiba",
     "category": "anime",
@@ -8,12 +229,18 @@
     "genre": "Shonen & Action",
     "year": 2019,
     "date": "2019-04-06",
-    "tags": ["shonen", "ufotable", "supernatural", "2010s"],
+    "tags": [
+      "shonen",
+      "ufotable",
+      "supernatural",
+      "2010s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/1hXvU4n8o18/maxresdefault.jpg",
     "youtubeId": "1hXvU4n8o18",
     "description": "Tanjiro Kamado sets out to avenge his slaughtered family and cure his demon-turned sister Nezuko through breathing techniques and master swordsmanship.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg"
   },
   {
     "id": "ani-0002",
@@ -24,12 +251,18 @@
     "genre": "Shonen & Action",
     "year": 2020,
     "date": "2020-10-03",
-    "tags": ["shonen", "mappa", "curses", "2020s"],
+    "tags": [
+      "shonen",
+      "mappa",
+      "curses",
+      "2020s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/pkZXflPBs1Y/maxresdefault.jpg",
     "youtubeId": "pkZXflPBs1Y",
     "description": "High schooler Yuji Itadori swallows the finger of the King of Curses Sukuna, plunging into Tokyo Jujutsu High under mentor Satoru Gojo.",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/hFWP5HkbVEe40zXgrTeikXHBs5P.jpg"
   },
   {
     "id": "ani-0003",
@@ -40,12 +273,18 @@
     "genre": "Dark Fantasy",
     "year": 2013,
     "date": "2013-04-07",
-    "tags": ["seinen", "dark-fantasy", "titans", "2010s"],
+    "tags": [
+      "seinen",
+      "dark-fantasy",
+      "titans",
+      "2010s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/M_OauHnAFc8/maxresdefault.jpg",
     "youtubeId": "M_OauHnAFc8",
     "description": "Humanity's last remnants behind three concentric stone walls struggle against man-eating giants before discovering a geopolitical conspiracy across the sea.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg"
   },
   {
     "id": "ani-0004",
@@ -56,12 +295,18 @@
     "genre": "Dark Shonen",
     "year": 2022,
     "date": "2022-10-12",
-    "tags": ["dark-shonen", "mappa", "action", "2020s"],
+    "tags": [
+      "dark-shonen",
+      "mappa",
+      "action",
+      "2020s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/v4yLeNt-kCU/maxresdefault.jpg",
     "youtubeId": "v4yLeNt-kCU",
     "description": "Denji merges with his canine chainsaw devil Pochita, joining Public Safety Devil Hunter division under the enigmatic Makima.",
     "popularity": 97,
-    "featured": true
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/npdB6eFz4qwNtSdoxnF4E6yj335.jpg"
   },
   {
     "id": "ani-0005",
@@ -72,12 +317,18 @@
     "genre": "Alchemy Adventure",
     "year": 2009,
     "date": "2009-04-05",
-    "tags": ["shonen", "classic", "alchemy", "2000s"],
+    "tags": [
+      "shonen",
+      "classic",
+      "alchemy",
+      "2000s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/--IcmZkvL0Q/hqdefault.jpg",
     "youtubeId": "--IcmZkvL0Q",
     "description": "Brothers Edward and Alphonse Elric search for the Philosopher's Stone to restore their bodies following a catastrophic human transmutation ritual.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/--IcmZkvL0Q/hqdefault.jpg"
   },
   {
     "id": "ani-0006",
@@ -88,12 +339,18 @@
     "genre": "Cyberpunk Sci-Fi",
     "year": 2022,
     "date": "2022-09-13",
-    "tags": ["cyberpunk", "trigger", "sci-fi", "2020s"],
+    "tags": [
+      "cyberpunk",
+      "trigger",
+      "sci-fi",
+      "2020s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/JtqIas3bYhg/maxresdefault.jpg",
     "youtubeId": "JtqIas3bYhg",
     "description": "Studio Trigger and CDPR tell the tragic story of street kid David Martinez and netrunner Lucy navigating the neon meatgrinder of Night City.",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/JtqIas3bYhg/maxresdefault.jpg"
   },
   {
     "id": "ani-0007",
@@ -104,12 +361,18 @@
     "genre": "Fantasy Action",
     "year": 2024,
     "date": "2024-01-07",
-    "tags": ["action", "manhwa", "hunter", "2020s"],
+    "tags": [
+      "action",
+      "manhwa",
+      "hunter",
+      "2020s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/9n_NssP_F2s/maxresdefault.jpg",
     "youtubeId": "9n_NssP_F2s",
     "description": "The weakest E-Rank hunter Sung Jinwoo reawakens inside a double dungeon with a mysterious quest interface that allows him alone to level up infinitely.",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/9n_NssP_F2s/maxresdefault.jpg"
   },
   {
     "id": "ani-0008",
@@ -120,12 +383,18 @@
     "genre": "High Fantasy",
     "year": 2023,
     "date": "2023-09-29",
-    "tags": ["fantasy", "madhouse", "melancholy", "2020s"],
+    "tags": [
+      "fantasy",
+      "madhouse",
+      "melancholy",
+      "2020s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/qgQunxD0qMo/maxresdefault.jpg",
     "youtubeId": "qgQunxD0qMo",
     "description": "An immortal elven mage retraces the steps of her hero party decades after vanquishing the Demon King, learning to understand the fragility of human lifespans.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/qgQunxD0qMo/maxresdefault.jpg"
   },
   {
     "id": "ani-0009",
@@ -136,12 +405,18 @@
     "genre": "Space Western",
     "year": 1998,
     "date": "1998-04-03",
-    "tags": ["space-western", "sunrise", "jazz", "1990s"],
+    "tags": [
+      "space-western",
+      "sunrise",
+      "jazz",
+      "1990s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/qA26o1jGZqQ/hqdefault.jpg",
     "youtubeId": "qA26o1jGZqQ",
     "description": "Bounty hunter Spike Spiegel and his misfit crew aboard the spaceship Bebop cruise the solar system while running from their pasts to Yoko Kanno's jazz soundtrack.",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/qA26o1jGZqQ/hqdefault.jpg"
   },
   {
     "id": "ani-0010",
@@ -152,12 +427,18 @@
     "genre": "Psychological Mecha",
     "year": 1995,
     "date": "1995-10-04",
-    "tags": ["mecha", "psychological", "gainax", "1990s"],
+    "tags": [
+      "mecha",
+      "psychological",
+      "gainax",
+      "1990s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/13nSISwxrY4/hqdefault.jpg",
     "youtubeId": "13nSISwxrY4",
     "description": "Fourteen-year-old Shinji Ikari is summoned by his estranged father to pilot a biomechanical Eva unit against apocalyptic extraterrestrial Angels attacking Tokyo-3.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/13nSISwxrY4/hqdefault.jpg"
   },
   {
     "id": "ani-0011",
@@ -168,12 +449,18 @@
     "genre": "Historical Drama",
     "year": 2019,
     "date": "2019-07-07",
-    "tags": ["seinen", "viking", "mappa", "2010s"],
+    "tags": [
+      "seinen",
+      "viking",
+      "mappa",
+      "2010s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/f8JrZ7Q_P-8/maxresdefault.jpg",
     "youtubeId": "f8JrZ7Q_P-8",
     "description": "Thorfinn seeks vengeance for his father's duel against Viking commander Askeladd, before embarking on a transformative path toward peace.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "poster": "https://img.youtube.com/vi/f8JrZ7Q_P-8/maxresdefault.jpg"
   },
   {
     "id": "ani-0012",
@@ -184,12 +471,18 @@
     "genre": "Ghibli Fantasy",
     "year": 2001,
     "date": "2001-07-20",
-    "tags": ["ghibli", "miyazaki", "oscar-winner", "2000s"],
+    "tags": [
+      "ghibli",
+      "miyazaki",
+      "oscar-winner",
+      "2000s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/ByXuk9QqQkk/maxresdefault.jpg",
     "youtubeId": "ByXuk9QqQkk",
     "description": "Ten-year-old Chihiro is trapped inside a supernatural spirit bathhouse ruled by the witch Yubaba, striving to save her parents and remember her real name.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/ByXuk9QqQkk/maxresdefault.jpg"
   },
   {
     "id": "ani-0013",
@@ -200,12 +493,18 @@
     "genre": "Ghibli Fantasy",
     "year": 1997,
     "date": "1997-07-12",
-    "tags": ["ghibli", "miyazaki", "nature", "1990s"],
+    "tags": [
+      "ghibli",
+      "miyazaki",
+      "nature",
+      "1990s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/4OiMOHRDs14/maxresdefault.jpg",
     "youtubeId": "4OiMOHRDs14",
     "description": "Prince Ashitaka seeks a cure for a demon boar curse, finding himself caught in an uncompromising war between industrial Iron Town and wolf-raised San.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/4OiMOHRDs14/maxresdefault.jpg"
   },
   {
     "id": "ani-0014",
@@ -216,12 +515,18 @@
     "genre": "Romantic Sci-Fi",
     "year": 2016,
     "date": "2016-08-26",
-    "tags": ["shinkai", "romance", "time-travel", "2010s"],
+    "tags": [
+      "shinkai",
+      "romance",
+      "time-travel",
+      "2010s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/xU47nhruN-Q/maxresdefault.jpg",
     "youtubeId": "xU47nhruN-Q",
     "description": "High schoolers Taki in Tokyo and Mitsuha in rural Itomori mysteriously swap bodies across time as the Tiamat comet approaches Earth.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/xU47nhruN-Q/maxresdefault.jpg"
   },
   {
     "id": "ani-0015",
@@ -232,12 +537,18 @@
     "genre": "Cyberpunk Classic",
     "year": 1988,
     "date": "1988-07-16",
-    "tags": ["cyberpunk", "neo-tokyo", "classic", "1980s"],
+    "tags": [
+      "cyberpunk",
+      "neo-tokyo",
+      "classic",
+      "1980s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/nA8KmHC2Z-g/maxresdefault.jpg",
     "youtubeId": "nA8KmHC2Z-g",
     "description": "Katsuhiro Otomo's hand-drawn cyberpunk landmark set in post-World War III Neo-Tokyo, where biker Kaneda tries to stop his telekinetically unstable friend Tetsuo.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/nA8KmHC2Z-g/maxresdefault.jpg"
   },
   {
     "id": "ani-0016",
@@ -248,11 +559,17 @@
     "genre": "Philosophical Sci-Fi",
     "year": 1995,
     "date": "1995-11-18",
-    "tags": ["cyberpunk", "oshii", "transhumanism", "1990s"],
+    "tags": [
+      "cyberpunk",
+      "oshii",
+      "transhumanism",
+      "1990s"
+    ],
     "thumbnail": "https://img.youtube.com/vi/SvBVDibOrnY/maxresdefault.jpg",
     "youtubeId": "SvBVDibOrnY",
     "description": "Mamoru Oshii's cybernetic masterwork following Major Motoko Kusanagi as she pursues the elusive cyber-hacker known as the Puppet Master.",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/SvBVDibOrnY/maxresdefault.jpg"
   }
 ]

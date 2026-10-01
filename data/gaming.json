@@ -1,5 +1,115 @@
 [
   {
+    "id": "game-gta-6",
+    "title": "Grand Theft Auto VI",
+    "category": "gaming",
+    "type": "title",
+    "format": "game",
+    "genre": "Action & Open World",
+    "year": 2025,
+    "date": "2025-10-01",
+    "tags": [
+      "Rockstar Games",
+      "Vice City",
+      "Open World",
+      "Next-Gen"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg",
+    "youtubeId": "QdBZY2fkU-0",
+    "description": "Lucia and Jason descend into the neon-lit criminal underworld of Vice City and the sprawling state of Leonida.",
+    "popularity": 100,
+    "featured": true,
+    "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7w5j.jpg"
+  },
+  {
+    "id": "game-elden-ring-erdtree",
+    "title": "Elden Ring: Shadow of the Erdtree",
+    "category": "gaming",
+    "type": "title",
+    "format": "game",
+    "genre": "Action RPG & Soulsborne",
+    "year": 2024,
+    "date": "2024-06-21",
+    "tags": [
+      "FromSoftware",
+      "Dark Fantasy",
+      "GOTY",
+      "Soulsborne"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/bo4uH4701f8/maxresdefault.jpg",
+    "youtubeId": "bo4uH4701f8",
+    "description": "Guided by Empyrean Miquella, the Tarnished enters the Land of Shadow beneath the golden canopy of the Scadutree.",
+    "popularity": 100,
+    "featured": true,
+    "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg"
+  },
+  {
+    "id": "game-black-myth-wukong",
+    "title": "Black Myth: Wukong",
+    "category": "gaming",
+    "type": "title",
+    "format": "game",
+    "genre": "Action RPG & Mythic",
+    "year": 2024,
+    "date": "2024-08-20",
+    "tags": [
+      "Action RPG",
+      "Chinese Mythology",
+      "Sun Wukong",
+      "Unreal Engine 5"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/eXZ1l8v_k3A/maxresdefault.jpg",
+    "youtubeId": "eXZ1l8v_k3A",
+    "description": "Journey as the Destined One through ancient Chinese mythology, unraveling obscure truths beneath the legend of Sun Wukong.",
+    "popularity": 99,
+    "featured": true,
+    "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8j9k.jpg"
+  },
+  {
+    "id": "game-death-stranding-2",
+    "title": "Death Stranding 2: On the Beach",
+    "category": "gaming",
+    "type": "title",
+    "format": "game",
+    "genre": "Sci-Fi & Action",
+    "year": 2025,
+    "date": "2025-06-15",
+    "tags": [
+      "Kojima Productions",
+      "PlayStation 5",
+      "Sci-Fi",
+      "Hideo Kojima"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/v5i96x-5u8E/maxresdefault.jpg",
+    "youtubeId": "v5i96x-5u8E",
+    "description": "Sam Porter Bridges embarks on a desperate expedition across international borders to reconnect human consciousness.",
+    "popularity": 98,
+    "featured": true,
+    "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5t5w.jpg"
+  },
+  {
+    "id": "game-monster-hunter-wilds",
+    "title": "Monster Hunter Wilds",
+    "category": "gaming",
+    "type": "title",
+    "format": "game",
+    "genre": "Action RPG & Co-Op",
+    "year": 2025,
+    "date": "2025-02-28",
+    "tags": [
+      "Capcom",
+      "Hunting",
+      "Co-Op",
+      "Living World"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/q_vE7vF3o6I/maxresdefault.jpg",
+    "youtubeId": "q_vE7vF3o6I",
+    "description": "Track and slay massive apex predators across dynamic, living ecosystems that shift seamlessly between harsh sandstorms and lush blooms.",
+    "popularity": 98,
+    "featured": true,
+    "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7o8p.jpg"
+  },
+  {
     "id": "gam-001",
     "category": "gaming",
     "title": "The Legend of Zelda: Breath of the Wild",
@@ -10,9 +120,15 @@
     "description": "Nintendo's paradigm-shifting open-world masterpiece, granting players unprecedented physics-driven freedom across the ruinous kingdom of Hyrule.",
     "thumbnail": "https://img.youtube.com/vi/zw47_q9wbBE/maxresdefault.jpg",
     "youtubeId": "zw47_q9wbBE",
-    "tags": ["action-adventure", "2010s", "open-world", "nintendo"],
+    "tags": [
+      "action-adventure",
+      "2010s",
+      "open-world",
+      "nintendo"
+    ],
     "featured": true,
-    "popularity": 99
+    "popularity": 99,
+    "poster": "https://img.youtube.com/vi/zw47_q9wbBE/maxresdefault.jpg"
   },
   {
     "id": "gam-002",
@@ -25,9 +141,15 @@
     "description": "Santa Monica Studio reinvents Kratos in Norse mythology, pairing visceral Leviathan Axe combat with a deeply moving father-son pilgrimage.",
     "thumbnail": "https://img.youtube.com/vi/K0u_kODnGQU/maxresdefault.jpg",
     "youtubeId": "K0u_kODnGQU",
-    "tags": ["action-adventure", "2010s", "norse", "playstation"],
+    "tags": [
+      "action-adventure",
+      "2010s",
+      "norse",
+      "playstation"
+    ],
     "featured": true,
-    "popularity": 98
+    "popularity": 98,
+    "poster": "https://img.youtube.com/vi/K0u_kODnGQU/maxresdefault.jpg"
   },
   {
     "id": "gam-003",
@@ -40,9 +162,15 @@
     "description": "Rockstar Games' crowning narrative achievement following outlaw Arthur Morgan as the Van der Linde gang disintegrates at the end of the American frontier.",
     "thumbnail": "https://img.youtube.com/vi/eaW0tYpxyp0/maxresdefault.jpg",
     "youtubeId": "eaW0tYpxyp0",
-    "tags": ["action-adventure", "2010s", "western", "rockstar"],
+    "tags": [
+      "action-adventure",
+      "2010s",
+      "western",
+      "rockstar"
+    ],
     "featured": true,
-    "popularity": 99
+    "popularity": 99,
+    "poster": "https://img.youtube.com/vi/eaW0tYpxyp0/maxresdefault.jpg"
   },
   {
     "id": "gam-004",
@@ -55,9 +183,15 @@
     "description": "A globetrotting 3D sandbox adventure where Mario teams up with Cappy to possess objects, enemies, and iconic cityscapes.",
     "thumbnail": "https://img.youtube.com/vi/wGQHQc_3ycE/maxresdefault.jpg",
     "youtubeId": "wGQHQc_3ycE",
-    "tags": ["platformer", "2010s", "nintendo", "sandbox"],
+    "tags": [
+      "platformer",
+      "2010s",
+      "nintendo",
+      "sandbox"
+    ],
     "featured": false,
-    "popularity": 94
+    "popularity": 94,
+    "poster": "https://img.youtube.com/vi/wGQHQc_3ycE/maxresdefault.jpg"
   },
   {
     "id": "gam-005",
@@ -70,9 +204,15 @@
     "description": "Crystal Dynamics reboots Lara Croft with a gritty survival origin story on the treacherous lost island of Yamatai.",
     "thumbnail": "https://img.youtube.com/vi/xCEgXyDqZ3o/maxresdefault.jpg",
     "youtubeId": "xCEgXyDqZ3o",
-    "tags": ["action-adventure", "2010s", "survival", "reboot"],
+    "tags": [
+      "action-adventure",
+      "2010s",
+      "survival",
+      "reboot"
+    ],
     "featured": false,
-    "popularity": 88
+    "popularity": 88,
+    "poster": "https://img.youtube.com/vi/xCEgXyDqZ3o/maxresdefault.jpg"
   },
   {
     "id": "gam-006",
@@ -85,9 +225,15 @@
     "description": "FromSoftware and George R.R. Martin unite for an epic dark fantasy RPG across the Lands Between, winning Game of the Year.",
     "thumbnail": "https://img.youtube.com/vi/E3Huy2cdih0/maxresdefault.jpg",
     "youtubeId": "E3Huy2cdih0",
-    "tags": ["rpg", "2020s", "soulsborne", "goty"],
+    "tags": [
+      "rpg",
+      "2020s",
+      "soulsborne",
+      "goty"
+    ],
     "featured": true,
-    "popularity": 100
+    "popularity": 100,
+    "poster": "https://img.youtube.com/vi/E3Huy2cdih0/maxresdefault.jpg"
   },
   {
     "id": "gam-007",
@@ -100,9 +246,15 @@
     "description": "Geralt of Rivia tracks Ciri across the war-ravaged Northern Realms in one of the most celebrated open-world RPGs in gaming history.",
     "thumbnail": "https://img.youtube.com/vi/c0i88t0Kacs/maxresdefault.jpg",
     "youtubeId": "c0i88t0Kacs",
-    "tags": ["rpg", "2010s", "cdpr", "fantasy"],
+    "tags": [
+      "rpg",
+      "2010s",
+      "cdpr",
+      "fantasy"
+    ],
     "featured": true,
-    "popularity": 99
+    "popularity": 99,
+    "poster": "https://img.youtube.com/vi/c0i88t0Kacs/maxresdefault.jpg"
   },
   {
     "id": "gam-008",
@@ -114,9 +266,15 @@
     "year": 2019,
     "description": "The Phantom Thieves of Hearts infiltrate cognitive palaces to steal the distorted desires of corrupt adults in Tokyo.",
     "thumbnail": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=80",
-    "tags": ["jrpg", "2010s", "anime", "atlus"],
+    "tags": [
+      "jrpg",
+      "2010s",
+      "anime",
+      "atlus"
+    ],
     "featured": false,
-    "popularity": 95
+    "popularity": 95,
+    "poster": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-009",
@@ -128,9 +286,15 @@
     "year": 2024,
     "description": "Cloud, Tifa, and Aerith venture beyond Midgar into the sprawling planet in Square Enix's sweeping reimaging.",
     "thumbnail": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=600&q=80",
-    "tags": ["jrpg", "2020s", "square-enix", "remake"],
+    "tags": [
+      "jrpg",
+      "2020s",
+      "square-enix",
+      "remake"
+    ],
     "featured": true,
-    "popularity": 97
+    "popularity": 97,
+    "poster": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-010",
@@ -142,9 +306,15 @@
     "year": 2023,
     "description": "Larian Studios delivers unprecedented player agency, branching narrative depth, and D&D 5e turn-based tactical combat.",
     "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
-    "tags": ["crpg", "2020s", "dnd", "goty"],
+    "tags": [
+      "crpg",
+      "2020s",
+      "dnd",
+      "goty"
+    ],
     "featured": true,
-    "popularity": 99
+    "popularity": 99,
+    "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-011",
@@ -156,9 +326,15 @@
     "year": 2023,
     "description": "High-stakes spy-thriller expansion starring Idris Elba as sleeper agent Solomon Reed in the ruined combat zone of Dogtown.",
     "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80",
-    "tags": ["rpg", "2020s", "cyberpunk", "cdpr"],
+    "tags": [
+      "rpg",
+      "2020s",
+      "cyberpunk",
+      "cdpr"
+    ],
     "featured": true,
-    "popularity": 98
+    "popularity": 98,
+    "poster": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-012",
@@ -170,9 +346,15 @@
     "year": 2017,
     "description": "Team Cherry's haunting insectoid subterranean world of Hallownest, revered for tight nail combat, atmospheric art, and rich lore.",
     "thumbnail": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&q=80",
-    "tags": ["indie", "2010s", "metroidvania", "hand-drawn"],
+    "tags": [
+      "indie",
+      "2010s",
+      "metroidvania",
+      "hand-drawn"
+    ],
     "featured": false,
-    "popularity": 96
+    "popularity": 96,
+    "poster": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-013",
@@ -184,9 +366,15 @@
     "year": 2020,
     "description": "Zagreus battles through the Underworld to escape father Hades in Supergiant's breathtaking blend of fast-paced action and episodic dialogue.",
     "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
-    "tags": ["indie", "2020s", "roguelike", "mythology"],
+    "tags": [
+      "indie",
+      "2020s",
+      "roguelike",
+      "mythology"
+    ],
     "featured": false,
-    "popularity": 95
+    "popularity": 95,
+    "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-014",
@@ -198,9 +386,15 @@
     "year": 2018,
     "description": "A heart-stirring precision platformer about conquering self-doubt, panic attacks, and mountain heights.",
     "thumbnail": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=600&q=80",
-    "tags": ["indie", "2010s", "platformer", "soundtrack"],
+    "tags": [
+      "indie",
+      "2010s",
+      "platformer",
+      "soundtrack"
+    ],
     "featured": false,
-    "popularity": 91
+    "popularity": 91,
+    "poster": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-015",
@@ -212,9 +406,15 @@
     "year": 2016,
     "description": "ConcernedApe's beloved solo-developed farming sandbox that allows players to leave corporate burnout for tranquil pastoral life.",
     "thumbnail": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
-    "tags": ["indie", "2010s", "farming", "relaxing"],
+    "tags": [
+      "indie",
+      "2010s",
+      "farming",
+      "relaxing"
+    ],
     "featured": false,
-    "popularity": 95
+    "popularity": 95,
+    "poster": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-016",
@@ -226,9 +426,15 @@
     "year": 2011,
     "description": "Valve's puzzle masterwork featuring Aperture Science's witty AI GLaDOS, Stephen Merchant's Wheatley, and spatial mind-benders.",
     "thumbnail": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?auto=format&fit=crop&w=600&q=80",
-    "tags": ["puzzle", "2010s", "valve", "sci-fi"],
+    "tags": [
+      "puzzle",
+      "2010s",
+      "valve",
+      "sci-fi"
+    ],
     "featured": false,
-    "popularity": 97
+    "popularity": 97,
+    "poster": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-017",
@@ -240,9 +446,15 @@
     "year": 2013,
     "description": "Three criminals coordinate high-stakes heists across the satire-soaked sunburst landscape of Los Santos.",
     "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
-    "tags": ["action", "2010s", "rockstar", "open-world"],
+    "tags": [
+      "action",
+      "2010s",
+      "rockstar",
+      "open-world"
+    ],
     "featured": false,
-    "popularity": 99
+    "popularity": 99,
+    "poster": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "gam-018",
@@ -254,8 +466,14 @@
     "year": 2015,
     "description": "Hunt your nightmares through gothic Yharnam where Victorian blood-healing transforms city dwellers into Lovecraftian terrors.",
     "thumbnail": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80",
-    "tags": ["rpg", "2010s", "lovecraft", "fromsoftware"],
+    "tags": [
+      "rpg",
+      "2010s",
+      "lovecraft",
+      "fromsoftware"
+    ],
     "featured": true,
-    "popularity": 98
+    "popularity": 98,
+    "poster": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80"
   }
 ]

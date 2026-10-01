@@ -1,5 +1,139 @@
 [
   {
+    "id": "tv-squid-game-2",
+    "title": "Squid Game: Season 2",
+    "category": "tv-shows",
+    "type": "title",
+    "format": "series",
+    "genre": "Survival & Psychological Thriller",
+    "year": 2024,
+    "date": "2024-12-26",
+    "tags": [
+      "Netflix Original",
+      "K-Drama",
+      "Survival",
+      "2024"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/lQBmZBJTN4g/maxresdefault.jpg",
+    "youtubeId": "lQBmZBJTN4g",
+    "description": "Seong Gi-hun abandons his plans to move to the US, returning with a fierce mission to expose and dismantle the deadly games.",
+    "popularity": 100,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/dDlG1vKlT3z8f9j6w0P1Z6y8C.jpg"
+  },
+  {
+    "id": "tv-diplomat-s4",
+    "title": "The Diplomat Season 4",
+    "category": "tv-shows",
+    "type": "title",
+    "format": "series",
+    "genre": "Political Drama & Thriller",
+    "year": 2026,
+    "date": "2026-10-01",
+    "tags": [
+      "Netflix Original",
+      "Political",
+      "Keri Russell",
+      "2026"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/qGqj2xN3qB4/maxresdefault.jpg",
+    "youtubeId": "lQBmZBJTN4g",
+    "description": "US Ambassador Kate Wyler navigates high-stakes international crises while her tumultuous marriage to a political star unravels.",
+    "popularity": 96,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/uKj8y1z5x6c7b8N9q0P1Z6y8C.jpg"
+  },
+  {
+    "id": "tv-nobody-wants-this-s3",
+    "title": "Nobody Wants This Season 3",
+    "category": "tv-shows",
+    "type": "title",
+    "format": "series",
+    "genre": "Romantic Comedy",
+    "year": 2026,
+    "date": "2026-10-01",
+    "tags": [
+      "Netflix Original",
+      "Romance",
+      "Comedy",
+      "2026"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/y4vN_4Y9bK4/maxresdefault.jpg",
+    "youtubeId": "y4vN_4Y9bK4",
+    "description": "An agnostic podcast host and an unconventional rabbi explore the humor, heartbreak, and cultural clash of modern romance.",
+    "popularity": 97,
+    "featured": true,
+    "poster": "https://img.youtube.com/vi/y4vN_4Y9bK4/maxresdefault.jpg"
+  },
+  {
+    "id": "tv-lupin-part-4",
+    "title": "Lupin Part 4",
+    "category": "tv-shows",
+    "type": "title",
+    "format": "series",
+    "genre": "Heist & Crime Drama",
+    "year": 2026,
+    "date": "2026-10-01",
+    "tags": [
+      "Netflix Original",
+      "French",
+      "Omar Sy",
+      "Heist",
+      "2026"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/ga0iTWXCGa0/maxresdefault.jpg",
+    "youtubeId": "ga0iTWXCGa0",
+    "description": "Gentleman thief Assane Diop concocts daring sleight-of-hand heists across Paris while protecting his estranged family.",
+    "popularity": 97,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/sgxWagEHnDuW1c4iVfQ5s6p5m1N.jpg"
+  },
+  {
+    "id": "tv-arcane-s2",
+    "title": "Arcane: Season 2",
+    "category": "tv-shows",
+    "type": "title",
+    "format": "series",
+    "genre": "Animation & Steampunk Fantasy",
+    "year": 2024,
+    "date": "2024-11-09",
+    "tags": [
+      "Netflix",
+      "Riot Games",
+      "Fortiche",
+      "Piltover",
+      "Zaun"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/fXmAurh012s/maxresdefault.jpg",
+    "youtubeId": "fXmAurh012s",
+    "description": "Jinx's missile attack on the Piltover Council triggers an all-out war between the wealthy city above and the undercity of Zaun.",
+    "popularity": 100,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn397rWWcfvNc.jpg"
+  },
+  {
+    "id": "tv-queen-of-tears",
+    "title": "Queen of Tears",
+    "category": "tv-shows",
+    "type": "title",
+    "format": "series",
+    "genre": "K-Drama & Romance",
+    "year": 2024,
+    "date": "2024-03-09",
+    "tags": [
+      "Netflix",
+      "K-Drama",
+      "Romance",
+      "Record Breaker"
+    ],
+    "thumbnail": "https://img.youtube.com/vi/Bw_nS-zH1jU/maxresdefault.jpg",
+    "youtubeId": "Bw_nS-zH1jU",
+    "description": "The queen of department stores and the legal director of a retail conglomerate experience a miraculous rekindling of love during a marital crisis.",
+    "popularity": 98,
+    "featured": true,
+    "poster": "https://image.tmdb.org/t/p/w500/z6b9K8zF1d4g6Z7v9y5x6c7b8N9.jpg"
+  },
+  {
     "id": "tvs-001",
     "category": "tv-shows",
     "title": "Breaking Bad",
@@ -9,9 +143,15 @@
     "year": 2008,
     "description": "Vince Gilligan's celebrated transformation of mild-mannered chemistry teacher Walter White into the ruthless methamphetamine kingpin Heisenberg.",
     "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
-    "tags": ["drama", "2000s", "crime", "amc"],
+    "tags": [
+      "drama",
+      "2000s",
+      "crime",
+      "amc"
+    ],
     "featured": true,
-    "popularity": 99
+    "popularity": 99,
+    "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-002",
@@ -23,9 +163,15 @@
     "year": 2011,
     "description": "Nine noble families wage vicious political and military warfare for control over the Iron Throne of Westeros while an ancient menace awakens in the far North.",
     "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
-    "tags": ["fantasy", "2010s", "hbo", "epic"],
+    "tags": [
+      "fantasy",
+      "2010s",
+      "hbo",
+      "epic"
+    ],
     "featured": true,
-    "popularity": 98
+    "popularity": 98,
+    "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-003",
@@ -37,9 +183,15 @@
     "year": 2002,
     "description": "David Simon's unflinching sociological panorama of Baltimore institutions, told through the eyes of drug dealers, law enforcement, teachers, and politicians.",
     "thumbnail": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80",
-    "tags": ["drama", "2000s", "hbo", "baltimore"],
+    "tags": [
+      "drama",
+      "2000s",
+      "hbo",
+      "baltimore"
+    ],
     "featured": false,
-    "popularity": 96
+    "popularity": 96,
+    "poster": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-004",
@@ -51,9 +203,15 @@
     "year": 2018,
     "description": "The Roy siblings engage in cutthroat corporate espionage and psychological warfare to seize control of global media conglomerate Waystar RoyCo.",
     "thumbnail": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80",
-    "tags": ["drama", "2010s", "hbo", "satire"],
+    "tags": [
+      "drama",
+      "2010s",
+      "hbo",
+      "satire"
+    ],
     "featured": true,
-    "popularity": 97
+    "popularity": 97,
+    "poster": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-005",
@@ -65,9 +223,15 @@
     "year": 2015,
     "description": "The tragic moral metamorphosis of earnest underdog attorney Jimmy McGill into flamboyant criminal defender Saul Goodman.",
     "thumbnail": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80",
-    "tags": ["drama", "2010s", "crime", "prequel"],
+    "tags": [
+      "drama",
+      "2010s",
+      "crime",
+      "prequel"
+    ],
     "featured": false,
-    "popularity": 96
+    "popularity": 96,
+    "poster": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-006",
@@ -79,9 +243,15 @@
     "year": 2021,
     "description": "Desperate, debt-ridden citizens compete in lethal children's games on an isolated island for a forty-five billion won fortune.",
     "thumbnail": "https://images.unsplash.com/photo-1538669715315-15509e53b022?auto=format&fit=crop&w=600&q=80",
-    "tags": ["thriller", "2020s", "korean", "netflix"],
+    "tags": [
+      "thriller",
+      "2020s",
+      "korean",
+      "netflix"
+    ],
     "featured": true,
-    "popularity": 99
+    "popularity": 99,
+    "poster": "https://images.unsplash.com/photo-1538669715315-15509e53b022?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-007",
@@ -93,9 +263,15 @@
     "year": 2016,
     "description": "When a young boy vanishes from Hawkins, Indiana, his friends uncover a telekinetic girl, sinister government experiments, and a shadow realm called the Upside Down.",
     "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
-    "tags": ["sci-fi", "2010s", "80s", "netflix"],
+    "tags": [
+      "sci-fi",
+      "2010s",
+      "80s",
+      "netflix"
+    ],
     "featured": true,
-    "popularity": 99
+    "popularity": 99,
+    "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-008",
@@ -107,9 +283,15 @@
     "year": 2017,
     "description": "A missing child in the German town of Winden unearths a mind-bending four-generation time travel conspiracy spanning a nuclear power plant cave network.",
     "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
-    "tags": ["sci-fi", "2010s", "time-travel", "german"],
+    "tags": [
+      "sci-fi",
+      "2010s",
+      "time-travel",
+      "german"
+    ],
     "featured": false,
-    "popularity": 95
+    "popularity": 95,
+    "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-009",
@@ -121,9 +303,15 @@
     "year": 2011,
     "description": "Charlie Brooker's razor-sharp dystopian speculative anthology dissecting technological dependence, algorithmic voyeurism, and artificial consciousness.",
     "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
-    "tags": ["sci-fi", "2010s", "dystopia", "anthology"],
+    "tags": [
+      "sci-fi",
+      "2010s",
+      "dystopia",
+      "anthology"
+    ],
     "featured": false,
-    "popularity": 94
+    "popularity": 94,
+    "poster": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-010",
@@ -135,9 +323,15 @@
     "year": 2023,
     "description": "Hardened smuggler Joel must escort immune teenager Ellie across a post-fungal pandemic wasteland in HBO's acclaimed video game adaptation.",
     "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80",
-    "tags": ["drama", "2020s", "hbo", "post-apocalyptic"],
+    "tags": [
+      "drama",
+      "2020s",
+      "hbo",
+      "post-apocalyptic"
+    ],
     "featured": true,
-    "popularity": 98
+    "popularity": 98,
+    "poster": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-011",
@@ -149,9 +343,15 @@
     "year": 2021,
     "description": "Fortiche and Riot Games weave the heartbreaking origin story of sisters Vi and Jinx amid the socioeconomic conflict between Piltover and Zaun.",
     "thumbnail": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=600&q=80",
-    "tags": ["animation", "2020s", "steampunk", "netflix"],
+    "tags": [
+      "animation",
+      "2020s",
+      "steampunk",
+      "netflix"
+    ],
     "featured": true,
-    "popularity": 100
+    "popularity": 100,
+    "poster": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-012",
@@ -163,9 +363,15 @@
     "year": 2005,
     "description": "Aang, the young Avatar who mastered all four elemental arts, awakens from a century in an iceberg to halt the imperial conquest of the Fire Nation.",
     "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
-    "tags": ["animation", "2000s", "fantasy", "classic"],
+    "tags": [
+      "animation",
+      "2000s",
+      "fantasy",
+      "classic"
+    ],
     "featured": true,
-    "popularity": 99
+    "popularity": 99,
+    "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-013",
@@ -177,9 +383,15 @@
     "year": 2005,
     "description": "The mundane, eccentric daily antics of Dunder Mifflin Paper Company employees in Scranton, led by well-meaning but cringe-inducing regional manager Michael Scott.",
     "thumbnail": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80",
-    "tags": ["comedy", "2000s", "mockumentary", "nbc"],
+    "tags": [
+      "comedy",
+      "2000s",
+      "mockumentary",
+      "nbc"
+    ],
     "featured": false,
-    "popularity": 97
+    "popularity": 97,
+    "poster": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-014",
@@ -191,9 +403,15 @@
     "year": 2010,
     "description": "Benedict Cumberbatch and Martin Freeman modernize Arthur Conan Doyle's legendary consulting detective across twenty-first century London.",
     "thumbnail": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=600&q=80",
-    "tags": ["mystery", "2010s", "bbc", "detective"],
+    "tags": [
+      "mystery",
+      "2010s",
+      "bbc",
+      "detective"
+    ],
     "featured": false,
-    "popularity": 95
+    "popularity": 95,
+    "poster": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=600&q=80"
   },
   {
     "id": "tvs-015",
@@ -205,8 +423,14 @@
     "year": 2016,
     "description": "Phoebe Waller-Bridge's dry-witted fourth-wall-breaking portrait of grief, intimacy, and redemption in modern London.",
     "thumbnail": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
-    "tags": ["comedy", "2010s", "bbc", "acclaimed"],
+    "tags": [
+      "comedy",
+      "2010s",
+      "bbc",
+      "acclaimed"
+    ],
     "featured": false,
-    "popularity": 93
+    "popularity": 93,
+    "poster": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80"
   }
 ]

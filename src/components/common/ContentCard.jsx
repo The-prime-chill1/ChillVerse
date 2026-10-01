@@ -21,10 +21,15 @@ export default function ContentCard({ item, onClick }) {
       {/* Poster Image Container */}
       <div className="card-poster-wrapper">
         <img 
-          src={item.thumbnail || item.image || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80'} 
+          src={item.poster || item.thumbnail || item.image || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80'} 
           alt={item.title || item.name} 
           className="card-poster-img"
-          loading="lazy" 
+          loading="lazy"
+          onError={(e) => {
+            if (item.thumbnail && e.currentTarget.src !== item.thumbnail) {
+              e.currentTarget.src = item.thumbnail;
+            }
+          }}
         />
         
         {/* Type / Category Badge */}

@@ -45,19 +45,30 @@ export default function BrandLogo({ height = 36, showSubtitle = false, className
           <rect x="0" y="2" width="36" height="36" rx="8" fill="url(#cvBadgeGradient)" />
           <rect x="0.5" y="2.5" width="35" height="35" rx="7.5" stroke="rgba(255, 255, 255, 0.4)" strokeWidth="1" />
 
-          {/* C Shadow Curve */}
+          {/* Crisp, Bold Pure White C Monogram */}
           <path 
-            d="M 28 12 C 25.5 10.5 22.5 9.5 19 9.5 C 13.5 9.5 9.5 14 9.5 20 C 9.5 26 13.5 30.5 19 30.5 C 22.5 30.5 25.5 29.5 28 28" 
-            stroke="rgba(0, 0, 0, 0.28)" 
-            strokeWidth="4" 
+            d="M 28 11.5 C 25.5 9.8 22 8.8 17.5 8.8 C 11 8.8 7 13.8 7 20 C 7 26.2 11 31.2 17.5 31.2 C 22 31.2 25.5 30.2 28 28.5" 
+            stroke="#FFFFFF" 
+            strokeWidth="4.2" 
             strokeLinecap="round" 
             fill="none" 
           />
+          
+          {/* Subtle gap mask so V interlocks cleanly across C */}
+          <path 
+            d="M 13.5 13.5 L 20.5 28 L 27.5 13.5" 
+            stroke="url(#cvBadgeGradient)" 
+            strokeWidth="7" 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            fill="none" 
+          />
+
           {/* Bold Pure White V Monogram */}
           <path 
-            d="M 14 13.5 L 21 28 L 28 13.5" 
+            d="M 13.5 13.5 L 20.5 28 L 27.5 13.5" 
             stroke="#FFFFFF" 
-            strokeWidth="4" 
+            strokeWidth="4.2" 
             strokeLinecap="round" 
             strokeLinejoin="round" 
             fill="none" 

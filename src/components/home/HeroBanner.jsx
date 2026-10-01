@@ -46,17 +46,17 @@ export default function HeroBanner() {
       tags: ['marvel', 'blockbuster', 'mcu']
     },
     {
-      id: 'game-0001',
-      title: 'ELDEN RING',
-      subtitle: 'SHADOW OF THE ERDTREE',
-      category: 'Gaming',
-      backdrop: 'https://img.youtube.com/vi/bo4uH4701f8/maxresdefault.jpg',
-      youtubeId: 'bo4uH4701f8',
-      duration: '40h+ Campaign',
-      genres: ['Dark Fantasy', 'Action RPG', 'Souls-like'],
-      rating: '9.9',
-      description: 'Guided by Empyrean Miquella, the Tarnished enters the Land of Shadow, unravelling dark secrets beneath the suffocating canopy of the Scadutree.',
-      tags: ['fromsoftware', 'goty', 'rpg']
+      id: 'mov-jurassic-world-fk',
+      title: 'JURASSIC WORLD: FALLEN KINGDOM',
+      subtitle: 'THE PARK IS GONE',
+      category: 'Movies',
+      backdrop: 'https://img.youtube.com/vi/vn9mMeWcgoM/maxresdefault.jpg',
+      youtubeId: 'vn9mMeWcgoM',
+      duration: '2h 08m',
+      genres: ['Sci-Fi', 'Adventure', 'Action'],
+      rating: '8.8',
+      description: 'When the island volcano begins erupting, Owen and Claire mount a perilous campaign to rescue the remaining dinosaurs from extinction.',
+      tags: ['blockbuster', 'jurassic', 'sci-fi']
     },
     {
       id: 'mov-dune-2',
@@ -72,43 +72,17 @@ export default function HeroBanner() {
       tags: ['sci-fi', 'denis villeneuve', '4k']
     },
     {
-      id: 'game-gta-6',
-      title: 'GRAND THEFT AUTO VI',
-      subtitle: 'VICE CITY REBORN',
-      category: 'Gaming',
-      backdrop: 'https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg',
-      youtubeId: 'QdBZY2fkU-0',
-      duration: '100h+ Open World',
-      genres: ['Action', 'Open World', 'Crime'],
-      rating: '10.0',
-      description: 'Lucia and Jason descend into the neon-lit criminal underworld of Vice City and the sprawling state of Leonida in Rockstar Games most ambitious open world ever created.',
-      tags: ['rockstar', 'open world', 'vice city']
-    },
-    {
-      id: 'ani-0001',
-      title: 'DEMON SLAYER',
-      subtitle: 'HASHIRA TRAINING & INFINITY CASTLE',
-      category: 'Anime',
-      backdrop: 'https://img.youtube.com/vi/VQGCKyvzIM4/maxresdefault.jpg',
-      youtubeId: 'VQGCKyvzIM4',
-      duration: 'Season 4 • 4K HDR',
-      genres: ['Action', 'Supernatural', 'Dark Fantasy'],
+      id: 'mov-electric-state',
+      title: 'THE ELECTRIC STATE',
+      subtitle: 'A RUSSO BROTHERS NETFLIX VISION',
+      category: 'Movies',
+      backdrop: 'https://img.youtube.com/vi/fF-iG2vA30k/maxresdefault.jpg',
+      youtubeId: 'fF-iG2vA30k',
+      duration: '2h 15m',
+      genres: ['Sci-Fi', 'Adventure', 'Action'],
       rating: '9.8',
-      description: 'Tanjiro and the Hashira undergo grueling physical trials to awaken the Demon Slayer Mark as the final battle against Muzan Kibutsuji looms inside the Infinity Castle.',
-      tags: ['ufotable', 'shonen', 'anime']
-    },
-    {
-      id: 'ser-squid-game-2',
-      title: 'SQUID GAME: SEASON 2',
-      subtitle: 'THE REAL GAME HAS JUST BEGUN',
-      category: 'TV Shows',
-      backdrop: 'https://img.youtube.com/vi/lQBmZBJTN4g/maxresdefault.jpg',
-      youtubeId: 'lQBmZBJTN4g',
-      duration: 'Season 2 • Netflix',
-      genres: ['Survival Thriller', 'Mystery', 'Drama'],
-      rating: '9.9',
-      description: 'Player 456 Seong Gi-hun returns with a burning vow of vengeance, diving back into the deadly survival competition to dismantle the shadowy organization from within.',
-      tags: ['netflix', 'k-drama', 'survival']
+      description: 'An orphaned teenager traverses the retro-futuristic American West with a mysterious robot and an eccentric smuggler searching for her missing brother.',
+      tags: ['netflix', 'sci-fi', 'russo brothers']
     },
     {
       id: 'mov-extraction-2',
@@ -124,17 +98,17 @@ export default function HeroBanner() {
       tags: ['netflix', 'action', 'chris hemsworth']
     },
     {
-      id: 'ani-0002',
-      title: 'JUJUTSU KAISEN',
-      subtitle: 'SHIBUYA INCIDENT ARC',
-      category: 'Anime',
-      backdrop: 'https://img.youtube.com/vi/f7T48i4WaP8/maxresdefault.jpg',
-      youtubeId: 'f7T48i4WaP8',
-      duration: 'Season 2 • 23 Eps',
-      genres: ['Action', 'Supernatural', 'Dark Fantasy'],
-      rating: '9.9',
-      description: 'On Halloween night in Shibuya, special grade curse users execute an intricate barrier plan to seal Satoru Gojo, triggering a catastrophic city-wide sorcerer showdown.',
-      tags: ['mappa', 'shonen', 'sorcery']
+      id: 'mov-hit-man',
+      title: 'HIT MAN',
+      subtitle: 'HE IS NOT A HITMAN, BUT HE PLAYS ONE',
+      category: 'Movies',
+      backdrop: 'https://img.youtube.com/vi/1q36U9X5q6k/maxresdefault.jpg',
+      youtubeId: '1q36U9X5q6k',
+      duration: '1h 55m',
+      genres: ['Action', 'Comedy', 'Crime'],
+      rating: '9.4',
+      description: 'A mild-mannered college professor posing undercover as a professional hitman descends into dangerous territory when he tries to save a client.',
+      tags: ['netflix', 'comedy', 'crime']
     },
     {
       id: 'mov-gladiator-2',
@@ -174,6 +148,19 @@ export default function HeroBanner() {
       rating: '9.6',
       description: 'As the world falls, young Furiosa is snatched from the Green Place of Many Mothers and falls into the hands of a great Biker Horde led by the Warlord Dementus.',
       tags: ['george miller', 'mad max', 'wasteland']
+    },
+    {
+      id: 'mov-atlas',
+      title: 'ATLAS',
+      subtitle: 'SYNCHRONIZE TO SURVIVE',
+      category: 'Movies',
+      backdrop: 'https://img.youtube.com/vi/Jcq3C212jcg/maxresdefault.jpg',
+      youtubeId: 'Jcq3C212jcg',
+      duration: '2h 00m',
+      genres: ['Sci-Fi', 'Action', 'Adventure'],
+      rating: '9.3',
+      description: 'A brilliant data analyst with a deep distrust of AI discovers that synchronizing with a combat mech is her only path to saving Earth.',
+      tags: ['netflix', 'sci-fi', 'jennifer lopez']
     }
   ];
 
