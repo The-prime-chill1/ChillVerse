@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 48" width="250" height="48" fill="none">
+  <defs>
+    <linearGradient id="cvBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA100" />
+      <stop offset="50%" stop-color="#FF5500" />
+      <stop offset="100%" stop-color="#FF1E56" />
+    </linearGradient>
+    <linearGradient id="cvVerse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5A00" />
+      <stop offset="100%" stop-color="#FF1E56" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Emblem Badge: Transparent background, pure vector -->
+  <g>
+    <rect x="2" y="4" width="40" height="40" rx="10" fill="url(#cvBadge)" />
+    <rect x="3" y="5" width="38" height="38" rx="9" stroke="rgba(255, 255, 255, 0.4)" stroke-width="1" />
+    <!-- Stylized C shadow curve -->
+    <path d="M 31 15 C 28 13 25 12 21 12 C 14.5 12 10 17 10 24 C 10 31 14.5 36 21 36 C 25 36 28 35 31 33" stroke="rgba(0,0,0,0.25)" stroke-width="4.5" stroke-linecap="round" fill="none" />
+    <!-- Bold White V -->
+    <path d="M 16 16.5 L 24 33 L 32 16.5" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(52, 0)">
+    <text x="0" y="29.5" font-family="'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="25" font-weight="900" letter-spacing="0.6">
+      <tspan fill="#FFFFFF">CHILL</tspan>
+      <tspan fill="url(#cvVerse)">VERSE</tspan>
+    </text>
+    <text x="1" y="41" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="6.8" font-weight="700" fill="#94A3B8" letter-spacing="2.2">
+      ENTERTAINMENT • FANDOM PORTAL
+    </text>
+  </g>
+</svg>

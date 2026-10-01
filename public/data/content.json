@@ -1,0 +1,454 @@
+{
+  "categories": [
+    {
+      "id": "anime",
+      "name": "Anime",
+      "color": "#A855F7",
+      "tagline": "Shonen Legends & Cyberpunk Odysseys",
+      "icon": "fa-solid fa-fire",
+      "loreDrops": 142,
+      "watchrooms": 28,
+      "banner": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1200&q=80",
+      "subtags": ["Shonen", "Cyberpunk", "Seinen", "Mecha", "Isekai", "Supernatural"]
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "color": "#22D3EE",
+      "tagline": "Next-Gen Worlds & Competitive Arenas",
+      "icon": "fa-solid fa-gamepad",
+      "loreDrops": 215,
+      "watchrooms": 45,
+      "banner": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
+      "subtags": ["RPG", "E-Sports", "Open World", "Cyberpunk", "Action", "Souls-like"]
+    },
+    {
+      "id": "movies",
+      "name": "Movies",
+      "color": "#F59E0B",
+      "tagline": "Cinematic Epics & Sci-Fi Masterpieces",
+      "icon": "fa-solid fa-film",
+      "loreDrops": 98,
+      "watchrooms": 19,
+      "banner": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80",
+      "subtags": ["Sci-Fi", "Blockbuster", "Action", "Cinematic Universe", "Fantasy"]
+    },
+    {
+      "id": "tv",
+      "name": "TV Shows",
+      "color": "#F43F5E",
+      "tagline": "Binge-Worthy Sagas & Dark Fantasies",
+      "icon": "fa-solid fa-tv",
+      "loreDrops": 112,
+      "watchrooms": 22,
+      "banner": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=1200&q=80",
+      "subtags": ["Animation", "Dystopia", "Drama", "Fantasy", "Mystery"]
+    },
+    {
+      "id": "kpop",
+      "name": "K-Pop",
+      "color": "#EC4899",
+      "tagline": "Global Idols, Comebacks & Stage Energy",
+      "icon": "fa-solid fa-music",
+      "loreDrops": 174,
+      "watchrooms": 64,
+      "banner": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80",
+      "subtags": ["Comeback", "Music Video", "Choreography", "Idol Lore", "Concert"]
+    },
+    {
+      "id": "comics",
+      "name": "Comics",
+      "color": "#3B82F6",
+      "tagline": "Multiversal Heroes & Graphic Novels",
+      "icon": "fa-solid fa-mask",
+      "loreDrops": 86,
+      "watchrooms": 14,
+      "banner": "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=1200&q=80",
+      "subtags": ["Multiverse", "Superhero", "Dark Hero", "Graphic Novel", "Sci-Fi"]
+    },
+    {
+      "id": "manga",
+      "name": "Manga",
+      "color": "#E2E8F0",
+      "tagline": "Monochrome Ink Masterworks & Serialized Lore",
+      "icon": "fa-solid fa-book-open",
+      "loreDrops": 160,
+      "watchrooms": 31,
+      "banner": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=1200&q=80",
+      "subtags": ["Dark Fantasy", "Supernatural", "Battle Shonen", "Psychological", "Cyberpunk"]
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-1",
+      "title": "Demon Slayer: Infinity Castle Arc — The Ultimate Siege of the Upper Moons",
+      "category": "anime",
+      "author": "Kaito Tanaka",
+      "authorRole": "Senior Lore Archivist",
+      "date": "2026-09-28",
+      "readTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=80",
+      "badge": "Hot Drop",
+      "summary": "ufotable announces the trilogy cinematic climax. We dissect the spatial geometry of Muzan's shifting stronghold and character death flags.",
+      "content": "The Demon Slayer Infinity Castle Arc represents the zenith of contemporary animation. As Tanjiro Kamado, Giyu Tomioka, and the remaining Hashira descend into the impossible, gravity-defying architecture engineered by Nakime's biwa strings, the narrative shifts into an unrelenting gauntlet of existential combat.\n\nUfotable's patented hybrid 3D CGI-to-hand-drawn pipeline allows the fortress to expand infinitely in three-dimensional space, providing kinetic depth that eclipses even the Entertainment District climax. Every Upper Moon encounter is meticulously framed not merely as a battle of physical supremacy, but as a philosophical reckoning between generational sacrifice and immortal solitude.\n\nFans should brace for devastating emotional payoffs as the series prepares its theatrical multi-part saga.",
+      "tags": ["Anime", "Demon Slayer", "Ufotable", "Trending"],
+      "commentsCount": 84,
+      "views": "42.5K"
+    },
+    {
+      "id": "art-2",
+      "title": "Cyberpunk 2077: Project Orion and the Future of Night City Lore",
+      "category": "gaming",
+      "author": "Elena Rostova",
+      "authorRole": "Cyberware Specialist",
+      "date": "2026-09-25",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+      "badge": "Analysis",
+      "summary": "Following Phantom Liberty's critical redemption, CD Projekt Red expands Night City into the Unreal Engine 5 era with deep neural enhancements.",
+      "content": "Night City remains one of gaming's greatest sensory achievements. With the transition to Unreal Engine 5 for Project Orion, CD Projekt Red is building a truly vertical dystopia where megabuildings operate as self-contained micro-societies.\n\nLore documents recovered from Dogtown hint at deep excursions into the Blackwall, the AI-controlled digital wasteland that threatens to collapse human civilization. Players will experience more dynamic faction warfare between Militech and Arasaka, alongside branching cyberware morality choices that physically alter your character's perception of reality.",
+      "tags": ["Gaming", "Cyberpunk", "CDPR", "Night City"],
+      "commentsCount": 112,
+      "views": "68.2K"
+    },
+    {
+      "id": "art-3",
+      "title": "Arcane Season 2: The Fall of Piltover and the Tragedy of Sisters",
+      "category": "tv",
+      "author": "Marcus Vane",
+      "authorRole": "Cinematic Director",
+      "date": "2026-09-22",
+      "readTime": "7 min read",
+      "image": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=800&q=80",
+      "badge": "Featured",
+      "summary": "Fortiche and Riot Games conclude their magnum opus with full-scale civil war between high-society Piltover and chemical underworld Zaun.",
+      "content": "When Jinx fired the Super Mega Death Rocket into the Piltover Council Chambers, she didn't just assassinate the ruling elite—she eradicated any possibility of reconciliation between herself and Vi.\n\nSeason 2 explores the visceral consequences of Hextech weaponization. Fortiche pushes the boundaries of stylised digital painting, blending 2D textures with hyper-kinetic 3D choreography. Warwick's anticipated hunt, Caitlyn's militarization of the Enforcers, and Singed's alchemical endgame create a heart-wrenching finale that will redefine television animation for decades to come.",
+      "tags": ["TV Shows", "Arcane", "Riot Games", "Jinx"],
+      "commentsCount": 156,
+      "views": "91.4K"
+    },
+    {
+      "id": "art-4",
+      "title": "Dune: Messiah — Denis Villeneuve on the Horrors of Paul's Holy War",
+      "category": "movies",
+      "author": "Sophia Laurent",
+      "authorRole": "Film Theorist",
+      "date": "2026-09-18",
+      "readTime": "4 min read",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80",
+      "badge": "Exclusive",
+      "summary": "Deconstructing Frank Herbert's anti-messiah parable as Villeneuve prepares the cinematic conclusion to Paul Atreides' galactic reign.",
+      "content": "Dune Part Two ended not in heroic triumph, but in impending cosmic slaughter. Paul Atreides has accepted the burden of the Kwisatz Haderach, unleashing sixty billion deaths across the known universe in a holy crusade executed in his name.\n\nDune: Messiah will tackle the claustrophobia of absolute power. Locked in his palace on Arrakis, blinded by prophecy and surrounded by conspirators—including the Bene Gesserit, the Spacing Guild, and his own sister Alia—Paul must find a path through inescapable fate.",
+      "tags": ["Movies", "Dune", "Sci-Fi", "Villeneuve"],
+      "commentsCount": 73,
+      "views": "39.1K"
+    },
+    {
+      "id": "art-5",
+      "title": "NewJeans & The Cyber-Y2K Lore: How K-Pop Built a Sci-Fi Aesthetic",
+      "category": "kpop",
+      "author": "Min-Ji Park",
+      "authorRole": "Sound & Culture Analyst",
+      "date": "2026-09-15",
+      "readTime": "5 min read",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&q=80",
+      "badge": "Trendsetter",
+      "summary": "Unpacking the multimodal worldbuilding of the Bunnyverse, from dreamcore choreography to liquid glitch hop rhythms.",
+      "content": "K-Pop is no longer just music; it is speculative worldbuilding. NewJeans pioneered the nostalgic-futuristic 'Cyber-Y2K' visual style that merges cassette-tape warmth with high-gloss virtual environments.\n\nFrom the conceptual 'Ditto' ARG videos that explored fan parasocial perception to high-energy anime collaborations, the group has redefined idol aesthetics. Their sound—grounded in UK garage, Baltimore club, and airy synth pads—creates a dreamscape that resonates across anime fans and gamers worldwide.",
+      "tags": ["K-Pop", "NewJeans", "Aesthetics", "Music"],
+      "commentsCount": 210,
+      "views": "115.8K"
+    },
+    {
+      "id": "art-6",
+      "title": "Spider-Man: Beyond the Spider-Verse — The Multiverse Collapses",
+      "category": "comics",
+      "author": "Kenji Sato",
+      "authorRole": "Graphic Canon Curator",
+      "date": "2026-09-10",
+      "readTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=800&q=80",
+      "badge": "Deep Dive",
+      "summary": "Trapped in Earth-42 facing his alternate Prowler self, Miles Morales must rewrite the fundamental rules of the Spider-Canon.",
+      "content": "The Spider-Verse trilogy is the defining comic book achievement of our generation. Across the Spider-Verse stripped Miles Morales of his safety net, proving that the Spider-Society was operating on a flawed concept of unavoidable trauma.\n\nBeyond the Spider-Verse pits Miles against both The Spot's dimension-shattering black hole powers and Miguel O'Hara's dogmatic enforcers. Can you be Spider-Man without tragedy? The final film promises to answer with unprecedented visual styles, including hand-inked comic halftones, punk collages, and futuristic watercolours.",
+      "tags": ["Comics", "Spider-Man", "Miles Morales", "Marvel"],
+      "commentsCount": 189,
+      "views": "87.3K"
+    },
+    {
+      "id": "art-7",
+      "title": "Tokyo Ghoul & Chainsaw Man: The Evolution of Psychological Dark Shonen",
+      "category": "manga",
+      "author": "Rei Akiyama",
+      "authorRole": "Manga Critic",
+      "date": "2026-09-05",
+      "readTime": "7 min read",
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=800&q=80",
+      "badge": "Lore Codex",
+      "summary": "From Sui Ishida's tragic centipedes to Tatsuki Fujimoto's cinematic nihilism, modern manga is rewriting existential grief.",
+      "content": "The boundary between Shonen action and Seinen existential dread has collapsed. Sui Ishida's Tokyo Ghoul presented a harrowing metamorphosis of Ken Kaneki—a boy whose humanity is systematically stripped away by monstrous appetite.\n\nTatsuki Fujimoto followed this with Chainsaw Man and Goodbye, Eri, adopting filmic paneling, unglamorous cruelty, and raw emotional intimacy. In this retrospective, we examine how black-and-white ink work conveys psychological fragmentation that no full-color medium can match.",
+      "tags": ["Manga", "Tokyo Ghoul", "Chainsaw Man", "Psychology"],
+      "commentsCount": 142,
+      "views": "76.4K"
+    }
+  ],
+  "trailers": [
+    {
+      "id": "v-1",
+      "title": "Arcane: Season 2 — Official Teaser Trailer",
+      "category": "tv",
+      "youtubeId": "os2rgjyUG88",
+      "type": "Trailer",
+      "duration": "2:14",
+      "views": "14.2M",
+      "status": "Upcoming",
+      "thumbnail": "https://img.youtube.com/vi/os2rgjyUG88/maxresdefault.jpg",
+      "description": "Nothing ever stays dead. Watch the official teaser trailer for the final chapter of Arcane on Netflix."
+    },
+    {
+      "id": "v-2",
+      "title": "Cyberpunk 2077: Phantom Liberty — Official Cinematic Trailer",
+      "category": "gaming",
+      "youtubeId": "kfXdf997k_Y",
+      "type": "Trailer",
+      "duration": "3:05",
+      "views": "9.8M",
+      "status": "Recently Released",
+      "thumbnail": "https://img.youtube.com/vi/kfXdf997k_Y/maxresdefault.jpg",
+      "description": "Starring Idris Elba as Solomon Reed. Enter the high-stakes espionage world of Dogtown."
+    },
+    {
+      "id": "v-3",
+      "title": "Demon Slayer: Kimetsu no Yaiba - Infinity Castle Arc Theatrical Trilogy",
+      "category": "anime",
+      "youtubeId": "1hXvU4n8o18",
+      "type": "Trailer",
+      "duration": "1:52",
+      "views": "21.6M",
+      "status": "Upcoming",
+      "thumbnail": "https://img.youtube.com/vi/1hXvU4n8o18/maxresdefault.jpg",
+      "description": "The battle against Kibutsuji Muzan reaches its final, devastating theatrical climax."
+    },
+    {
+      "id": "v-4",
+      "title": "Dune: Part Two — Official Trailer 3",
+      "category": "movies",
+      "youtubeId": "Way9Dexny3w",
+      "type": "Trailer",
+      "duration": "2:30",
+      "views": "33.5M",
+      "status": "Recently Released",
+      "thumbnail": "https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg",
+      "description": "Witness the mythic journey of Paul Atreides as he unites with Chani and the Fremen."
+    },
+    {
+      "id": "v-5",
+      "title": "NewJeans (뉴진스) 'Supernatural' Official MV",
+      "category": "kpop",
+      "youtubeId": "ZncbtRo7RXs",
+      "type": "Music Video",
+      "duration": "3:40",
+      "views": "48.1M",
+      "status": "Recently Released",
+      "thumbnail": "https://img.youtube.com/vi/ZncbtRo7RXs/maxresdefault.jpg",
+      "description": "NewJeans debuts in Japan with retro nostalgia, urban street style, and hypnotic melodies."
+    },
+    {
+      "id": "v-6",
+      "title": "Spider-Man: Across the Spider-Verse — Final Trailer",
+      "category": "comics",
+      "youtubeId": "cqGjhVJWtEg",
+      "type": "Trailer",
+      "duration": "2:45",
+      "views": "42.0M",
+      "status": "Recently Released",
+      "thumbnail": "https://img.youtube.com/vi/cqGjhVJWtEg/maxresdefault.jpg",
+      "description": "Miles Morales catapults across the Multiverse to encounter a team of Spider-People charged with protecting its very existence."
+    },
+    {
+      "id": "v-7",
+      "title": "Chainsaw Man — Main Trailer by MAPPA",
+      "category": "manga",
+      "youtubeId": "jk7QUnZgm6A",
+      "type": "Trailer",
+      "duration": "2:10",
+      "views": "18.3M",
+      "status": "Recently Released",
+      "thumbnail": "https://img.youtube.com/vi/jk7QUnZgm6A/maxresdefault.jpg",
+      "description": "Denji lives a life of poverty, paying off his deceased father's debt until Pochita merges with him."
+    }
+  ],
+  "events": [
+    {
+      "id": "ev-1",
+      "title": "Anime Expo 2027: Shonen World Premiere",
+      "category": "anime",
+      "date": "2027-07-02",
+      "location": "Los Angeles Convention Center, CA",
+      "gps": "34.0407° N, 118.2695° W",
+      "description": "The largest celebration of Japanese pop culture in North America, featuring voice actor panels, world premiere screenings, and massive cosplay gatherings.",
+      "status": "Upcoming",
+      "attendees": "115,000+"
+    },
+    {
+      "id": "ev-2",
+      "title": "Tokyo Game Show 2026: Next-Gen Unreal & Neural Tech",
+      "category": "gaming",
+      "date": "2026-09-24",
+      "location": "Makuhari Messe, Chiba, Japan",
+      "gps": "35.6481° N, 140.0347° E",
+      "description": "Global unveiling of revolutionary RPG mechanics, tactile haptic hardware, and hands-on developer keynotes with Hideo Kojima and CDPR.",
+      "status": "Upcoming",
+      "attendees": "240,000+"
+    },
+    {
+      "id": "ev-3",
+      "title": "San Diego Comic-Con International: Hall H Reveals",
+      "category": "comics",
+      "date": "2027-07-22",
+      "location": "San Diego Convention Center, CA",
+      "gps": "32.7072° N, 117.1627° W",
+      "description": "The epicenter of comic culture, Marvel/DC movie slates, creator masterclasses, and exclusive collectible drops.",
+      "status": "Upcoming",
+      "attendees": "135,000+"
+    },
+    {
+      "id": "ev-4",
+      "title": "Seoul Pop & K-Culture Fest (Bunnies World Summit)",
+      "category": "kpop",
+      "date": "2026-11-14",
+      "location": "Gocheok Sky Dome, Seoul, South Korea",
+      "gps": "37.4982° N, 126.8671° E",
+      "description": "A 3-day arena gathering with holographic light shows, idol dance covers, official photocard exchanges, and live artist showcases.",
+      "status": "Upcoming",
+      "attendees": "65,000+"
+    },
+    {
+      "id": "ev-5",
+      "title": "Cannes Film Festival: Sci-Fi & Speculative Horizons",
+      "category": "movies",
+      "date": "2027-05-12",
+      "location": "Palais des Festivals, Cannes, France",
+      "gps": "43.5517° N, 7.0174° E",
+      "description": "Exclusive avant-premiere screenings of high-concept cinematic science fiction and auteur director roundtables.",
+      "status": "Upcoming",
+      "attendees": "40,000+"
+    },
+    {
+      "id": "ev-6",
+      "title": "Emmy Awards & Global Streaming Gala: Arcane Celebration",
+      "category": "tv",
+      "date": "2026-12-08",
+      "location": "Peacock Theater, Los Angeles, CA",
+      "gps": "34.0436° N, 118.2673° W",
+      "description": "Honoring excellence in television animation, VFX, sound design, and worldbuilding series.",
+      "status": "Upcoming",
+      "attendees": "8,500+"
+    },
+    {
+      "id": "ev-7",
+      "title": "Jump Festa 2027: Shueisha Grand Stage",
+      "category": "manga",
+      "date": "2026-12-19",
+      "location": "Makuhari Messe, Tokyo, Japan",
+      "gps": "35.6481° N, 140.0347° E",
+      "description": "Live announcements for upcoming serialized manga adaptations, creator sketch sessions, and original artwork exhibits.",
+      "status": "Upcoming",
+      "attendees": "180,000+"
+    }
+  ],
+  "fanArt": [
+    {
+      "id": "fa-1",
+      "title": "Cyber-Ghoul Transformation",
+      "artist": "Aero_Kitsune",
+      "category": "anime",
+      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=1000&q=80",
+      "likes": "18.4K",
+      "description": "Digital speedpaint visualizing Ken Kaneki's kakuja manifesting as bio-luminescent neon tentacles."
+    },
+    {
+      "id": "fa-2",
+      "title": "Neon Dogtown Overpass",
+      "artist": "Netrunner_77",
+      "category": "gaming",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1000&q=80",
+      "likes": "24.2K",
+      "description": "A high-contrast cinematic portrait of Valerie staring out over the decaying pyramid of Dogtown."
+    },
+    {
+      "id": "fa-3",
+      "title": "Arrakis Solar Eclipse",
+      "artist": "DuneWalker",
+      "category": "movies",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1000&q=80",
+      "likes": "15.1K",
+      "description": "Paul Atreides commanding a giant sandworm against a double-sun solar coronal flare."
+    },
+    {
+      "id": "fa-4",
+      "title": "Get Jinxed: Shimmer Overdose",
+      "artist": "HextechRebel",
+      "category": "tv",
+      "image": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=1000&q=80",
+      "likes": "31.9K",
+      "description": "Explosive graffiti typography and neon purple shimmer tears radiating from Jinx's eyes."
+    },
+    {
+      "id": "fa-5",
+      "title": "Bunnies Glitch Dimension",
+      "artist": "Y2K_Soul",
+      "category": "kpop",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1000&q=80",
+      "likes": "29.3K",
+      "description": "Surreal pixel collage and vaporwave clouds celebrating Haerin and NewJeans' dreamcore imagery."
+    },
+    {
+      "id": "fa-6",
+      "title": "Leap of Faith in Brooklyn 2099",
+      "artist": "SpiderInk",
+      "category": "comics",
+      "image": "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=1000&q=80",
+      "likes": "45.7K",
+      "description": "Miles Morales diving headfirst through inverted neon skyscrapers, halftones bleeding into cyan."
+    }
+  ],
+  "audioTracks": [
+    {
+      "id": "ost-1",
+      "title": "Midnight Pulse (FandomVerse Theme)",
+      "artist": "Nexus Synth Collective",
+      "category": "gaming",
+      "duration": "3:24",
+      "bpm": "128 BPM",
+      "genre": "Cyberpunk Synthwave"
+    },
+    {
+      "id": "ost-2",
+      "title": "Infinity Fortress Echoes",
+      "artist": "Taiko & Strings Project",
+      "category": "anime",
+      "duration": "4:15",
+      "bpm": "140 BPM",
+      "genre": "Orchestral Hybrid"
+    },
+    {
+      "id": "ost-3",
+      "title": "Zaun Chemical Lofi",
+      "artist": "Piltover Underground",
+      "category": "tv",
+      "duration": "2:50",
+      "bpm": "85 BPM",
+      "genre": "Glitch Chillhop"
+    },
+    {
+      "id": "ost-4",
+      "title": "Tokyo Rain Reverie",
+      "artist": "Kaneki's Solitude",
+      "category": "manga",
+      "duration": "3:48",
+      "bpm": "72 BPM",
+      "genre": "Ambient Piano"
+    }
+  ]
+}

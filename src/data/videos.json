@@ -1,0 +1,124 @@
+{
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "Demon Slayer: Infinity Castle Arc Theatrical Trilogy — Official Teaser",
+      "category": "anime",
+      "type": "trailer",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/1hXvU4n8o18",
+      "releaseStatus": "upcoming",
+      "duration": "1:52",
+      "views": "21.6M",
+      "thumbnail": "https://img.youtube.com/vi/1hXvU4n8o18/maxresdefault.jpg",
+      "description": "ufotable announces the three-part theatrical climax to the Demon Slayer saga."
+    },
+    {
+      "id": "vid-2",
+      "title": "Cyberpunk 2077: Phantom Liberty — Official Cinematic Trailer",
+      "category": "gaming",
+      "type": "trailer",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/kfXdf997k_Y",
+      "releaseStatus": "recently released",
+      "duration": "3:05",
+      "views": "9.8M",
+      "thumbnail": "https://img.youtube.com/vi/kfXdf997k_Y/maxresdefault.jpg",
+      "description": "Starring Idris Elba as Solomon Reed. Enter the high-stakes espionage world of Dogtown."
+    },
+    {
+      "id": "vid-3",
+      "title": "Arcane: Season 2 — Official Trailer",
+      "category": "tv",
+      "type": "trailer",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/os2rgjyUG88",
+      "releaseStatus": "upcoming",
+      "duration": "2:14",
+      "views": "14.2M",
+      "thumbnail": "https://img.youtube.com/vi/os2rgjyUG88/maxresdefault.jpg",
+      "description": "Nothing ever stays dead. Watch the official teaser trailer for the final chapter of Arcane on Netflix."
+    },
+    {
+      "id": "vid-4",
+      "title": "Dune: Part Two — Official Trailer 3",
+      "category": "movies",
+      "type": "trailer",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Way9Dexny3w",
+      "releaseStatus": "recently released",
+      "duration": "2:30",
+      "views": "33.5M",
+      "thumbnail": "https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg",
+      "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators."
+    },
+    {
+      "id": "vid-5",
+      "title": "NewJeans (뉴진스) 'Supernatural' Official Music Video",
+      "category": "kpop",
+      "type": "fan content",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/ZncbtRo7RXs",
+      "releaseStatus": "recently released",
+      "duration": "3:40",
+      "views": "48.1M",
+      "thumbnail": "https://img.youtube.com/vi/ZncbtRo7RXs/maxresdefault.jpg",
+      "description": "NewJeans debuts in Tokyo with retro beats, playful choreography, and nostalgic aesthetics."
+    },
+    {
+      "id": "vid-6",
+      "title": "Spider-Man: Across the Spider-Verse — Final Trailer",
+      "category": "comics",
+      "type": "trailer",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/cqGjhVJWtEg",
+      "releaseStatus": "recently released",
+      "duration": "2:45",
+      "views": "42.0M",
+      "thumbnail": "https://img.youtube.com/vi/cqGjhVJWtEg/maxresdefault.jpg",
+      "description": "Miles Morales catapults across the Multiverse to encounter a team of Spider-People."
+    },
+    {
+      "id": "vid-7",
+      "title": "Chainsaw Man — Main Trailer by MAPPA",
+      "category": "manga",
+      "type": "trailer",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/jk7QUnZgm6A",
+      "releaseStatus": "recently released",
+      "duration": "2:10",
+      "views": "18.3M",
+      "thumbnail": "https://img.youtube.com/vi/jk7QUnZgm6A/maxresdefault.jpg",
+      "description": "Denji merges with Pochita to become Chainsaw Man, eviscerating devils in modern Tokyo."
+    },
+    {
+      "id": "vid-8",
+      "title": "Elden Ring: Shadow of the Erdtree — Official Gameplay Reveal",
+      "category": "gaming",
+      "type": "trailer",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/qLZenOn7WUo",
+      "releaseStatus": "recently released",
+      "duration": "3:06",
+      "views": "15.4M",
+      "thumbnail": "https://img.youtube.com/vi/qLZenOn7WUo/maxresdefault.jpg",
+      "description": "Guided by Empyrean Miquella, step into the Land of Shadow obscured by the Erdtree."
+    },
+    {
+      "id": "vid-9",
+      "title": "Behind the Scenes of Fortiche Animation Studio: Crafting Arcane",
+      "category": "tv",
+      "type": "interview",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/Pj_4K_t5tP4",
+      "releaseStatus": "recently released",
+      "duration": "12:45",
+      "views": "3.8M",
+      "thumbnail": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=600&q=80",
+      "description": "Exclusive documentary with Fortiche directors discussing the hybrid 2D/3D painting technique."
+    },
+    {
+      "id": "vid-10",
+      "title": "Tokyo Ghoul 10th Anniversary Creator Retrospective with Sui Ishida",
+      "category": "manga",
+      "type": "podcast",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/vGuQeQhbbQI",
+      "releaseStatus": "recently released",
+      "duration": "24:18",
+      "views": "1.2M",
+      "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+      "description": "Deep discussion on tragic character arcs, centipede symbolism, and psychological pressure."
+    }
+  ]
+}

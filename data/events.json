@@ -1,0 +1,262 @@
+{
+  "events": [
+    {
+      "id": "ev-anime-1",
+      "title": "Anime Expo 2027: Shonen World Premiere",
+      "category": "anime",
+      "date": "2027-07-02",
+      "location": "Los Angeles Convention Center, CA, USA",
+      "gps": "34.0407° N, 118.2695° W",
+      "description": "The premier Japanese animation gathering featuring voice actor keynotes, live concerts, and exclusive screenings.",
+      "type": "convention",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-anime-2",
+      "title": "Kyoto Animation Memorial & Creator Gala",
+      "category": "anime",
+      "date": "2026-11-20",
+      "location": "ROHM Theatre, Kyoto, Japan",
+      "gps": "35.0142° N, 135.7828° E",
+      "description": "Artisan retrospective celebrating master directors, orchestral soundtrack performances, and watercolor background exhibits.",
+      "type": "gala",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-anime-3",
+      "title": "Tokyo Anime Award Festival 2025",
+      "category": "anime",
+      "date": "2025-03-08",
+      "location": "Ikebukuro Cinema Sunshine, Tokyo, Japan",
+      "gps": "35.7314° N, 139.7153° E",
+      "description": "Annual competitive animation festival celebrating lifetime achievements in character design and direction.",
+      "type": "awards",
+      "status": "past",
+      "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&q=80"
+    },
+
+    {
+      "id": "ev-gaming-1",
+      "title": "Tokyo Game Show 2026: Unreal Neural Horizons",
+      "category": "gaming",
+      "date": "2026-09-24",
+      "location": "Makuhari Messe, Chiba, Japan",
+      "gps": "35.6481° N, 140.0347° E",
+      "description": "Hands-on demos with CDPR, Kojima Productions, and next-gen haptic VR engines.",
+      "type": "expo",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-gaming-2",
+      "title": "The Game Awards 2026 Live Concert",
+      "category": "gaming",
+      "date": "2026-12-10",
+      "location": "Peacock Theater, Los Angeles, CA, USA",
+      "gps": "34.0436° N, 118.2673° W",
+      "description": "World premiere game reveals, GOTY crowning, and live orchestral performances.",
+      "type": "awards",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-gaming-3",
+      "title": "Evo Championship Series 2025 (FGC Grand Finals)",
+      "category": "gaming",
+      "date": "2025-07-18",
+      "location": "Mandalay Bay, Las Vegas, NV, USA",
+      "gps": "36.0919° N, 115.1758° W",
+      "description": "The largest open fighting game tournament in the world, featuring Street Fighter 6 and Tekken 8 finals.",
+      "type": "tournament",
+      "status": "past",
+      "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=600&q=80"
+    },
+
+    {
+      "id": "ev-movies-1",
+      "title": "Cannes Film Festival: Sci-Fi & Speculative Horizons",
+      "category": "movies",
+      "date": "2027-05-12",
+      "location": "Palais des Festivals, Cannes, France",
+      "gps": "43.5517° N, 7.0174° E",
+      "description": "Exclusive avant-premiere screenings of high-concept cinematic science fiction and auteur director roundtables.",
+      "type": "festival",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-movies-2",
+      "title": "Dune: Messiah IMAX 70mm Fan Screening & Q&A",
+      "category": "movies",
+      "date": "2026-10-15",
+      "location": "BFI IMAX, London, United Kingdom",
+      "gps": "51.5036° N, 0.1132° W",
+      "description": "Special director's cut screening followed by an in-person retrospective with Denis Villeneuve and the cast.",
+      "type": "screening",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-movies-3",
+      "title": "Venice International Film Festival 2025",
+      "category": "movies",
+      "date": "2025-08-27",
+      "location": "Venice Lido, Venice, Italy",
+      "gps": "45.4056° N, 12.3731° E",
+      "description": "The world's oldest film festival, featuring Golden Lion contenders and world premieres.",
+      "type": "festival",
+      "status": "past",
+      "image": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=600&q=80"
+    },
+
+    {
+      "id": "ev-tv-1",
+      "title": "Arcane Season 2 Global Launch Party & Hextech Showcase",
+      "category": "tv",
+      "date": "2026-11-06",
+      "location": "Grand Rex, Paris, France",
+      "gps": "48.8705° N, 2.3482° E",
+      "description": "Fortiche and Riot Games celebrate the series climax with live orchestra, Zaun street art, and creator keynotes.",
+      "type": "premiere",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-tv-2",
+      "title": "Stranger Things Farewell Convention",
+      "category": "tv",
+      "date": "2027-04-10",
+      "location": "Georgia World Congress Center, Atlanta, GA, USA",
+      "gps": "33.7594° N, 84.3986° W",
+      "description": "Cast reunion, prop museum, and Hawkins High 80s immersive dance party.",
+      "type": "convention",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-tv-3",
+      "title": "77th Primetime Emmy Awards Gala",
+      "category": "tv",
+      "date": "2025-09-14",
+      "location": "Peacock Theater, Los Angeles, CA, USA",
+      "gps": "34.0436° N, 118.2673° W",
+      "description": "Honoring excellence in international television, streaming cinematography, and drama series.",
+      "type": "awards",
+      "status": "past",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80"
+    },
+
+    {
+      "id": "ev-kpop-1",
+      "title": "Seoul Pop & K-Culture Fest (Bunnies World Summit)",
+      "category": "kpop",
+      "date": "2026-11-14",
+      "location": "Gocheok Sky Dome, Seoul, South Korea",
+      "gps": "37.4982° N, 126.8671° E",
+      "description": "A 3-day arena gathering with holographic light shows, idol dance covers, and official photocard exchanges.",
+      "type": "festival",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-kpop-2",
+      "title": "MAMA Awards 2026 (Mnet Asian Music Awards)",
+      "category": "kpop",
+      "date": "2026-11-28",
+      "location": "Tokyo Dome, Tokyo, Japan",
+      "gps": "35.7056° N, 139.7519° E",
+      "description": "The most watched pan-Asian music awards show with multi-stage collaborative performances.",
+      "type": "awards",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-kpop-3",
+      "title": "KCON LA 2025: All-Stars Convention",
+      "category": "kpop",
+      "date": "2025-08-01",
+      "location": "Crypto.com Arena, Los Angeles, CA, USA",
+      "gps": "34.0430° N, 118.2673° W",
+      "description": "The world's largest Korean pop culture fan event with artist meet-and-greets and nightly concerts.",
+      "type": "convention",
+      "status": "past",
+      "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=600&q=80"
+    },
+
+    {
+      "id": "ev-comics-1",
+      "title": "San Diego Comic-Con International: Hall H Reveals",
+      "category": "comics",
+      "date": "2027-07-22",
+      "location": "San Diego Convention Center, CA, USA",
+      "gps": "32.7072° N, 117.1627° W",
+      "description": "The epicenter of comic culture, Marvel/DC movie slates, creator masterclasses, and exclusive collectible drops.",
+      "type": "convention",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-comics-2",
+      "title": "New York Comic Con 2026: Artist Alley & Graphic Masterclasses",
+      "category": "comics",
+      "date": "2026-10-08",
+      "location": "Javits Center, New York, NY, USA",
+      "gps": "40.7580° N, 74.0022° W",
+      "description": "Over 500 graphic artists, comic book signings, cosplay championships, and publisher reveals.",
+      "type": "convention",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-comics-3",
+      "title": "Angoulême International Comics Festival 2025",
+      "category": "comics",
+      "date": "2025-01-30",
+      "location": "Angoulême Town Center, France",
+      "gps": "45.6484° N, 0.1562° E",
+      "description": "Europe's most prestigious bande dessinée gathering celebrating graphic storytelling excellence.",
+      "type": "festival",
+      "status": "past",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80"
+    },
+
+    {
+      "id": "ev-manga-1",
+      "title": "Jump Festa 2027: Shueisha Grand Stage",
+      "category": "manga",
+      "date": "2026-12-19",
+      "location": "Makuhari Messe, Tokyo, Japan",
+      "gps": "35.6481° N, 140.0347° E",
+      "description": "Live announcements for upcoming serialized manga adaptations, creator sketch sessions, and original artwork exhibits.",
+      "type": "expo",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-manga-2",
+      "title": "Comic Market 107 (Winter Comiket)",
+      "category": "manga",
+      "date": "2026-12-30",
+      "location": "Tokyo Big Sight, Tokyo, Japan",
+      "gps": "35.6298° N, 139.7942° E",
+      "description": "The world's biggest indie doujinshi and fan manga exhibition with over 500,000 attendees.",
+      "type": "market",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "ev-manga-3",
+      "title": "Summer Comiket 106 (Comic Market 106)",
+      "category": "manga",
+      "date": "2025-08-16",
+      "location": "Tokyo Big Sight, Tokyo, Japan",
+      "gps": "35.6298° N, 139.7942° E",
+      "description": "Legendary summer gathering of independent illustrators, cosplay circles, and publishing scouts.",
+      "type": "market",
+      "status": "past",
+      "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80"
+    }
+  ]
+}
