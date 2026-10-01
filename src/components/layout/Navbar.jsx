@@ -163,23 +163,6 @@ export default function Navbar() {
               <span className="nav-search-shortcut">/</span>
             </form>
 
-            {/* Ambient Radio Button */}
-            <button 
-              type="button"
-              onClick={toggleAudioPlay}
-              className={`action-icon-btn radio-nav-btn ${audioState.isPlaying ? 'active' : ''}`}
-              title={audioState.isPlaying ? `Playing: ${audioState.currentTrack?.title || 'Radio'}` : 'Play Ambient Radio (Afrobeats, Anime, Lofi)'}
-              aria-label="Ambient Radio Player"
-            >
-              <Radio size={18} className={audioState.isPlaying ? 'text-cyan animate-pulse' : ''} />
-              {audioState.isPlaying && (
-                <span className="audio-mini-bars-nav">
-                  <span className="m-bar b1"></span>
-                  <span className="m-bar b2"></span>
-                  <span className="m-bar b3"></span>
-                </span>
-              )}
-            </button>
 
             {/* Shopping Cart Drawer Trigger */}
             <button 
