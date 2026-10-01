@@ -53,10 +53,19 @@ export default function AudioPlayerBar() {
         <div className="audio-bar-content">
           {/* Track Info */}
           <div className="audio-track-info">
-            <Radio size={18} className="radio-icon-pulse" />
+            {track?.artwork ? (
+              <img 
+                src={track.artwork} 
+                alt={track.title} 
+                className="audio-track-art-thumb" 
+                style={{ width: '40px', height: '40px', borderRadius: '8px', objectFit: 'cover', border: '1px solid rgba(255, 255, 255, 0.2)', boxShadow: '0 4px 12px rgba(0,0,0,0.5)' }} 
+              />
+            ) : (
+              <Radio size={18} className="radio-icon-pulse" />
+            )}
             <div>
               <span className="track-title">{track?.title || 'ChillVerse Ambient Radio'}</span>
-              <span className="track-sub">{track?.artist || 'Free-use ambient tracks'} • {fmtTime(currentTime)} / {duration ? fmtTime(duration) : '∞'}</span>
+              <span className="track-sub">{track?.artist || 'Billie Eilish & Global Hits'} • {fmtTime(currentTime)} / {duration ? fmtTime(duration) : '∞'}</span>
             </div>
           </div>
 

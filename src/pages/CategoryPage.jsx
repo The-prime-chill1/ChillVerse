@@ -30,6 +30,7 @@ export default function CategoryPage() {
     gaming: { title: 'Gaming Sanctuary', jp: 'ゲーム', desc: 'AAA blockbusters, competitive esports, RPG lore, and Soulsborne boss mechanics.', color: '#00e5ff' },
     movies: { title: 'Movie Multiverse', jp: '映画', desc: 'Hollywood spectacles, kaiju wars, sci-fi sagas, and 4K cinema trailers.', color: '#ff9500' },
     'tv-shows': { title: 'Prestige TV Shows', jp: 'ドラマ', desc: 'Dark fantasy sagas, streaming serials, dystopian arcs, and episodic discussions.', color: '#5856d6' },
+    music: { title: 'Music Sanctuary', jp: '音楽', desc: 'Global chart-toppers, Billie Eilish hits, Grammy anthems, Billboard hot 100, and audio previews.', color: '#10b981' },
     'k-pop': { title: 'K-Pop Idol Zone', jp: '케이팝', desc: 'Global chart-toppers, comeback schedules, lightstick culture, and choreography.', color: '#ff2d55' },
     comics: { title: 'Comic Multiverse', jp: 'コミック', desc: 'Graphic novel legends, superhero origins, dark vigilantes, and indie chronicles.', color: '#ffcc00' },
     manga: { title: 'Manga Chronicles', jp: 'マンガ', desc: 'Serialized weekly chapters, shonen legends, and dark seinen masterpieces.', color: '#af52de' }

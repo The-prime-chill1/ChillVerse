@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Sparkles, Flame, Gamepad2, Film, Tv, Mic2, Zap, BookOpen } from 'lucide-react';
+import { ArrowRight, Sparkles, Flame, Gamepad2, Film, Tv, Mic2, Zap, BookOpen, Music as MusicIcon } from 'lucide-react';
 
 export default function CategoryPillars() {
   const realms = [
@@ -10,9 +10,9 @@ export default function CategoryPillars() {
       japanese: 'アニメ',
       desc: 'Shonen battle epics, isekai odysseys, and ufotable/MAPPA visual masterpieces.',
       Icon: Flame,
-      stat: '120+ Titles',
+      stat: '100+ Titles',
       color: '#ff3b30',
-      bgImg: 'https://img.youtube.com/vi/f7T48i4WaP8/maxresdefault.jpg'
+      bgImg: 'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg'
     },
     {
       id: 'gaming',
@@ -20,9 +20,9 @@ export default function CategoryPillars() {
       japanese: 'ゲーム',
       desc: 'Action RPGs, competitive esports, dystopian open worlds, and Soulsborne lore.',
       Icon: Gamepad2,
-      stat: '95+ Universes',
+      stat: '100+ Universes',
       color: '#00e5ff',
-      bgImg: 'https://img.youtube.com/vi/bo4uH4701f8/maxresdefault.jpg'
+      bgImg: 'https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900.jpg'
     },
     {
       id: 'movies',
@@ -30,9 +30,9 @@ export default function CategoryPillars() {
       japanese: '映画',
       desc: 'Sci-fi blockbusters, kaiju showdowns, cinematic sagas, and 4K trailer vaults.',
       Icon: Film,
-      stat: '140+ Premieres',
+      stat: '100+ Premieres',
       color: '#ff9500',
-      bgImg: 'https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg'
+      bgImg: 'https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg'
     },
     {
       id: 'tv-shows',
@@ -40,9 +40,19 @@ export default function CategoryPillars() {
       japanese: 'ドラマ',
       desc: 'Prestige serials, streaming thrillers, dark fantasies, and binge-worthy arcs.',
       Icon: Tv,
-      stat: '85+ Series',
+      stat: '100+ Series',
       color: '#5856d6',
-      bgImg: 'https://img.youtube.com/vi/uLtkt8BonwM/maxresdefault.jpg'
+      bgImg: 'https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg'
+    },
+    {
+      id: 'music',
+      name: 'Music',
+      japanese: '音楽',
+      desc: 'Global chart-toppers, Billie Eilish hits, Grammy anthems, and audio previews.',
+      Icon: MusicIcon,
+      stat: '100+ Tracks',
+      color: '#10b981',
+      bgImg: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/600x600bb.jpg'
     },
     {
       id: 'k-pop',
@@ -50,9 +60,9 @@ export default function CategoryPillars() {
       japanese: '케이팝',
       desc: 'Global idols, electrifying comebacks, concert lightsticks, and choreography.',
       Icon: Mic2,
-      stat: '60+ Groups',
+      stat: '100+ Groups',
       color: '#ff2d55',
-      bgImg: 'https://img.youtube.com/vi/gdZLi9oWNZg/maxresdefault.jpg'
+      bgImg: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bf/d4/d2/bfd4d29e-2dbd-6395-5fa2-938b2513f572/22UMGIM78942.rgb.jpg/600x600bb.jpg'
     },
     {
       id: 'comics',

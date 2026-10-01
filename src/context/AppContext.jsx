@@ -299,25 +299,121 @@ export function AppProvider({ children }) {
     volume: 0.6,
     tracks: [
       {
-        id: 'track-1',
+        id: 'track-be-1739659142',
+        title: 'BIRDS OF A FEATHER',
+        artist: 'Billie Eilish',
+        album: 'HIT ME HARD AND SOFT',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/31/d3/3431d34e-847f-5d66-df83-0bce688d997e/mzaf_18106743962423782018.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-be-1450695739',
+        title: 'bad guy',
+        artist: 'Billie Eilish',
+        album: 'WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/87/1f/c3871f7e-3260-d615-1c66-5fdca2c3a48f/mzaf_10721331211699880949.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-be-1689239800',
+        title: 'What Was I Made For?',
+        artist: 'Billie Eilish',
+        album: 'Barbie The Album',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/69/77/16697701-c8c4-6d9c-4491-7423e3fde6e8/mzaf_13139724549993369958.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c0/54/97/c05497aa-c19f-bf4f-de29-71edf30fbefb/075679688767.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-be-1739659140',
+        title: 'LUNCH',
+        artist: 'Billie Eilish',
+        album: 'HIT ME HARD AND SOFT',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/3e/43/9d3e43aa-682a-7979-8547-d339956c409b/mzaf_710286407585135494.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-be-1739659141',
+        title: 'CHIHIRO',
+        artist: 'Billie Eilish',
+        album: 'HIT ME HARD AND SOFT',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/41/6b/30416b6a-a895-a8e5-0b92-6206fff0bb0a/mzaf_12575392156288065852.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-be-1739659144',
+        title: 'WILDFLOWER',
+        artist: 'Billie Eilish',
+        album: 'HIT ME HARD AND SOFT',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/c3/e8/dec3e884-7237-9622-718a-12c5f48c5ca2/mzaf_3134455671785145822.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-be-1440899467',
+        title: 'ocean eyes',
+        artist: 'Billie Eilish',
+        album: 'dont smile at me',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/59/2b/d6592b0b-1e7e-4743-b2e4-f2af038fd783/mzaf_7697277787797935735.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/02/1d/30/021d3036-5503-3ed3-df00-882f2833a6ae/17UM1IM17026.rgb.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-be-1584262469',
+        title: 'Happier Than Ever',
+        artist: 'Billie Eilish',
+        album: 'Happier Than Ever',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8c/6b/20/8c6b203a-cadc-25b3-1c91-2a8e77210e31/mzaf_9684961884676177661.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d5/0c/53/d50c5343-58d1-9dfa-22ea-b6ea25b6327b/21UMGIM36684.rgb.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-be-1369380479',
+        title: 'lovely',
+        artist: 'Billie Eilish & Khalid',
+        album: 'lovely - Single',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/d8/8d/1ed88d91-fb06-b3f2-5391-afd732cc2ff9/mzaf_18444937225262929488.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/27/94/d4/2794d4fc-c3e2-2373-3e6c-dd82fd5aefe6/18UMGIM18200.rgb.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-be-1450695872',
+        title: "when the party's over",
+        artist: 'Billie Eilish',
+        album: 'WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?',
+        category: 'Pop / Alternative',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/ba/44/2aba4410-ba71-89ce-e075-10120409c31c/mzaf_16887001963655152332.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg'
+      },
+      {
+        id: 'track-ambient-1',
         title: 'Cyberpunk Neon Drift (Lofi Beats)',
         artist: 'ChillVerse Sounds',
+        album: 'Night City Vibes',
         category: 'Gaming',
-        url: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3'
+        url: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3',
+        artwork: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80'
       },
       {
-        id: 'track-2',
+        id: 'track-ambient-2',
         title: 'Spirited Anime Nostalgia',
         artist: 'Ghibli Vibes Collective',
+        album: 'Floating Lanterns',
         category: 'Anime',
-        url: 'https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=chill-lofi-song-8444.mp3'
+        url: 'https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=chill-lofi-song-8444.mp3',
+        artwork: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80'
       },
       {
-        id: 'track-3',
+        id: 'track-ambient-3',
         title: 'Seoul City Starlight (Instrumental)',
         artist: 'K-Wave Studio',
+        album: 'Seoul Moonlight',
         category: 'K-Pop',
-        url: 'https://cdn.pixabay.com/download/audio/2021/11/24/audio_c3c3a7008b.mp3?filename=lofi-chill-medium-version-159456.mp3'
+        url: 'https://cdn.pixabay.com/download/audio/2021/11/24/audio_c3c3a7008b.mp3?filename=lofi-chill-medium-version-159456.mp3',
+        artwork: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80'
       }
     ]
   });

@@ -34,7 +34,7 @@ export const dataService = {
   // Preload all critical datasets
   async preloadAll() {
     const datasets = [
-      'anime', 'gaming', 'movies', 'tv-shows', 'k-pop', 'comics', 'manga',
+      'anime', 'gaming', 'movies', 'tv-shows', 'music', 'k-pop', 'comics', 'manga',
       'characters', 'events', 'videos', 'audio', 'articles', 'merchandise',
       'releases', 'gallery', 'chatbot', 'faq', 'content', 'catalog'
     ];
