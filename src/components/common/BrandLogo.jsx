@@ -30,60 +30,54 @@ export default function BrandLogo({ height = 36, showSubtitle = false, className
       >
         <defs>
           <linearGradient id="cvBadgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#FFA100" />
-            <stop offset="45%" stopColor="#FF5500" />
+            <stop offset="0%" stopColor="#FFA800" />
+            <stop offset="50%" stopColor="#FF5500" />
             <stop offset="100%" stopColor="#FF1E56" />
           </linearGradient>
           <linearGradient id="cvVerseGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#FF6000" />
+            <stop offset="0%" stopColor="#FF5500" />
             <stop offset="100%" stopColor="#FF1E56" />
           </linearGradient>
+          <filter id="cvDropShadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="1.5" dy="2" stdDeviation="2" floodColor="#000000" floodOpacity="0.7" />
+          </filter>
         </defs>
 
-        {/* Left Emblem Badge - Pure Vector, Transparent Base */}
-        <g>
-          <rect x="0" y="2" width="36" height="36" rx="8" fill="url(#cvBadgeGradient)" />
-          <rect x="0.5" y="2.5" width="35" height="35" rx="7.5" stroke="rgba(255, 255, 255, 0.4)" strokeWidth="1" />
-
-          {/* Crisp, Bold Pure White C Monogram */}
+        {/* Left Emblem Badge - Stylized C with Interlocking V (From Original Design) */}
+        <g transform="translate(2, 3)">
+          {/* Orange/Amber Stylized C Frame with rounded corners */}
           <path 
-            d="M 28 11.5 C 25.5 9.8 22 8.8 17.5 8.8 C 11 8.8 7 13.8 7 20 C 7 26.2 11 31.2 17.5 31.2 C 22 31.2 25.5 30.2 28 28.5" 
-            stroke="#FFFFFF" 
-            strokeWidth="4.2" 
-            strokeLinecap="round" 
-            fill="none" 
+            d="M 32 3 L 13 3 C 6 3 1 8 1 15 L 1 25 C 1 32 6 37 13 37 L 32 37 L 32 29.5 L 14 29.5 C 10 29.5 8 27.5 8 23.5 L 8 16.5 C 8 12.5 10 10.5 14 10.5 L 32 10.5 Z" 
+            fill="url(#cvBadgeGradient)" 
           />
-          
-          {/* Subtle gap mask so V interlocks cleanly across C */}
+          {/* Interlocking cutout depth shadow */}
           <path 
-            d="M 13.5 13.5 L 20.5 28 L 27.5 13.5" 
-            stroke="url(#cvBadgeGradient)" 
-            strokeWidth="7" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            fill="none" 
+            d="M 13.5 3 L 23 37 L 32.5 3" 
+            stroke="#0a0c10" 
+            strokeWidth="5" 
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
-
           {/* Bold Pure White V Monogram */}
           <path 
-            d="M 13.5 13.5 L 20.5 28 L 27.5 13.5" 
+            d="M 13.5 3 L 23 37 L 32.5 3" 
             stroke="#FFFFFF" 
             strokeWidth="4.2" 
             strokeLinecap="round" 
-            strokeLinejoin="round" 
-            fill="none" 
+            strokeLinejoin="round"
+            filter="url(#cvDropShadow)"
           />
         </g>
 
         {/* Brand Typography */}
-        <g transform="translate(46, 0)">
+        <g transform="translate(44, 0)">
           <text 
             x="0" 
-            y="26.5" 
-            fontFamily="'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
-            fontSize="23" 
+            y="27" 
+            fontFamily="'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" 
+            fontSize="24" 
             fontWeight="900" 
-            letterSpacing="0.8"
+            letterSpacing="0.6"
           >
             <tspan fill="#FFFFFF">CHILL</tspan>
             <tspan fill="url(#cvVerseGradient)">VERSE</tspan>
@@ -92,12 +86,12 @@ export default function BrandLogo({ height = 36, showSubtitle = false, className
           {showSubtitle && (
             <text 
               x="1" 
-              y="38" 
+              y="38.5" 
               fontFamily="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" 
-              fontSize="6.5" 
-              fontWeight="700" 
-              fill="#94A3B8" 
-              letterSpacing="2"
+              fontSize="6.8" 
+              fontWeight="800" 
+              fill="#00e5ff" 
+              letterSpacing="1.8"
             >
               ENTERTAINMENT • FANDOM PORTAL
             </text>

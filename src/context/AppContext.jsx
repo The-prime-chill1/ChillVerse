@@ -428,6 +428,34 @@ export function AppProvider({ children }) {
     setAudioState(prev => ({ ...prev, currentTrackIndex: index, isPlaying: true }));
   };
 
+  const playTrack = (track) => {
+    if (!track) return;
+    setAudioState(prev => {
+      const existingIdx = prev.tracks.findIndex(t => 
+        t.id === track.id || 
+        (t.title && track.title && t.title.toLowerCase() === track.title.toLowerCase())
+      );
+      if (existingIdx !== -1) {
+        return { ...prev, currentTrackIndex: existingIdx, isPlaying: true };
+      }
+      const newTrack = {
+        id: track.id || `track-${Date.now()}`,
+        title: track.title,
+        artist: track.artist || 'Featured Artist',
+        album: track.album || 'ChillVerse Music',
+        category: track.category || 'Music',
+        url: track.url || track.audioUrl || track.previewUrl,
+        artwork: track.poster || track.artwork || track.thumbnail
+      };
+      return {
+        ...prev,
+        tracks: [newTrack, ...prev.tracks],
+        currentTrackIndex: 0,
+        isPlaying: true
+      };
+    });
+  };
+
   const setAudioVolume = (vol) => {
     setAudioState(prev => ({ ...prev, volume: vol }));
   };
@@ -517,6 +545,7 @@ export function AppProvider({ children }) {
       toggleAudioPlay,
       toggleAudio,
       selectAudioTrack,
+      playTrack,
       setAudioVolume,
       setVolume,
       nextTrack,

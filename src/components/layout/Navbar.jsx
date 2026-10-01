@@ -82,7 +82,7 @@ export default function Navbar() {
                 onClick={() => setCategoryDropdownOpen(!categoryDropdownOpen)}
                 aria-expanded={categoryDropdownOpen}
               >
-                <span>7 Fandom Hubs</span>
+                <span>Categories</span>
                 <ChevronDown size={13} className={`dropdown-arrow ${categoryDropdownOpen ? 'rotated' : ''}`} />
               </button>
 
@@ -90,7 +90,7 @@ export default function Navbar() {
                 <div className="mega-dropdown-menu">
                   <div className="mega-dropdown-header">
                     <Sparkles size={13} className="text-orange" />
-                    <span>EXPLORE THE 7 FANDOM REALMS</span>
+                    <span>EXPLORE THE 8 FANDOM REALMS</span>
                   </div>
                   <div className="dropdown-grid">
                     {categories.map(cat => (
@@ -134,8 +134,8 @@ export default function Navbar() {
 
           {/* Right Action Tools: Live Counter, Time, Search, Radio, Cart, User Profile */}
           <div className="nav-actions">
-            {/* Live Fan Presence & Real-Time Clock */}
-            <div className="nav-live-indicator-pill" title="Global Fandom Network Status">
+            {/* Live Fan Presence & Real-Time Clock - Desktop Only */}
+            <div className="nav-live-indicator-pill nav-desktop-only" title="Global Fandom Network Status">
               <span className="pulse-indicator"></span>
               <span className="nav-live-badge-text">LIVE</span>
               <span className="nav-live-divider">•</span>
@@ -150,8 +150,8 @@ export default function Navbar() {
               </span>
             </div>
 
-            {/* Search Input */}
-            <form onSubmit={handleSearchSubmit} className="nav-search-wrap">
+            {/* Search Input - Desktop Only */}
+            <form onSubmit={handleSearchSubmit} className="nav-search-wrap nav-desktop-only">
               <Search size={15} className="nav-search-icon" />
               <input 
                 type="text" 
@@ -163,8 +163,7 @@ export default function Navbar() {
               <span className="nav-search-shortcut">/</span>
             </form>
 
-
-            {/* Shopping Cart Drawer Trigger */}
+            {/* Shopping Cart Drawer Trigger - Visible on Desktop & Mobile */}
             <button 
               type="button"
               onClick={() => setIsCartOpen(true)}
@@ -180,7 +179,7 @@ export default function Navbar() {
 
             {/* User Auth Button / Profile Icon */}
             {user ? (
-              <div className="user-profile-menu">
+              <div className="user-profile-menu nav-desktop-only">
                 <button 
                   type="button"
                   onClick={dummyLogout}
@@ -194,14 +193,14 @@ export default function Navbar() {
               <button 
                 type="button"
                 onClick={() => openModal('auth', {})}
-                className="btn-signin-nav"
+                className="btn-signin-nav nav-desktop-only"
               >
                 <User size={14} />
                 <span>Sign In</span>
               </button>
             )}
 
-            {/* Mobile Hamburger Toggle */}
+            {/* Mobile Hamburger Toggle - Visible on Mobile */}
             <button 
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -229,11 +228,42 @@ export default function Navbar() {
             </form>
 
             <div className="mobile-links-list">
+              {/* Mobile Live Presence Pill */}
+              <div className="mobile-live-chip">
+                <span className="pulse-indicator"></span>
+                <span className="nav-live-badge-text">LIVE</span>
+                <span className="text-secondary">•</span>
+                <span className="text-xs text-white"><strong>{visitorCount}</strong> {visitorCount === 1 ? 'Fan' : 'Fans'} Online</span>
+                <span className="text-secondary">•</span>
+                <span className="text-xs text-cyan font-mono">{currentTime?.timeStr || '17:00:00'}</span>
+              </div>
+
+              {/* Mobile Auth Button */}
+              {user ? (
+                <button 
+                  type="button" 
+                  onClick={() => { dummyLogout(); setMobileMenuOpen(false); }} 
+                  className="mobile-auth-btn"
+                >
+                  <User size={16} className="text-orange" />
+                  <span>Signed in as {user.username || 'Fan'} (Tap to Sign Out)</span>
+                </button>
+              ) : (
+                <button 
+                  type="button" 
+                  onClick={() => { openModal('auth', {}); setMobileMenuOpen(false); }} 
+                  className="mobile-auth-btn"
+                >
+                  <User size={16} className="text-orange" />
+                  <span>Sign In / Create Account</span>
+                </button>
+              )}
+
               <Link to="/" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
                 Home
               </Link>
               
-              <div className="mobile-section-title">7 FANDOM REALMS</div>
+              <div className="mobile-section-title">8 FANDOM REALMS</div>
               <div className="mobile-categories-grid">
                 {categories.map(c => (
                   <Link

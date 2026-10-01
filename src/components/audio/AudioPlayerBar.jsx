@@ -58,32 +58,34 @@ export default function AudioPlayerBar() {
                 src={track.artwork} 
                 alt={track.title} 
                 className="audio-track-art-thumb" 
-                style={{ width: '40px', height: '40px', borderRadius: '8px', objectFit: 'cover', border: '1px solid rgba(255, 255, 255, 0.2)', boxShadow: '0 4px 12px rgba(0,0,0,0.5)' }} 
               />
             ) : (
               <Radio size={18} className="radio-icon-pulse" />
             )}
-            <div>
-              <span className="track-title">{track?.title || 'ChillVerse Ambient Radio'}</span>
-              <span className="track-sub">{track?.artist || 'Billie Eilish & Global Hits'} • {fmtTime(currentTime)} / {duration ? fmtTime(duration) : '∞'}</span>
+            <div className="audio-text-meta">
+              <span className="track-title">{track?.title || 'ChillVerse Radio'}</span>
+              <span className="track-sub">
+                <span className="track-artist">{track?.artist || 'Billie Eilish'}</span>
+                <span className="track-time-stamp"> • {fmtTime(currentTime)} / {duration ? fmtTime(duration) : '0:30'}</span>
+              </span>
             </div>
           </div>
 
           {/* Controls */}
           <div className="audio-controls-group">
-            <button onClick={prevTrack} className="audio-btn-skip" title="Previous track" aria-label="Previous track">
-              <SkipBack size={18} />
+            <button onClick={prevTrack} className="audio-btn-skip audio-skip-prev" title="Previous track" aria-label="Previous track">
+              <SkipBack size={17} />
             </button>
             <button onClick={toggleAudio} className="audio-btn-main" title={audioState.isPlaying ? 'Pause' : 'Play'} aria-label={audioState.isPlaying ? 'Pause' : 'Play'}>
-              {audioState.isPlaying ? <Pause size={18} /> : <Play size={18} />}
+              {audioState.isPlaying ? <Pause size={17} /> : <Play size={17} />}
             </button>
             <button onClick={nextTrack} className="audio-btn-skip" title="Next track" aria-label="Next track">
-              <SkipForward size={18} />
+              <SkipForward size={17} />
             </button>
           </div>
 
-          {/* Volume */}
-          <div className="audio-volume-wrap">
+          {/* Volume - Desktop Only */}
+          <div className="audio-volume-wrap audio-desktop-only">
             <button
               className="vol-btn"
               onClick={() => setVolume(audioState.volume > 0 ? 0 : 0.7)}
@@ -105,7 +107,7 @@ export default function AudioPlayerBar() {
           </div>
 
           {/* Close */}
-          <button onClick={stopAudio} className="vol-btn" title="Close audio player" aria-label="Stop audio">
+          <button onClick={stopAudio} className="vol-btn audio-btn-close" title="Close audio player" aria-label="Stop audio">
             <X size={16} />
           </button>
         </div>

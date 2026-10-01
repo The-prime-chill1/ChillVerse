@@ -12,7 +12,7 @@ import { useApp } from '../context/AppContext';
 export default function CategoryPage() {
   const { id } = useParams();
   const categoryId = (id || 'anime').toLowerCase();
-  const { openModal } = useApp();
+  const { openModal, playTrack } = useApp();
 
   const [contentItems, setContentItems] = useState([]);
   const [characters, setCharacters] = useState([]);
@@ -215,7 +215,13 @@ export default function CategoryPage() {
                 <ContentCard 
                   key={item.id} 
                   item={item} 
-                  onClick={() => openModal('trailer', item)}
+                  onClick={() => {
+                    if (item.category === 'music' || item.type === 'music' || item.audioUrl || item.previewUrl) {
+                      playTrack(item);
+                    } else {
+                      openModal('trailer', item);
+                    }
+                  }}
                 />
               ))}
             </div>

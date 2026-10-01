@@ -200,9 +200,11 @@ export default function HeroBanner() {
               <Star size={14} fill="#ffb300" color="#ffb300" />
               <span className="rating-num">{slide.rating}</span>
             </div>
-            {slide.genres.map((g, i) => (
-              <span key={i} className="hero-genre-pill">{g}</span>
-            ))}
+            <div className="hero-genres-wrap">
+              {slide.genres.map((g, i) => (
+                <span key={i} className="hero-genre-pill">{g}</span>
+              ))}
+            </div>
           </div>
 
           {/* Titles */}

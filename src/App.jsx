@@ -94,7 +94,7 @@ function AppShell() {
       {/* Global Persistent Widgets */}
       <CartDrawer />
       <ChatbotWidget />
-      {audioState.isPlaying && <AudioPlayerBar />}
+      <AudioPlayerBar />
       <GlobalModals />
     </div>
   );
