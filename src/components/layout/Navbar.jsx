@@ -204,13 +204,22 @@ export default function Navbar() {
               )}
             </button>
 
-            {/* User Auth Button / Profile Icon */}
+            {/* User Auth Button / Profile */}
             {user ? (
               <div className="user-profile-menu">
                 <button 
                   type="button"
                   onClick={dummyLogout}
-                  className="user-avatar-icon-btn" 
+                  className="btn-signin-nav nav-desktop-only" 
+                  title={`Signed in as ${user.username || 'Fan'}. Click to Sign Out.`}
+                >
+                  <User size={14} />
+                  <span>{user.username || 'Fan'}</span>
+                </button>
+                <button 
+                  type="button"
+                  onClick={dummyLogout}
+                  className="action-icon-btn mobile-only-btn" 
                   title={`Signed in as ${user.username || 'Fan'}. Click to Sign Out.`}
                 >
                   <User size={18} />
@@ -229,7 +238,7 @@ export default function Navbar() {
                 <button 
                   type="button"
                   onClick={() => openModal('auth', {})}
-                  className="action-icon-btn mobile-signin-icon-btn"
+                  className="action-icon-btn mobile-signin-icon-btn mobile-only-btn"
                   title="Sign In to CHILLVERSE"
                   aria-label="Sign In"
                 >

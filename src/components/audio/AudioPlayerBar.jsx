@@ -39,6 +39,11 @@ export default function AudioPlayerBar() {
     return `${m}:${String(s).padStart(2, '0')}`;
   };
 
+  // Only render the floating audio bar when music is playing or active session
+  if (!audioState.hasStarted && !audioState.isPlaying) {
+    return null;
+  }
+
   return (
     <>
       <audio
@@ -49,7 +54,7 @@ export default function AudioPlayerBar() {
         loop={false}
       />
 
-      <div className={`audio-floating-bar ${audioState.isPlaying ? 'is-active' : 'is-active'}`} role="complementary" aria-label="Audio player">
+      <div className={`audio-floating-bar ${audioState.isPlaying ? 'is-active' : ''}`} role="complementary" aria-label="Audio player">
         <div className="audio-bar-content">
           {/* Track Info */}
           <div className="audio-track-info">

@@ -295,6 +295,7 @@ export function AppProvider({ children }) {
   // 7. Ambient Audio Lounge Player
   const [audioState, setAudioState] = useState({
     isPlaying: false,
+    hasStarted: false,
     currentTrackIndex: 0,
     volume: 0.6,
     tracks: [
@@ -474,13 +475,22 @@ export function AppProvider({ children }) {
   });
 
   const toggleAudioPlay = () => {
-    setAudioState(prev => ({ ...prev, isPlaying: !prev.isPlaying }));
+    setAudioState(prev => ({ 
+      ...prev, 
+      isPlaying: !prev.isPlaying,
+      hasStarted: true 
+    }));
   };
 
   const toggleAudio = toggleAudioPlay; // alias
 
   const selectAudioTrack = (index) => {
-    setAudioState(prev => ({ ...prev, currentTrackIndex: index, isPlaying: true }));
+    setAudioState(prev => ({ 
+      ...prev, 
+      currentTrackIndex: index, 
+      isPlaying: true,
+      hasStarted: true 
+    }));
   };
 
   const playTrack = (track) => {
@@ -491,7 +501,12 @@ export function AppProvider({ children }) {
         (t.title && track.title && t.title.toLowerCase() === track.title.toLowerCase())
       );
       if (existingIdx !== -1) {
-        return { ...prev, currentTrackIndex: existingIdx, isPlaying: true };
+        return { 
+          ...prev, 
+          currentTrackIndex: existingIdx, 
+          isPlaying: true,
+          hasStarted: true 
+        };
       }
       const newTrack = {
         id: track.id || `track-${Date.now()}`,
@@ -506,7 +521,8 @@ export function AppProvider({ children }) {
         ...prev,
         tracks: [newTrack, ...prev.tracks],
         currentTrackIndex: 0,
-        isPlaying: true
+        isPlaying: true,
+        hasStarted: true
       };
     });
   };
@@ -521,7 +537,8 @@ export function AppProvider({ children }) {
     setAudioState(prev => ({
       ...prev,
       currentTrackIndex: (prev.currentTrackIndex + 1) % prev.tracks.length,
-      isPlaying: true
+      isPlaying: true,
+      hasStarted: true
     }));
   };
 
@@ -529,12 +546,13 @@ export function AppProvider({ children }) {
     setAudioState(prev => ({
       ...prev,
       currentTrackIndex: (prev.currentTrackIndex - 1 + prev.tracks.length) % prev.tracks.length,
-      isPlaying: true
+      isPlaying: true,
+      hasStarted: true
     }));
   };
 
   const stopAudio = () => {
-    setAudioState(prev => ({ ...prev, isPlaying: false }));
+    setAudioState(prev => ({ ...prev, isPlaying: false, hasStarted: false }));
   };
 
   // 8. Auth State (Dummy UI Only)

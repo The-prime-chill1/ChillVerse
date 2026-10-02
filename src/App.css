@@ -183,13 +183,29 @@
   -webkit-backdrop-filter: blur(24px);
   border-bottom: 1px solid rgba(255,255,255,0.07);
   padding: 0.65rem 0;
+  width: 100%;
 }
 
+.main-navbar .container.nav-content,
+.main-navbar .nav-content,
 .nav-content { 
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  gap: 1.25rem; 
+  display: flex !important; 
+  align-items: center !important; 
+  justify-content: space-between !important; 
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 2.5rem !important;
+  margin: 0 !important;
+  gap: 1.5rem; 
+}
+
+@media (max-width: 1024px) {
+  .main-navbar .container.nav-content,
+  .main-navbar .nav-content,
+  .nav-content {
+    padding: 0 1.25rem !important;
+    gap: 0.75rem;
+  }
 }
 
 .brand-logo-wrap {
@@ -216,7 +232,9 @@
 .desktop-nav-links { 
   display: flex; 
   align-items: center; 
-  gap: 0.25rem; 
+  justify-content: center;
+  gap: 0.35rem; 
+  flex: 1;
 }
 
 .nav-link {
@@ -3894,6 +3912,12 @@ body.mobile-nav-open .chill-global-live-hud {
    - Mobile: button on navbar, floating button completely hidden
    ============================================================ */
 
+/* Mobile-only action buttons (strictly hidden on desktop) */
+.mobile-only-btn,
+.mobile-signin-icon-btn {
+  display: none !important;
+}
+
 /* Mobile Navbar ChillBot Button (hidden on desktop) */
 .mobile-chillbot-nav-btn {
   display: none !important;
@@ -3949,7 +3973,9 @@ body.mobile-nav-open .chill-global-live-hud {
 /* Responsive Behavior: Mobile vs Desktop */
 @media (max-width: 768px) {
   /* Show ChillBot button directly on Mobile Navbar */
-  .mobile-chillbot-nav-btn {
+  .mobile-chillbot-nav-btn,
+  .mobile-signin-icon-btn,
+  .mobile-only-btn {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
