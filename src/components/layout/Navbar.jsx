@@ -4,7 +4,7 @@ import {
   Search, Bookmark, ShoppingBag, Music, Clock, Users,
   Menu, X, ChevronDown, User, Sparkles, Film, Calendar,
   Flame, Gamepad2, Film as FilmIcon, Tv, Mic2, Zap, BookOpen,
-  Info, MapPin, Radio
+  Info, MapPin, Radio, Plus, ChevronRight
 } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 import BrandLogo from '../common/BrandLogo';
@@ -12,7 +12,7 @@ import BrandLogo from '../common/BrandLogo';
 export default function Navbar() {
   const { 
     visitorCount, currentTime, cartCount, bookmarks, 
-    setIsCartOpen, openModal, audioState, toggleAudioPlay, user, dummyLogout 
+    setIsCartOpen, openModal, audioState, toggleAudio, user, dummyLogout 
   } = useApp();
   
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -51,20 +51,23 @@ export default function Navbar() {
     { label: 'Contact', path: '/contact' }
   ];
 
-  // Lock background scroll when mobile menu is open
+  // Lock background scroll and hide background floating elements when mobile menu is open
   React.useEffect(() => {
     if (mobileMenuOpen) {
       document.body.style.overflow = 'hidden';
+      document.body.classList.add('mobile-nav-open');
     } else {
       document.body.style.overflow = '';
+      document.body.classList.remove('mobile-nav-open');
     }
     return () => {
       document.body.style.overflow = '';
+      document.body.classList.remove('mobile-nav-open');
     };
   }, [mobileMenuOpen]);
 
   return (
-    <header className="navbar-wrapper">
+    <header className={`navbar-wrapper ${mobileMenuOpen ? 'mobile-menu-active' : ''}`}>
       {/* Main Glass Navbar */}
       <nav className="main-navbar">
         <div className="container nav-content">
@@ -191,7 +194,7 @@ export default function Navbar() {
 
             {/* User Auth Button / Profile Icon */}
             {user ? (
-              <div className="user-profile-menu nav-desktop-only">
+              <div className="user-profile-menu">
                 <button 
                   type="button"
                   onClick={dummyLogout}
@@ -202,14 +205,25 @@ export default function Navbar() {
                 </button>
               </div>
             ) : (
-              <button 
-                type="button"
-                onClick={() => openModal('auth', {})}
-                className="btn-signin-nav nav-desktop-only"
-              >
-                <User size={14} />
-                <span>Sign In</span>
-              </button>
+              <>
+                <button 
+                  type="button"
+                  onClick={() => openModal('auth', {})}
+                  className="btn-signin-nav nav-desktop-only"
+                >
+                  <User size={14} />
+                  <span>Sign In</span>
+                </button>
+                <button 
+                  type="button"
+                  onClick={() => openModal('auth', {})}
+                  className="action-icon-btn mobile-signin-icon-btn"
+                  title="Sign In to CHILLVERSE"
+                  aria-label="Sign In"
+                >
+                  <User size={18} />
+                </button>
+              </>
             )}
 
             {/* Mobile Hamburger Toggle - Visible on Mobile */}
@@ -225,120 +239,212 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Navigation Drawer Fullscreen Overlay */}
+      {/* Mobile Navigation Drawer Overlay (Norse Star / Linear Sleek Design) */}
       {mobileMenuOpen && (
-        <div className="mobile-nav-drawer" role="dialog" aria-label="Mobile Navigation">
-          <div className="mobile-nav-inner-container">
-            {/* Search Form */}
-            <form onSubmit={handleSearchSubmit} className="mobile-search-form">
-              <Search size={16} className="text-secondary" />
+        <div className="mobile-nav-drawer-overlay" onClick={() => setMobileMenuOpen(false)}>
+          <aside 
+            className="mobile-nav-norse-panel" 
+            onClick={(e) => e.stopPropagation()} 
+            role="dialog" 
+            aria-label="Mobile Navigation"
+          >
+            {/* Header: Brand Logo & Close Action */}
+            <div className="norse-drawer-header">
+              <Link to="/" onClick={() => setMobileMenuOpen(false)} className="norse-brand-wrap">
+                <BrandLogo height={32} />
+              </Link>
+              <button 
+                type="button" 
+                onClick={() => setMobileMenuOpen(false)} 
+                className="norse-close-btn"
+                aria-label="Close menu"
+              >
+                <X size={18} />
+              </button>
+            </div>
+
+            {/* Mobile Auth Profile / Sign In Banner */}
+            <div className="norse-auth-section">
+              {user ? (
+                <div className="norse-user-card">
+                  <div className="norse-user-avatar">
+                    <User size={18} className="text-cyan" />
+                  </div>
+                  <div className="norse-user-info">
+                    <span className="norse-user-name">{user.username || 'Fandom Member'}</span>
+                    <span className="norse-user-badge">VIP Fan Pass</span>
+                  </div>
+                  <button 
+                    type="button" 
+                    onClick={() => { dummyLogout(); setMobileMenuOpen(false); }} 
+                    className="norse-logout-pill"
+                  >
+                    Log Out
+                  </button>
+                </div>
+              ) : (
+                <button 
+                  type="button" 
+                  onClick={() => { setMobileMenuOpen(false); openModal('auth', {}); }} 
+                  className="norse-signin-full-btn"
+                >
+                  <User size={16} />
+                  <span>Sign In / Join Fandom</span>
+                </button>
+              )}
+            </div>
+
+            {/* Quick Rounded Search Input */}
+            <form onSubmit={handleSearchSubmit} className="norse-search-bar">
+              <Search size={15} className="norse-search-icon" />
               <input 
                 type="text" 
-                placeholder="Search anime, games, lore, music..."
+                placeholder="Search..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="mobile-search-input"
-                autoFocus={false}
+                className="norse-search-input"
               />
-              <button type="submit" className="mobile-search-submit-btn">
-                Search
-              </button>
             </form>
 
-            {/* Live Presence Status Pill */}
-            <div className="mobile-live-chip">
-              <span className="pulse-indicator"></span>
-              <span className="nav-live-badge-text">LIVE</span>
-              <span className="text-secondary">•</span>
-              <span className="text-xs text-white"><strong>{visitorCount}</strong> {visitorCount === 1 ? 'Fan' : 'Fans'} Online</span>
-              <span className="text-secondary">•</span>
-              <span className="text-xs text-cyan font-mono">{currentTime?.timeStr || '17:00:00'}</span>
+            {/* Quick Action Button: + Explore 4K Player */}
+            <button 
+              type="button" 
+              onClick={() => { setMobileMenuOpen(false); navigate('/media'); }} 
+              className="norse-action-btn"
+            >
+              <div className="norse-plus-circle">
+                <Plus size={14} />
+              </div>
+              <span>Explore 4K Stream</span>
+            </button>
+
+            {/* Top Navigation Items */}
+            <div className="norse-nav-group">
+              <Link to="/" onClick={() => setMobileMenuOpen(false)} className="norse-nav-link">
+                <Sparkles size={16} className="text-orange" />
+                <span>Home Sanctuary</span>
+              </Link>
+              <Link to="/media" onClick={() => setMobileMenuOpen(false)} className="norse-nav-link">
+                <Film size={16} className="text-cyan" />
+                <span>4K Trailers &amp; Cinema</span>
+              </Link>
+              <Link to="/shop" onClick={() => setMobileMenuOpen(false)} className="norse-nav-link">
+                <ShoppingBag size={16} className="text-amber" />
+                <span>Collector Vault</span>
+                {cartCount > 0 && <span className="norse-counter-pill">{cartCount}</span>}
+              </Link>
+              <Link to="/bookmarks" onClick={() => setMobileMenuOpen(false)} className="norse-nav-link">
+                <Bookmark size={16} className="text-purple" />
+                <span>Saved &amp; Watchlist</span>
+                {bookmarks.length > 0 && <span className="norse-counter-pill">{bookmarks.length}</span>}
+              </Link>
             </div>
 
-            {/* Mobile Auth Button */}
-            {user ? (
-              <button 
-                type="button" 
-                onClick={() => { dummyLogout(); setMobileMenuOpen(false); }} 
-                className="mobile-auth-btn is-logged-in"
-              >
-                <User size={16} className="text-orange" />
-                <span>Signed in as <strong>{user.username || 'Fan'}</strong> (Tap to Sign Out)</span>
-              </button>
-            ) : (
-              <button 
-                type="button" 
-                onClick={() => { openModal('auth', {}); setMobileMenuOpen(false); }} 
-                className="mobile-auth-btn"
-              >
-                <User size={16} className="text-orange" />
-                <span>Sign In / Create Account</span>
-              </button>
-            )}
-
-            {/* 8 Fandom Realms */}
-            <div className="mobile-section-title">
-              <Sparkles size={13} className="text-orange inline mr-1" />
-              <span>8 FANDOM REALMS</span>
+            {/* Section: PINNED REALMS */}
+            <div className="norse-section-header">
+              <span>PINNED REALMS</span>
             </div>
-            <div className="mobile-categories-grid">
+            <div className="norse-pinned-list">
               {categories.map(c => (
                 <Link
                   key={c.id}
                   to={`/category/${c.id}`}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="mobile-cat-card"
-                  style={{ borderColor: `${c.color}35` }}
+                  className="norse-pinned-item"
                 >
-                  <div className="mobile-cat-icon-wrap" style={{ background: c.glow, color: c.color }}>
-                    <c.Icon size={18} />
+                  <div className="norse-pinned-left">
+                    <c.Icon size={16} style={{ color: c.color }} />
+                    <span className="norse-item-label">{c.name}</span>
                   </div>
-                  <div className="mobile-cat-info">
-                    <span className="mobile-cat-name">{c.name}</span>
-                    <span className="mobile-cat-sub">{c.subtitle}</span>
-                  </div>
+                  <ChevronRight size={14} className="norse-chevron" />
                 </Link>
               ))}
             </div>
 
-            {/* Portal Exploration Links */}
-            <div className="mobile-section-title">
-              <Film size={13} className="text-cyan inline mr-1" />
-              <span>PORTAL EXPLORATION</span>
+            {/* Section: RECENTS & TRENDING */}
+            <div className="norse-section-header">
+              <span>TRENDING TODAY</span>
             </div>
-            <div className="mobile-links-list">
-              <Link to="/" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <span className="mobile-link-icon-dot"></span>
-                <span>Home Hub</span>
-              </Link>
-              <Link to="/media" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <Film size={16} className="text-orange" />
-                <span>Trailers &amp; 4K Player</span>
-              </Link>
-              <Link to="/calendar" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <Calendar size={16} className="text-cyan" />
-                <span>Releases &amp; Schedule</span>
-              </Link>
-              <Link to="/shop" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <ShoppingBag size={16} className="text-amber" />
-                <span>Merch Vault</span>
-                {cartCount > 0 && <span className="mobile-badge-pill">{cartCount}</span>}
-              </Link>
-              <Link to="/bookmarks" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <Bookmark size={16} className="text-purple" />
-                <span>Saved &amp; Notes</span>
-                {bookmarks.length > 0 && <span className="mobile-badge-pill">{bookmarks.length}</span>}
-              </Link>
-              <Link to="/about" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <Info size={16} className="text-secondary" />
-                <span>About Platform</span>
-              </Link>
-              <Link to="/contact" onClick={() => setMobileMenuOpen(false)} className="mobile-link">
-                <MapPin size={16} className="text-secondary" />
-                <span>Contact HQ</span>
-              </Link>
+            <div className="norse-recents-list">
+              <div 
+                className="norse-recent-item is-featured-pill"
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openModal('trailer', {
+                    id: 'mus-davido-001',
+                    title: 'Unavailable (feat. Musa Keys)',
+                    artist: 'Davido',
+                    youtubeId: '5j5E7fE1bA4',
+                    category: 'music'
+                  });
+                }}
+              >
+                <div className="norse-recent-dot pulse"></div>
+                <span className="norse-recent-text">Davido - Unavailable (Afrobeats)</span>
+              </div>
+
+              <div 
+                className="norse-recent-item"
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openModal('trailer', {
+                    id: 'mov-spider-verse',
+                    title: 'Spider-Man: Across the Spider-Verse',
+                    youtubeId: 'cqGjhVJWtEg',
+                    category: 'movies'
+                  });
+                }}
+              >
+                <span className="norse-recent-text">Spider-Man: Across the Spider-Verse</span>
+              </div>
+
+              <div 
+                className="norse-recent-item"
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openModal('trailer', {
+                    id: 'mov-deadpool-wolverine',
+                    title: 'Deadpool & Wolverine',
+                    youtubeId: '73_1biulkYk',
+                    category: 'movies'
+                  });
+                }}
+              >
+                <span className="norse-recent-text">Deadpool &amp; Wolverine 4K</span>
+              </div>
+
+              <div 
+                className="norse-recent-item"
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openModal('trailer', {
+                    id: 'ani-0001',
+                    title: 'Demon Slayer: Kimetsu no Yaiba',
+                    youtubeId: 'VQGCKyvzIM4',
+                    category: 'anime'
+                  });
+                }}
+              >
+                <span className="norse-recent-text">Demon Slayer: Infinity Castle</span>
+              </div>
+
+              <div 
+                className="norse-recent-item"
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openModal('trailer', {
+                    id: 'game-0001',
+                    title: 'Elden Ring',
+                    youtubeId: 'bo4uH4701f8',
+                    category: 'gaming'
+                  });
+                }}
+              >
+                <span className="norse-recent-text">Elden Ring Shadow of the Erdtree</span>
+              </div>
             </div>
-          </div>
+
+          </aside>
         </div>
       )}
     </header>

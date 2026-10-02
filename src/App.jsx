@@ -4,8 +4,8 @@ import { AppProvider } from './context/AppContext';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import CartDrawer from './components/modals/CartDrawer';
-import ChatbotWidget from './components/chat/ChatbotWidget';
 import AudioPlayerBar from './components/audio/AudioPlayerBar';
+import MobileBottomNav from './components/layout/MobileBottomNav';
 import TrailerModal from './components/modals/TrailerModal';
 import CharacterModal from './components/modals/CharacterModal';
 import MerchModal from './components/modals/MerchModal';
@@ -93,8 +93,8 @@ function AppShell() {
 
       {/* Global Persistent Widgets */}
       <CartDrawer />
-      <ChatbotWidget />
       <AudioPlayerBar />
+      <MobileBottomNav />
       <GlobalModals />
     </div>
   );

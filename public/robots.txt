@@ -1,0 +1,98 @@
+# ============================================================
+# CHILLVERSE — ROBOTS.TXT
+# Production Search Engine & AI Engine Optimization (SEO & GEO)
+# https://chill-verse-kappa.vercel.app/
+# ============================================================
+
+# General Search Engine Crawlers (Google, Bing, Yahoo, DuckDuckGo, Yandex, Baidu)
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /private/
+Disallow: /*?*sort=
+Crawl-delay: 1
+
+# Google Search & Media Crawlers
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Googlebot-Video
+Allow: /
+User-agent: Googlebot-News
+Allow: /
+
+# Bing & Microsoft
+User-agent: Bingbot
+Allow: /
+User-agent: msnbot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# Apple Search & Apple Intelligence
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# ============================================================
+# AI ENGINES & LLM CRAWLERS (Generative Search Optimization)
+# ============================================================
+
+# OpenAI — ChatGPT & SearchGPT
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic — Claude
+User-agent: ClaudeBot
+Allow: /
+User-agent: Anthropic-AI
+Allow: /
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI Search
+User-agent: PerplexityBot
+Allow: /
+
+# Google Gemini & AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Meta AI (Llama & Search)
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: FacebookBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# ByteDance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# AI Specification files
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /sitemap.xml
+
+# Sitemaps & Host
+Sitemap: https://chill-verse-kappa.vercel.app/sitemap.xml
+Host: https://chill-verse-kappa.vercel.app

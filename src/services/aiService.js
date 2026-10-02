@@ -166,6 +166,22 @@ export async function askGemini(prompt, conversationHistory = []) {
     };
   }
 
+  if (lower.includes('davido') || lower.includes('music') || lower.includes('song') || lower.includes('afrobeats') || lower.includes('billie')) {
+    return {
+      text: "Our Music Sanctuary features chart-topping anthems from Davido ('Unavailable', 'Feel', 'Fall', 'IF') and Billie Eilish ('BIRDS OF A FEATHER', 'bad guy', 'LUNCH'), complete with continuous background audio and 4K music video playback! Check it out at /category/music.",
+      link: '/category/music',
+      source: 'local-ai'
+    };
+  }
+
+  if (lower.includes('spider-man') || lower.includes('spiderman')) {
+    return {
+      text: "Spider-Man is heavily featured across CHILLVERSE! You can watch 'Spider-Man: Across the Spider-Verse' and 'No Way Home' official 4K trailers directly in our Movies Hub (/category/movies) and Media Lounge (/media).",
+      link: '/category/movies',
+      source: 'local-ai'
+    };
+  }
+
   if (lower.includes('cart') || lower.includes('shop') || lower.includes('merch') || lower.includes('buy') || lower.includes('price')) {
     return {
       text: "The Merchandise Vault features authentic scale figures, concert gear, apparel, and limited-edition collector prints with real-time tax and courier calculation.",

@@ -1,0 +1,30 @@
+# CHILLVERSE — Entertainment & Fandom Portal
+> The premier centralized entertainment and fandom sanctuary uniting 8 Fandom Realms (Anime, Gaming, Blockbuster Movies, Prestige TV Shows, Music Sanctuary, K-Pop Idol Zone, Comic Book Multiverse, and Manga Chronicles).
+
+## Project Metadata
+- URL: https://chill-verse-kappa.vercel.app/
+- Title: CHILLVERSE — Entertainment • Fandom Portal
+- Organization: ChillTech Ltd.
+- CEO & Founder: Lamidi Abdulhameed Olawale
+- Contact: lamidiabdulhameedolawale@gmail.com | +234 913 763 2195
+- Technology: Vite, React, Obsidian Cyber Lumina Design System, YouTube 4K Embeds, Apple Music API Streams, TMDB / AniList metadata.
+
+## The 8 Fandom Realms (Catalog: 100+ Verified Items Per Realm)
+- [Anime Universe](https://chill-verse-kappa.vercel.app/category/anime): 100 top anime series with official AniList key visual posters and studio trailers.
+- [Gaming Sanctuary](https://chill-verse-kappa.vercel.app/category/gaming): 100 verified games with official Steam and IGDB box art and gameplay trailers.
+- [Blockbuster Movies](https://chill-verse-kappa.vercel.app/category/movies): 100 major films with authentic TMDB theatrical posters and official 4K trailers.
+- [Prestige TV Shows](https://chill-verse-kappa.vercel.app/category/tv-shows): 100 hit television series with vertical key art and series trailers.
+- [Music Sanctuary](https://chill-verse-kappa.vercel.app/category/music): 100 top global hits and albums including Billie Eilish top hits with playable audio and official music videos.
+- [K-Pop Idol Zone](https://chill-verse-kappa.vercel.app/category/k-pop): 100 comebacks, albums, and idol releases with high-resolution artwork and official MVs.
+- [Comic Book Multiverse](https://chill-verse-kappa.vercel.app/category/comics): 100 graphic novels and issues with authentic comic cover art.
+- [Manga Chronicles](https://chill-verse-kappa.vercel.app/category/manga): 100 serialized manga from Shonen Jump, Kodansha, and AniList with volume covers.
+
+## Core Features & Portals
+- [Media Vault](https://chill-verse-kappa.vercel.app/media): 4K official trailers cinema player and live ambient radio.
+- [Release Schedule](https://chill-verse-kappa.vercel.app/calendar): Global entertainment release calendar and watch party dates.
+- [Merch Vault](https://chill-verse-kappa.vercel.app/shop): Collector merchandise, hoodies, figures, and vinyl with live cart checkout.
+- [Platform Manifesto](https://chill-verse-kappa.vercel.app/about): The design philosophy and mission of CHILLVERSE.
+- [Contact HQ](https://chill-verse-kappa.vercel.app/contact): Official enterprise contact for partnerships, licencing, and inquiries.
+
+## AI Assistant (ChillBot AI)
+CHILLVERSE integrates an in-browser conversational assistant (ChillBot AI) powered by Google Gemini with entertainment domain intelligence covering lore, character histories, soundtrack radio controls, and recommendations.

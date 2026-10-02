@@ -43,6 +43,27 @@ export default function TrailerModal({ data, onClose }) {
 
     // 5. Title / Known Catalog ID mappings
     const titleLower = (data.title || '').toLowerCase();
+    
+    // Spider-Man franchise explicit verification
+    if (titleLower.includes('spider-man') || titleLower.includes('spiderman')) {
+      if (titleLower.includes('across')) {
+        return 'https://www.youtube-nocookie.com/embed/cqGjhVJWtEg?autoplay=1&rel=0';
+      }
+      if (titleLower.includes('into the spider')) {
+        return 'https://www.youtube-nocookie.com/embed/g4Hbz2jLxvQ?autoplay=1&rel=0';
+      }
+      if (titleLower.includes('no way home')) {
+        return 'https://www.youtube-nocookie.com/embed/JfVOs4VSpmA?autoplay=1&rel=0';
+      }
+      if (titleLower.includes('2') || titleLower.includes('remastered')) {
+        return 'https://www.youtube-nocookie.com/embed/bgqGdIoa52s?autoplay=1&rel=0';
+      }
+      return 'https://www.youtube-nocookie.com/embed/g4Hbz2jLxvQ?autoplay=1&rel=0';
+    }
+
+    if (titleLower.includes('hit man') || titleLower.includes('hitman')) {
+      return 'https://www.youtube-nocookie.com/embed/1q36U9X5q6k?autoplay=1&rel=0';
+    }
     if (titleLower.includes('jurassic')) {
       return 'https://www.youtube-nocookie.com/embed/vn9mMeWcgoM?autoplay=1&rel=0'; // Jurassic World: Fallen Kingdom
     }
@@ -76,11 +97,29 @@ export default function TrailerModal({ data, onClose }) {
     if (titleLower.includes('attack on titan')) {
       return 'https://www.youtube-nocookie.com/embed/MGRm4IzK1SQ?autoplay=1&rel=0';
     }
+    if (titleLower.includes('demon slayer')) {
+      return 'https://www.youtube-nocookie.com/embed/VQGCKyvzIM4?autoplay=1&rel=0';
+    }
+    if (titleLower.includes('chainsaw man')) {
+      return 'https://www.youtube-nocookie.com/embed/q15CRdE5Bv0?autoplay=1&rel=0';
+    }
+    if (titleLower.includes('solo leveling')) {
+      return 'https://www.youtube-nocookie.com/embed/vN_rFzQ6m5k?autoplay=1&rel=0';
+    }
     if (titleLower.includes('gladiator')) {
       return 'https://www.youtube-nocookie.com/embed/4rgYUipGJNo?autoplay=1&rel=0';
     }
     if (titleLower.includes('furiosa') || titleLower.includes('mad max')) {
       return 'https://www.youtube-nocookie.com/embed/XJMuhwVlca4?autoplay=1&rel=0';
+    }
+    if (titleLower.includes('birds of a feather') || titleLower.includes('wildflower')) {
+      return 'https://www.youtube-nocookie.com/embed/d5gf9dXb4Cg?autoplay=1&rel=0';
+    }
+    if (titleLower.includes('bad guy')) {
+      return 'https://www.youtube-nocookie.com/embed/DyDfgMOUjCI?autoplay=1&rel=0';
+    }
+    if (titleLower.includes('dynamite')) {
+      return 'https://www.youtube-nocookie.com/embed/gdZLi9oWNZg?autoplay=1&rel=0';
     }
 
     const trailerMap = {
@@ -91,13 +130,20 @@ export default function TrailerModal({ data, onClose }) {
       'mov-0001': 'https://www.youtube-nocookie.com/embed/jaJuw4kvSCw?autoplay=1&rel=0', // Die Hard
       'mov-0002': 'https://www.youtube-nocookie.com/embed/hEJnMQG9ev8?autoplay=1&rel=0', // Mad Max Fury Road
       'mov-0003': 'https://www.youtube-nocookie.com/embed/vn9mMeWcgoM?autoplay=1&rel=0', // Jurassic World Fallen Kingdom
+      'mov-0363': 'https://www.youtube-nocookie.com/embed/g4Hbz2jLxvQ?autoplay=1&rel=0', // Spider-Man: Into the Spider-Verse
       'kpop-0001': 'https://www.youtube-nocookie.com/embed/gdZLi9oWNZg?autoplay=1&rel=0'  // BTS Dynamite
     };
 
-    return trailerMap[data.id] || 'https://www.youtube-nocookie.com/embed/vn9mMeWcgoM?autoplay=1&rel=0';
+    if (trailerMap[data.id]) {
+      return trailerMap[data.id];
+    }
+
+    // Default authentic fallback trailer
+    return 'https://www.youtube-nocookie.com/embed/73_1biulkYk?autoplay=1&rel=0';
   };
 
   const bookmarked = isBookmarked(data.id);
+  const isMusicItem = data.category === 'music' || data.type === 'music' || data.audioUrl || data.previewUrl;
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
@@ -105,8 +151,8 @@ export default function TrailerModal({ data, onClose }) {
         {/* Modal Header */}
         <div className="modal-header">
           <div className="modal-title-wrap">
-            <span className={`badge ${data.category === 'music' || data.type === 'music' ? 'badge-green' : 'badge-red'}`} style={{ background: data.category === 'music' || data.type === 'music' ? '#10b981' : undefined }}>
-              {data.category === 'music' || data.type === 'music' ? 'MUSIC SANCTUARY AUDIO' : '4K ULTRA HD STREAM'}
+            <span className={`badge ${isMusicItem ? 'badge-green' : 'badge-red'}`} style={{ background: isMusicItem ? '#10b981' : undefined }}>
+              {isMusicItem ? 'MUSIC SANCTUARY • 4K VIDEO' : '4K ULTRA HD STREAM'}
             </span>
             <h3 className="modal-title">{data.title}</h3>
           </div>
@@ -115,44 +161,37 @@ export default function TrailerModal({ data, onClose }) {
           </button>
         </div>
 
-        {/* Player: Audio Showcase for Music or Video Iframe for Movies/Trailers */}
-        {data.category === 'music' || data.type === 'music' ? (
-          <div className="music-modal-stage" style={{ padding: '2rem 1.5rem', textAlign: 'center', background: 'radial-gradient(circle at center, rgba(16, 185, 129, 0.15) 0%, rgba(10, 12, 18, 0.98) 75%)' }}>
-            <div style={{ position: 'relative', display: 'inline-block', marginBottom: '1.5rem' }}>
-              <img 
-                src={data.poster || data.artwork || data.thumbnail} 
-                alt={data.title} 
-                style={{ width: '220px', height: '220px', borderRadius: '16px', objectFit: 'cover', boxShadow: '0 16px 40px rgba(0,0,0,0.8), 0 0 30px rgba(16, 185, 129, 0.3)', border: '2px solid rgba(255,255,255,0.15)' }} 
-              />
+        {/* Video Player Frame: ALWAYS plays the official YouTube Video */}
+        <div className="video-player-frame-wrapper">
+          <iframe
+            src={getEmbedUrl()}
+            title={data.title}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            className="video-iframe"
+          ></iframe>
+        </div>
+
+        {/* Optional Music Audio Bar for Music Items */}
+        {isMusicItem && (data.url || data.audioUrl || data.previewUrl) && (
+          <div className="modal-audio-preview-strip">
+            <div className="modal-audio-track-label">
+              <Sparkles size={14} className="text-emerald" />
+              <span>Direct Audio Preview:</span>
             </div>
-            <h4 style={{ fontSize: '1.25rem', fontWeight: 700, color: '#ffffff', marginBottom: '0.25rem' }}>{data.title}</h4>
-            <p style={{ color: '#10b981', fontWeight: 600, fontSize: '0.95rem', marginBottom: '1.5rem' }}>{data.artist} {data.album ? `• ${data.album}` : ''}</p>
-            <div style={{ maxWidth: '480px', margin: '0 auto' }}>
-              <audio 
-                src={data.url || data.audioUrl || data.previewUrl} 
-                controls 
-                autoPlay 
-                style={{ width: '100%', borderRadius: '99px', outline: 'none' }} 
-              />
-            </div>
-          </div>
-        ) : (
-          <div className="video-player-frame-wrapper">
-            <iframe
-              src={getEmbedUrl()}
-              title={data.title}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-              className="video-iframe"
-            ></iframe>
+            <audio 
+              src={data.url || data.audioUrl || data.previewUrl} 
+              controls 
+              className="modal-audio-element" 
+            />
           </div>
         )}
 
         {/* Video Meta & Actions */}
         <div className="modal-footer-meta">
           <div className="modal-meta-left">
-            <p className="modal-desc">{data.description || 'Exclusive official trailer preview on CHILLVERSE.'}</p>
+            <p className="modal-desc">{data.description || 'Exclusive official 4K stream on CHILLVERSE.'}</p>
             <div className="modal-tags">
               {data.tags?.map((tag, idx) => (
                 <span key={idx} className="tag-pill">#{tag}</span>

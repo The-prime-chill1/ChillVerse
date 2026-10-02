@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { 
   Sparkles, Globe, Shield, Zap, 
   Palette, BookOpen, Layers, Radio, CheckCircle2,
-  ArrowRight, Mail, Star, Building2, Phone, Award
+  ArrowRight, Mail, Star, Building2, Phone, Award, ExternalLink
 } from 'lucide-react';
 import Breadcrumbs from '../components/common/Breadcrumbs';
 
@@ -124,8 +124,12 @@ export default function AboutPage() {
                     <span>CT</span>
                   </div>
                   <div>
-                    <h3 className="company-title">ChillTech Ltd.</h3>
-                    <p className="company-meta">Creator & Operator of CHILLVERSE</p>
+                    <h3 className="company-title">
+                      <a href="https://chilltechltd.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors inline-flex items-center gap-2">
+                        ChillTech Ltd. <ExternalLink size={16} className="text-orange" />
+                      </a>
+                    </h3>
+                    <p className="company-meta">Creator & Operator of CHILLVERSE • <a href="https://chilltechltd.com" target="_blank" rel="noopener noreferrer" className="text-cyan underline">chilltechltd.com</a></p>
                   </div>
                 </div>
 

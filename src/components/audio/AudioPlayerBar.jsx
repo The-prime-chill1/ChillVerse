@@ -53,11 +53,26 @@ export default function AudioPlayerBar() {
         <div className="audio-bar-content">
           {/* Track Info */}
           <div className="audio-track-info">
-            {track?.artwork ? (
+            {track?.artwork || track?.poster || track?.thumbnail ? (
               <img 
-                src={track.artwork} 
-                alt={track.title} 
-                className="audio-track-art-thumb" 
+                src={track.artwork || track.poster || track.thumbnail} 
+                alt={track.title || 'Track Art'} 
+                className="audio-track-art-thumb"
+                style={{
+                  width: '48px',
+                  height: '48px',
+                  minWidth: '48px',
+                  maxWidth: '48px',
+                  maxHeight: '48px',
+                  objectFit: 'cover',
+                  borderRadius: '8px',
+                  flexShrink: 0,
+                  boxShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                  border: '1px solid rgba(255,255,255,0.15)'
+                }}
+                onError={(e) => {
+                  e.currentTarget.src = 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=300&q=80';
+                }}
               />
             ) : (
               <Radio size={18} className="radio-icon-pulse" />

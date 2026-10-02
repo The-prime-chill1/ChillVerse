@@ -7,32 +7,6 @@ export default function HeroBanner() {
 
   const heroSlides = [
     {
-      id: 'mov-rampage',
-      title: 'RAMPAGE',
-      subtitle: 'BIGGER MEETS BIGGER',
-      category: 'Movies',
-      backdrop: 'https://img.youtube.com/vi/coOKvrsmQiI/maxresdefault.jpg',
-      youtubeId: 'coOKvrsmQiI',
-      duration: '1h 47m',
-      genres: ['Action', 'Adventure', 'Sci-Fi'],
-      rating: '8.5',
-      description: 'When three different animals become infected with a dangerous pathogen, a primatologist and a geneticist team up to stop them from destroying Chicago.',
-      tags: ['blockbuster', 'action', 'dwayne johnson']
-    },
-    {
-      id: 'mov-rebel-ridge',
-      title: 'REBEL RIDGE',
-      subtitle: 'NETFLIX ORIGINAL THRILLER',
-      category: 'Movies',
-      backdrop: 'https://img.youtube.com/vi/Qp49X0_36jU/maxresdefault.jpg',
-      youtubeId: 'Qp49X0_36jU',
-      duration: '2h 11m',
-      genres: ['Action', 'Crime', 'Thriller'],
-      rating: '9.7',
-      description: 'An ex-Marine navigates his way through the murky waters of small-town corruption when an attempt to post bail for his cousin escalates into a violent standoff.',
-      tags: ['netflix', 'trending', 'action thriller']
-    },
-    {
       id: 'mov-deadpool-wolverine',
       title: 'DEADPOOL & WOLVERINE',
       subtitle: 'THE ULTIMATE MARVEL TEAM-UP',
@@ -44,19 +18,6 @@ export default function HeroBanner() {
       rating: '9.9',
       description: 'Wade Wilson and Logan join forces to protect the multiverse from catastrophic collapse in an irreverent, hyper-violent, fourth-wall breaking crusade.',
       tags: ['marvel', 'blockbuster', 'mcu']
-    },
-    {
-      id: 'mov-jurassic-world-fk',
-      title: 'JURASSIC WORLD: FALLEN KINGDOM',
-      subtitle: 'THE PARK IS GONE',
-      category: 'Movies',
-      backdrop: 'https://img.youtube.com/vi/vn9mMeWcgoM/maxresdefault.jpg',
-      youtubeId: 'vn9mMeWcgoM',
-      duration: '2h 08m',
-      genres: ['Sci-Fi', 'Adventure', 'Action'],
-      rating: '8.8',
-      description: 'When the island volcano begins erupting, Owen and Claire mount a perilous campaign to rescue the remaining dinosaurs from extinction.',
-      tags: ['blockbuster', 'jurassic', 'sci-fi']
     },
     {
       id: 'mov-dune-2',
@@ -72,43 +33,17 @@ export default function HeroBanner() {
       tags: ['sci-fi', 'denis villeneuve', '4k']
     },
     {
-      id: 'mov-electric-state',
-      title: 'THE ELECTRIC STATE',
-      subtitle: 'A RUSSO BROTHERS NETFLIX VISION',
+      id: 'mov-spider-verse',
+      title: 'SPIDER-MAN: ACROSS THE SPIDER-VERSE',
+      subtitle: 'IT IS IN OUR NATURE TO PROTECT',
       category: 'Movies',
-      backdrop: 'https://img.youtube.com/vi/fF-iG2vA30k/maxresdefault.jpg',
-      youtubeId: 'fF-iG2vA30k',
-      duration: '2h 15m',
-      genres: ['Sci-Fi', 'Adventure', 'Action'],
-      rating: '9.8',
-      description: 'An orphaned teenager traverses the retro-futuristic American West with a mysterious robot and an eccentric smuggler searching for her missing brother.',
-      tags: ['netflix', 'sci-fi', 'russo brothers']
-    },
-    {
-      id: 'mov-extraction-2',
-      title: 'EXTRACTION 2',
-      subtitle: 'BACK FROM THE BRINK OF DEATH',
-      category: 'Movies',
-      backdrop: 'https://img.youtube.com/vi/Y274jZs5s7s/maxresdefault.jpg',
-      youtubeId: 'Y274jZs5s7s',
-      duration: '2h 03m',
-      genres: ['Action', 'Thriller'],
-      rating: '9.6',
-      description: 'Barely surviving his grievous wounds in Bangladesh, black ops mercenary Tyler Rake launches into another lethal clandestine mission behind enemy lines.',
-      tags: ['netflix', 'action', 'chris hemsworth']
-    },
-    {
-      id: 'mov-hit-man',
-      title: 'HIT MAN',
-      subtitle: 'HE IS NOT A HITMAN, BUT HE PLAYS ONE',
-      category: 'Movies',
-      backdrop: 'https://img.youtube.com/vi/1q36U9X5q6k/maxresdefault.jpg',
-      youtubeId: '1q36U9X5q6k',
-      duration: '1h 55m',
-      genres: ['Action', 'Comedy', 'Crime'],
-      rating: '9.4',
-      description: 'A mild-mannered college professor posing undercover as a professional hitman descends into dangerous territory when he tries to save a client.',
-      tags: ['netflix', 'comedy', 'crime']
+      backdrop: 'https://img.youtube.com/vi/cqGjhVJWtEg/maxresdefault.jpg',
+      youtubeId: 'cqGjhVJWtEg',
+      duration: '2h 20m',
+      genres: ['Animation', 'Action', 'Sci-Fi'],
+      rating: '9.9',
+      description: 'Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.',
+      tags: ['marvel', 'spider-man', 'multiverse']
     },
     {
       id: 'mov-gladiator-2',
@@ -124,19 +59,6 @@ export default function HeroBanner() {
       tags: ['cinema', 'ridley scott', 'epic']
     },
     {
-      id: 'mov-carry-on',
-      title: 'CARRY-ON',
-      subtitle: 'NETFLIX HIGH-OCTANE SUSPENSE',
-      category: 'Movies',
-      backdrop: 'https://img.youtube.com/vi/y4vN_4Y9bK4/maxresdefault.jpg',
-      youtubeId: 'y4vN_4Y9bK4',
-      duration: '1h 59m',
-      genres: ['Action', 'Mystery', 'Thriller'],
-      rating: '9.5',
-      description: 'A young TSA agent fights to outsmart a mysterious traveler who blackmails him into letting a dangerous package slip through security onto a Christmas Day flight.',
-      tags: ['netflix', 'suspense', 'holiday thriller']
-    },
-    {
       id: 'mov-furiosa',
       title: 'FURIOSA: A MAD MAX SAGA',
       subtitle: 'OUT OF THE WASTELAND',
@@ -150,17 +72,56 @@ export default function HeroBanner() {
       tags: ['george miller', 'mad max', 'wasteland']
     },
     {
-      id: 'mov-atlas',
-      title: 'ATLAS',
-      subtitle: 'SYNCHRONIZE TO SURVIVE',
+      id: 'mov-rampage',
+      title: 'RAMPAGE',
+      subtitle: 'BIGGER MEETS BIGGER',
       category: 'Movies',
-      backdrop: 'https://img.youtube.com/vi/Jcq3C212jcg/maxresdefault.jpg',
-      youtubeId: 'Jcq3C212jcg',
-      duration: '2h 00m',
-      genres: ['Sci-Fi', 'Action', 'Adventure'],
-      rating: '9.3',
-      description: 'A brilliant data analyst with a deep distrust of AI discovers that synchronizing with a combat mech is her only path to saving Earth.',
-      tags: ['netflix', 'sci-fi', 'jennifer lopez']
+      backdrop: 'https://img.youtube.com/vi/coOKvrsmQiI/maxresdefault.jpg',
+      youtubeId: 'coOKvrsmQiI',
+      duration: '1h 47m',
+      genres: ['Action', 'Adventure', 'Sci-Fi'],
+      rating: '8.5',
+      description: 'When three different animals become infected with a dangerous pathogen, a primatologist and a geneticist team up to stop them from destroying Chicago.',
+      tags: ['blockbuster', 'action', 'dwayne johnson']
+    },
+    {
+      id: 'mov-jurassic-world-fk',
+      title: 'JURASSIC WORLD: FALLEN KINGDOM',
+      subtitle: 'THE PARK IS GONE',
+      category: 'Movies',
+      backdrop: 'https://img.youtube.com/vi/vn9mMeWcgoM/maxresdefault.jpg',
+      youtubeId: 'vn9mMeWcgoM',
+      duration: '2h 08m',
+      genres: ['Sci-Fi', 'Adventure', 'Action'],
+      rating: '8.8',
+      description: 'When the island volcano begins erupting, Owen and Claire mount a perilous campaign to rescue the remaining dinosaurs from extinction.',
+      tags: ['blockbuster', 'jurassic', 'sci-fi']
+    },
+    {
+      id: 'mov-extraction-2',
+      title: 'EXTRACTION 2',
+      subtitle: 'BACK FROM THE BRINK OF DEATH',
+      category: 'Movies',
+      backdrop: 'https://img.youtube.com/vi/Y274jZs5s7s/maxresdefault.jpg',
+      youtubeId: 'Y274jZs5s7s',
+      duration: '2h 03m',
+      genres: ['Action', 'Thriller'],
+      rating: '9.6',
+      description: 'Barely surviving his grievous wounds in Bangladesh, black ops mercenary Tyler Rake launches into another lethal clandestine mission behind enemy lines.',
+      tags: ['netflix', 'action', 'chris hemsworth']
+    },
+    {
+      id: 'mov-rebel-ridge',
+      title: 'REBEL RIDGE',
+      subtitle: 'NETFLIX ORIGINAL THRILLER',
+      category: 'Movies',
+      backdrop: 'https://img.youtube.com/vi/R1JmB430Scs/hqdefault.jpg',
+      youtubeId: 'R1JmB430Scs',
+      duration: '2h 11m',
+      genres: ['Action', 'Crime', 'Thriller'],
+      rating: '9.7',
+      description: 'An ex-Marine navigates his way through the murky waters of small-town corruption when an attempt to post bail for his cousin escalates into a violent standoff.',
+      tags: ['netflix', 'trending', 'action thriller']
     }
   ];
 
@@ -178,11 +139,20 @@ export default function HeroBanner() {
 
   return (
     <section className="hero-billboard-section">
-      {/* Background Cinematic Image with Gradients */}
-      <div 
-        className="hero-backdrop-image"
-        style={{ backgroundImage: `url(${slide.backdrop})` }}
-      >
+      {/* Background Cinematic Image with Gradients & Resilient Img Tag */}
+      <div className="hero-backdrop-image">
+        <img 
+          src={slide.backdrop} 
+          alt={slide.title}
+          className="hero-backdrop-img-tag"
+          onError={(e) => {
+            if (e.currentTarget.src.includes('maxresdefault.jpg')) {
+              e.currentTarget.src = e.currentTarget.src.replace('maxresdefault.jpg', 'hqdefault.jpg');
+            } else if (slide.youtubeId) {
+              e.currentTarget.src = `https://img.youtube.com/vi/${slide.youtubeId}/hqdefault.jpg`;
+            }
+          }}
+        />
         <div className="hero-gradient-overlay"></div>
         <div className="hero-bottom-fade"></div>
       </div>

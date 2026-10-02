@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { 
   Filter, ArrowUpDown, Image, Users, FileText, Film, 
-  Calendar, ShoppingBag, Sparkles, BookOpen, Layers 
+  Calendar, ShoppingBag, Sparkles, BookOpen, Layers, ChevronDown 
 } from 'lucide-react';
 import Breadcrumbs from '../components/common/Breadcrumbs';
 import ContentCard from '../components/common/ContentCard';
@@ -56,6 +56,8 @@ export default function CategoryPage() {
         setLoading(false);
       }
     }
+    setSelectedType('all');
+    setSelectedTag('all');
     loadCategoryData();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [categoryId]);
@@ -69,12 +71,91 @@ export default function CategoryPage() {
     return Array.from(tagSet);
   }, [contentItems]);
 
+  // Category specific filter tabs
+  const realmTabs = {
+    music: [
+      { id: 'all', label: 'All Anthems' },
+      { id: 'afrobeats', label: 'Afrobeats' },
+      { id: 'davido', label: 'Davido Hits' },
+      { id: 'pop', label: 'Global Pop' },
+      { id: 'hip-hop', label: 'Hip-Hop' },
+      { id: 'billie eilish', label: 'Billie Eilish' }
+    ],
+    'k-pop': [
+      { id: 'all', label: 'All Idols' },
+      { id: 'bts', label: 'BTS' },
+      { id: 'blackpink', label: 'BLACKPINK' },
+      { id: 'newjeans', label: 'NewJeans' },
+      { id: 'stray kids', label: 'Stray Kids' }
+    ],
+    anime: [
+      { id: 'all', label: 'All Anime' },
+      { id: 'shonen', label: 'Shonen' },
+      { id: 'dark fantasy', label: 'Dark Fantasy' },
+      { id: 'action', label: 'Action' },
+      { id: 'movie', label: 'Movies' }
+    ],
+    gaming: [
+      { id: 'all', label: 'All Games' },
+      { id: 'rpg', label: 'Action RPG' },
+      { id: 'soulsborne', label: 'Soulsborne' },
+      { id: 'open world', label: 'Open World' }
+    ],
+    movies: [
+      { id: 'all', label: 'All Movies' },
+      { id: 'action', label: 'Action' },
+      { id: 'sci-fi', label: 'Sci-Fi' },
+      { id: 'marvel', label: 'Marvel / DC' }
+    ],
+    'tv-shows': [
+      { id: 'all', label: 'All Series' },
+      { id: 'drama', label: 'Drama' },
+      { id: 'fantasy', label: 'Fantasy' },
+      { id: 'sci-fi', label: 'Sci-Fi' }
+    ],
+    manga: [
+      { id: 'all', label: 'All Manga' },
+      { id: 'shonen', label: 'Shonen' },
+      { id: 'seinen', label: 'Seinen' },
+      { id: 'action', label: 'Action' }
+    ],
+    comics: [
+      { id: 'all', label: 'All Comics' },
+      { id: 'marvel', label: 'Marvel' },
+      { id: 'dc', label: 'DC Universe' },
+      { id: 'batman', label: 'Batman Lore' }
+    ]
+  };
+
+  const activeTabs = realmTabs[categoryId] || [
+    { id: 'all', label: 'All Catalog' },
+    { id: 'popular', label: 'Popular' },
+    { id: 'featured', label: 'Featured' }
+  ];
+
   // Filter & Sort logic
   const filteredAndSorted = useMemo(() => {
     let list = [...contentItems];
 
     if (selectedType !== 'all') {
-      list = list.filter(item => (item.type || '').toLowerCase() === selectedType.toLowerCase());
+      const q = selectedType.toLowerCase();
+      list = list.filter(item => {
+        const itemType = (item.type || '').toLowerCase();
+        const itemGenre = (item.genre || '').toLowerCase();
+        const itemArtist = (item.artist || '').toLowerCase();
+        const itemFormat = (item.format || '').toLowerCase();
+        const itemTags = Array.isArray(item.tags) ? item.tags.map(t => t.toLowerCase()) : [];
+        const itemTitle = (item.title || item.name || '').toLowerCase();
+
+        return (
+          itemType === q ||
+          itemGenre.includes(q) ||
+          itemArtist.includes(q) ||
+          itemFormat.includes(q) ||
+          itemTitle.includes(q) ||
+          itemTags.some(t => t.includes(q))
+        );
+      });
     }
 
     if (selectedTag !== 'all') {
@@ -131,13 +212,7 @@ export default function CategoryPage() {
           <div className="toolbar-flex-row">
             {/* Filter by Type Tabs */}
             <div className="type-filter-tabs">
-              {[
-                { id: 'all', label: 'All Catalog' },
-                { id: 'series', label: 'Series' },
-                { id: 'movie', label: 'Movies' },
-                { id: 'title', label: 'Titles' },
-                { id: 'game', label: 'Games' }
-              ].map(tab => (
+              {activeTabs.map(tab => (
                 <button
                   key={tab.id}
                   onClick={() => setSelectedType(tab.id)}
@@ -152,28 +227,36 @@ export default function CategoryPage() {
             <div className="toolbar-right-controls">
               {/* Tag Selector */}
               {availableTags.length > 0 && (
-                <select 
-                  value={selectedTag} 
-                  onChange={(e) => setSelectedTag(e.target.value)}
-                  className="filter-select-input"
-                >
-                  <option value="all">All Sub-Tags</option>
-                  {availableTags.map(tag => (
-                    <option key={tag} value={tag}>#{tag}</option>
-                  ))}
-                </select>
+                <div className="filter-select-wrapper">
+                  <select 
+                    value={selectedTag} 
+                    onChange={(e) => setSelectedTag(e.target.value)}
+                    className="filter-select-input"
+                    aria-label="Filter by Tag"
+                  >
+                    <option value="all">All Sub-Tags</option>
+                    {availableTags.map(tag => (
+                      <option key={tag} value={tag}>#{tag}</option>
+                    ))}
+                  </select>
+                  <ChevronDown size={14} className="filter-select-chevron" />
+                </div>
               )}
 
               {/* Sort By Dropdown */}
-              <select 
-                value={sortBy} 
-                onChange={(e) => setSortBy(e.target.value)}
-                className="filter-select-input"
-              >
-                <option value="popularity">Most Popular / Featured</option>
-                <option value="newest">Newest Release</option>
-                <option value="title">Alphabetical</option>
-              </select>
+              <div className="filter-select-wrapper">
+                <select 
+                  value={sortBy} 
+                  onChange={(e) => setSortBy(e.target.value)}
+                  className="filter-select-input"
+                  aria-label="Sort by Criteria"
+                >
+                  <option value="popularity">Most Popular / Featured</option>
+                  <option value="newest">Newest Release</option>
+                  <option value="title">Alphabetical</option>
+                </select>
+                <ChevronDown size={14} className="filter-select-chevron" />
+              </div>
 
               <button 
                 onClick={() => setSortOrder(prev => prev === 'asc' ? 'desc' : 'asc')}
@@ -218,9 +301,8 @@ export default function CategoryPage() {
                   onClick={() => {
                     if (item.category === 'music' || item.type === 'music' || item.audioUrl || item.previewUrl) {
                       playTrack(item);
-                    } else {
-                      openModal('trailer', item);
                     }
+                    openModal('trailer', item);
                   }}
                 />
               ))}

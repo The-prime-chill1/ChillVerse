@@ -18,7 +18,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
     "description": "Deadpool & Wolverine is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "73_1biulkYk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/73_1biulkYk"
   },
   {
     "id": "mov-002",
@@ -39,7 +41,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
     "description": "Dune: Part Two is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "Way9Dexny3w",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Way9Dexny3w"
   },
   {
     "id": "mov-003",
@@ -60,7 +64,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/32OQzp0iwjqD9ttAnmUq9ZYo4qV.jpg",
     "description": "Rampage is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "coOKvrsmQiI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/coOKvrsmQiI"
   },
   {
     "id": "mov-004",
@@ -81,7 +87,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/xEt2GSz9z5rVOEbIhbgmgCRnTQI.jpg",
     "description": "Rebel Ridge is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "Qp49X0_36jU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Qp49X0_36jU"
   },
   {
     "id": "mov-005",
@@ -102,7 +110,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/c9XxwwhPHdaAzA2fmdqnUVi0xVR.jpg",
     "description": "Jurassic World: Fallen Kingdom is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "vn9mMeWcgoM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vn9mMeWcgoM"
   },
   {
     "id": "mov-006",
@@ -123,7 +133,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/kQk5k2p5o0rZ0y5R2c8E6k5F4l2.jpg",
     "description": "The Electric State is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "fF-iG2vA30k",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/fF-iG2vA30k"
   },
   {
     "id": "mov-007",
@@ -144,7 +156,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/7gKI9hpEMcZUwYeCu9i0Cviuhqh.jpg",
     "description": "Extraction 2 is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "Y274jZs5s7s",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Y274jZs5s7s"
   },
   {
     "id": "mov-008",
@@ -165,7 +179,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/51tqzR133j4jBceZfU1N3QZ4d.jpg",
     "description": "Hit Man is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "1q36U9X5q6k",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1q36U9X5q6k"
   },
   {
     "id": "mov-009",
@@ -186,7 +202,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRHbtCwcrRBXO.jpg",
     "description": "Gladiator II is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "4rgYUipGJNo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/4rgYUipGJNo"
   },
   {
     "id": "mov-010",
@@ -207,7 +225,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/sjMN7kO4kP0h8v1r5wQ2m3t5p7b.jpg",
     "description": "Carry-On is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "y4vN_4Y9bK4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/y4vN_4Y9bK4"
   },
   {
     "id": "mov-011",
@@ -228,7 +248,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xUMZqaC.jpg",
     "description": "Furiosa: A Mad Max Saga is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "youtubeId": "XJMuhwVlca4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/XJMuhwVlca4"
   },
   {
     "id": "mov-012",
@@ -249,7 +271,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/bcM2Tl5HlsvPBnL8DKP9Ie6vU4r.jpg",
     "description": "Atlas is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "youtubeId": "Jcq3C212jcg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Jcq3C212jcg"
   },
   {
     "id": "mov-013",
@@ -270,7 +294,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/b33nnKl1GSFbao8l3xdZv074PGn.jpg",
     "description": "Alien: Romulus is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
-    "featured": false
+    "featured": false,
+    "youtubeId": "x0XDEhP4MQs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/x0XDEhP4MQs"
   },
   {
     "id": "mov-014",
@@ -291,7 +317,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
     "description": "Inside Out 2 is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
-    "featured": false
+    "featured": false,
+    "youtubeId": "LEjhY15eCx0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/LEjhY15eCx0"
   },
   {
     "id": "mov-015",
@@ -312,7 +340,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg",
     "description": "Twisters is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
-    "featured": false
+    "featured": false,
+    "youtubeId": "Jb_5t_y682k",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Jb_5t_y682k"
   },
   {
     "id": "mov-016",
@@ -333,7 +363,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
     "description": "Oppenheimer is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "uYPbbksJxIg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/uYPbbksJxIg"
   },
   {
     "id": "mov-017",
@@ -354,7 +386,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
     "description": "Barbie is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pBk4NYhWNMM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pBk4NYhWNMM"
   },
   {
     "id": "mov-018",
@@ -375,7 +409,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
     "description": "Avatar: The Way of Water is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "d9MyW72ELq0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/d9MyW72ELq0"
   },
   {
     "id": "mov-019",
@@ -396,7 +432,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
     "description": "Top Gun: Maverick is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "giXco2jaZ_4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/giXco2jaZ_4"
   },
   {
     "id": "mov-020",
@@ -417,7 +455,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
     "description": "The Batman is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "mqqft2x_Aa4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/mqqft2x_Aa4"
   },
   {
     "id": "mov-021",
@@ -438,7 +478,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
     "description": "Spider-Man: Across the Spider-Verse is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "cqGjhVJWtEg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/cqGjhVJWtEg"
   },
   {
     "id": "mov-022",
@@ -459,7 +501,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg",
     "description": "Godzilla Minus One is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "r7DqccP1Q_4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/r7DqccP1Q_4"
   },
   {
     "id": "mov-023",
@@ -480,7 +524,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/tMefBSflR6Oenv6874tB5fU7kR.jpg",
     "description": "Godzilla x Kong: The New Empire is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "lV1OOlGwExM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/lV1OOlGwExM"
   },
   {
     "id": "mov-024",
@@ -501,7 +547,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
     "description": "Kingdom of the Planet of the Apes is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "XtFI7SNtVpY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/XtFI7SNtVpY"
   },
   {
     "id": "mov-025",
@@ -522,7 +570,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/hU1Q9YVzdYwh89e9079R1fP0p9Y.jpg",
     "description": "A Quiet Place: Day One is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "YPY7J-flzE8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/YPY7J-flzE8"
   },
   {
     "id": "mov-026",
@@ -543,7 +593,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
     "description": "Civil War is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "aDyQxtg0V2w",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/aDyQxtg0V2w"
   },
   {
     "id": "mov-027",
@@ -564,7 +616,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/nP6RliHjxsz4irTKsxe8FRhKZYl.jpg",
     "description": "Bad Boys: Ride or Die is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "hRFY_Fesa9Q",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/hRFY_Fesa9Q"
   },
   {
     "id": "mov-028",
@@ -585,7 +639,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/lQfdytwNsHbOlltLfqkdr3mU12C.jpg",
     "description": "The Substance is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "LNlrGhPtMSw",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/LNlrGhPtMSw"
   },
   {
     "id": "mov-029",
@@ -606,7 +662,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/kKgQzkUCUm0me03pqNT8nBqK6nn.jpg",
     "description": "Beetlejuice Beetlejuice is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "As-vKW4ZpbI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/As-vKW4ZpbI"
   },
   {
     "id": "mov-030",
@@ -627,7 +685,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/aciP8Km0waTLAc1v0Li8M9GKeAc.jpg",
     "description": "Joker: Folie à Deux is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "_OKAwz2NiJs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/_OKAwz2NiJs"
   },
   {
     "id": "mov-031",
@@ -648,7 +708,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/aosm8vhfqLlPXGihM2vWk8r5Bf9.jpg",
     "description": "Venom: The Last Dance is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "__2bjWbetsA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/__2bjWbetsA"
   },
   {
     "id": "mov-032",
@@ -669,7 +731,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/yh64qw9mgXBvlaWDi7Q9tpUBAvH.jpg",
     "description": "Moana 2 is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "hDZ7y8RP5HE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/hDZ7y8RP5HE"
   },
   {
     "id": "mov-033",
@@ -690,7 +754,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/c5Tq9bmDxGmUsnhNI4r74h47v0C.jpg",
     "description": "Wicked is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "6COmYeLsz4c",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/6COmYeLsz4c"
   },
   {
     "id": "mov-034",
@@ -711,7 +777,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/d8Ryb8AunYAuycKaDpUpJHZXTa7.jpg",
     "description": "Sonic the Hedgehog 3 is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "qSu6i2iFMO0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/qSu6i2iFMO0"
   },
   {
     "id": "mov-035",
@@ -732,7 +800,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/1Gv5vMee7GjB69z7K8K8o9fO2K.jpg",
     "description": "Kraven the Hunter is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "rze8QYwWGMs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/rze8QYwWGMs"
   },
   {
     "id": "mov-036",
@@ -753,7 +823,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/jbOSK9PqWq8tY7o7K4R6k2v7y.jpg",
     "description": "Mufasa: The Lion King is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "o17MF9vnabg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/o17MF9vnabg"
   },
   {
     "id": "mov-037",
@@ -774,7 +846,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
     "description": "Avengers: Endgame is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "TcMBFSGVi1c",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/TcMBFSGVi1c"
   },
   {
     "id": "mov-038",
@@ -795,7 +869,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
     "description": "Avengers: Infinity War is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "6ZfuNTqbHE8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/6ZfuNTqbHE8"
   },
   {
     "id": "mov-039",
@@ -816,7 +892,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
     "description": "Spider-Man: No Way Home is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "JfVOs4VSpmA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/JfVOs4VSpmA"
   },
   {
     "id": "mov-040",
@@ -837,7 +915,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
     "description": "Interstellar is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "zSWdZVtXT7E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/zSWdZVtXT7E"
   },
   {
     "id": "mov-041",
@@ -858,7 +938,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
     "description": "Inception is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "YoHD9XEInc0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/YoHD9XEInc0"
   },
   {
     "id": "mov-042",
@@ -879,7 +961,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
     "description": "The Dark Knight is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "EXeTwQWrcwY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/EXeTwQWrcwY"
   },
   {
     "id": "mov-043",
@@ -900,7 +984,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
     "description": "Fight Club is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "qtRKDV93JU8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/qtRKDV93JU8"
   },
   {
     "id": "mov-044",
@@ -921,7 +1007,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
     "description": "Pulp Fiction is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "s7EdQ4FqbhY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/s7EdQ4FqbhY"
   },
   {
     "id": "mov-045",
@@ -942,7 +1030,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
     "description": "The Matrix is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "vKQi3bBA1y8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vKQi3bBA1y8"
   },
   {
     "id": "mov-046",
@@ -963,7 +1053,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
     "description": "The Shawshank Redemption is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "PLl99DlL6b4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/PLl99DlL6b4"
   },
   {
     "id": "mov-047",
@@ -984,7 +1076,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cDK6.jpg",
     "description": "The Lord of the Rings: The Fellowship of the Ring is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "V75dMMIW2B4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/V75dMMIW2B4"
   },
   {
     "id": "mov-048",
@@ -1005,7 +1099,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/rrGlNlzFTrXFNGHXsB6Mm949mgf.jpg",
     "description": "The Lord of the Rings: The Two Towers is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "LbfMDwc4azU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/LbfMDwc4azU"
   },
   {
     "id": "mov-049",
@@ -1026,7 +1122,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
     "description": "The Lord of the Rings: The Return of the King is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "r5X-hFf6Bwo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/r5X-hFf6Bwo"
   },
   {
     "id": "mov-050",
@@ -1047,7 +1145,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
     "description": "Star Wars: A New Hope is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "vZ734NWnAHA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vZ734NWnAHA"
   },
   {
     "id": "mov-051",
@@ -1068,7 +1168,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/nNAeTmF4CtdSgMDplXTDPOpYzsX.jpg",
     "description": "Star Wars: The Empire Strikes Back is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "JNwNXF9Y6kY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/JNwNXF9Y6kY"
   },
   {
     "id": "mov-052",
@@ -1089,7 +1191,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/xxZc4b9l9M8oG8b3xQ6oJ0sZ9.jpg",
     "description": "Star Wars: Return of the Jedi is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "7L8p7_SLzvU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/7L8p7_SLzvU"
   },
   {
     "id": "mov-053",
@@ -1110,7 +1214,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
     "description": "Spider-Man: Into the Spider-Verse is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "g4Hbz2jLxvQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/g4Hbz2jLxvQ"
   },
   {
     "id": "mov-054",
@@ -1131,7 +1237,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/vZloFAK7NDTAdik9tcZY5vmY0Wf.jpg",
     "description": "John Wick: Chapter 4 is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "qEVUtrk8_B4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/qEVUtrk8_B4"
   },
   {
     "id": "mov-055",
@@ -1152,7 +1260,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/bJjF9wR2q7T8y9K0l2P3x4V5.jpg",
     "description": "The Batman Part II is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "mqqft2x_Aa4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/mqqft2x_Aa4"
   },
   {
     "id": "mov-056",
@@ -1173,7 +1283,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/m1Q4vY6oR8tZ0y1L3k5F7h9J.jpg",
     "description": "Superman (Legacy) is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "eIpP_sV86v8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/eIpP_sV86v8"
   },
   {
     "id": "mov-057",
@@ -1194,7 +1306,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/x0L7vY2kR4pT8m1Q3f6K9z.jpg",
     "description": "Fantastic Four: First Steps is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "iS_y251s23U",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/iS_y251s23U"
   },
   {
     "id": "mov-058",
@@ -1215,7 +1329,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/y9kL4rT2m1Q5vX8p7f3K6.jpg",
     "description": "Blade is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "v-bWw7Z9qV8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/v-bWw7Z9qV8"
   },
   {
     "id": "mov-059",
@@ -1236,7 +1352,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/pzIddUEMWhWzfvLI3TwxUG2wY.jpg",
     "description": "Captain America: Brave New World is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1pHDWnXmK7Y",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1pHDWnXmK7Y"
   },
   {
     "id": "mov-060",
@@ -1257,7 +1375,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/p8m3Q9yK2rT5vX7k1f6L.jpg",
     "description": "Thunderbolts* is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "v-bWw7Z9qV8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/v-bWw7Z9qV8"
   },
   {
     "id": "mov-061",
@@ -1278,7 +1398,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/t6mQ3vR9kL2yP8x5f1k.jpg",
     "description": "Mission: Impossible - The Final Reckoning is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "NOhDy655km8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/NOhDy655km8"
   },
   {
     "id": "mov-062",
@@ -1299,7 +1421,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/r7kL2mQ5vX8p9f3k6y1.jpg",
     "description": "Jurassic World: Rebirth is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "9ZfN87gSdaI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/9ZfN87gSdaI"
   },
   {
     "id": "mov-063",
@@ -1320,7 +1444,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/q8m2Q9yK4rT5vX7p1f6L.jpg",
     "description": "Avatar: Fire and Ash is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "Xk4p2mS2mN0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Xk4p2mS2mN0"
   },
   {
     "id": "mov-064",
@@ -1341,7 +1467,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/m5kL3rT8y9K0p1Q2v6f4.jpg",
     "description": "Tron: Ares is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "G8tlEJI9OiM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/G8tlEJI9OiM"
   },
   {
     "id": "mov-065",
@@ -1362,7 +1490,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/p2kL7mQ8vX9y1f3k6r5.jpg",
     "description": "The Odyssey is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "5iaYLCiq5RM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/5iaYLCiq5RM"
   },
   {
     "id": "mov-066",
@@ -1383,7 +1513,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/w3LxiVYPqRLexP074FF4Y29MfEj.jpg",
     "description": "Everything Everywhere All at Once is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "wxN1T1uxQ2g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/wxN1T1uxQ2g"
   },
   {
     "id": "mov-067",
@@ -1404,7 +1536,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
     "description": "Parasite is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "5xH0R_fxysQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/5xH0R_fxysQ"
   },
   {
     "id": "mov-068",
@@ -1425,7 +1559,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
     "description": "Spirited Away is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ByXuk9QqQkk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ByXuk9QqQkk"
   },
   {
     "id": "mov-069",
@@ -1446,7 +1582,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
     "description": "Princess Mononoke is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "4OiMOHRDs14",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/4OiMOHRDs14"
   },
   {
     "id": "mov-070",
@@ -1467,7 +1605,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/6p01u5LqL4R7f1y2p4f6L9.jpg",
     "description": "Howl's Moving Castle is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "iwROgK94zcM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/iwROgK94zcM"
   },
   {
     "id": "mov-071",
@@ -1488,7 +1628,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6qFsC8llRaQ.jpg",
     "description": "Your Name. is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "xU47nhruN-Q",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/xU47nhruN-Q"
   },
   {
     "id": "mov-072",
@@ -1509,7 +1651,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/qgrk7r1fHzz9Qg85F85Hbs24C6.jpg",
     "description": "Weathering with You is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "Q6iK6DjV_iE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Q6iK6DjV_iE"
   },
   {
     "id": "mov-073",
@@ -1530,7 +1674,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/vIeu8W0e4q6i059fK7H8Y8Z6.jpg",
     "description": "Suzume is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "6c4G5MYUiGs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/6c4G5MYUiGs"
   },
   {
     "id": "mov-074",
@@ -1551,7 +1697,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/jDQPkg0KDZhPQjLH41e12739u2.jpg",
     "description": "The Boy and the Heron is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "t5khm-VjEu0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/t5khm-VjEu0"
   },
   {
     "id": "mov-075",
@@ -1572,7 +1720,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/neZ0Wq6YV0V1R4v9Y6p7.jpg",
     "description": "Akira is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "7GqClqvlObY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/7GqClqvlObY"
   },
   {
     "id": "mov-076",
@@ -1593,7 +1743,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/9G5p8fR2kL4vY7m1Q3.jpg",
     "description": "Ghost in the Shell is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "SvBVDibOrmM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/SvBVDibOrmM"
   },
   {
     "id": "mov-077",
@@ -1614,7 +1766,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/aKc26a31c51Fm12K8l7f0.jpg",
     "description": "Tenet is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "LdOM0x0XDMo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/LdOM0x0XDMo"
   },
   {
     "id": "mov-078",
@@ -1635,7 +1789,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/ebSnODDg9lbsMIaWg2uAbjn7TO5.jpg",
     "description": "Dunkirk is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "F-eMt3SrfFU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/F-eMt3SrfFU"
   },
   {
     "id": "mov-079",
@@ -1656,7 +1812,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/4GDy0PHYX3VRXUtwK5ysqlbg3k.jpg",
     "description": "Shutter Island is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "5iaYLCiq5RM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/5iaYLCiq5RM"
   },
   {
     "id": "mov-080",
@@ -1677,7 +1835,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/pWHf4khOloNVfSW8wdMo9O3E9Ce.jpg",
     "description": "The Wolf of Wall Street is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "iszwuX1AK6A",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/iszwuX1AK6A"
   },
   {
     "id": "mov-081",
@@ -1698,7 +1858,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/7oWY8vdWW7thTzWh3OKYRkWUlD5.jpg",
     "description": "Django Unchained is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "0fUCuvNlOCg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/0fUCuvNlOCg"
   },
   {
     "id": "mov-082",
@@ -1719,7 +1881,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/7sfbEnaARXDD5Km007dcq09f1.jpg",
     "description": "Inglourious Basterds is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "KnrRy6kSFF0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/KnrRy6kSFF0"
   },
   {
     "id": "mov-083",
@@ -1740,7 +1904,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/v7TaX8kXMXScGRBhRDbgtg2GR.jpg",
     "description": "Kill Bill: Vol. 1 is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "7kSuas6mRpk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/7kSuas6mRpk"
   },
   {
     "id": "mov-084",
@@ -1761,7 +1927,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
     "description": "Mad Max: Fury Road is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "hEJnMQG9ev8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/hEJnMQG9ev8"
   },
   {
     "id": "mov-085",
@@ -1782,7 +1950,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
     "description": "Gladiator is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "owK1qxAo3rs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/owK1qxAo3rs"
   },
   {
     "id": "mov-086",
@@ -1803,7 +1973,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
     "description": "Titanic is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "kVrqfYjkTdQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/kVrqfYjkTdQ"
   },
   {
     "id": "mov-087",
@@ -1824,7 +1996,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/bdN3gXu480GjNq9fG2l5.jpg",
     "description": "The Prestige is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "o4gHCmTQDVI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/o4gHCmTQDVI"
   },
   {
     "id": "mov-088",
@@ -1845,7 +2019,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xT8L2k6r9.jpg",
     "description": "Whiplash is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "7d_jQycdQGo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/7d_jQycdQGo"
   },
   {
     "id": "mov-089",
@@ -1866,7 +2042,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fR2.jpg",
     "description": "La La Land is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "0pdqf4P9MB8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/0pdqf4P9MB8"
   },
   {
     "id": "mov-090",
@@ -1887,7 +2065,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg",
     "description": "Blade Runner 2049 is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "gCcx85zbxz4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/gCcx85zbxz4"
   },
   {
     "id": "mov-091",
@@ -1908,7 +2088,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3fPx8XxNtTe.jpg",
     "description": "Arrival is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "tFMo3UJ4B4g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/tFMo3UJ4B4g"
   },
   {
     "id": "mov-092",
@@ -1929,7 +2111,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/7X05c742Wz9pG48yR12K.jpg",
     "description": "Sicario is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "G8tlEJI9OiM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/G8tlEJI9OiM"
   },
   {
     "id": "mov-093",
@@ -1950,7 +2134,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/6d5xoE119b987b1c3e.jpg",
     "description": "No Country for Old Men is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "38A__WT3-o0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/38A__WT3-o0"
   },
   {
     "id": "mov-094",
@@ -1971,7 +2157,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/fa0RDkAlEN0CiWdbu.jpg",
     "description": "There Will Be Blood is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "FeSLPELpMeM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/FeSLPELpMeM"
   },
   {
     "id": "mov-095",
@@ -1992,7 +2180,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWX99.jpg",
     "description": "The Grand Budapest Hotel is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1Fg5iWmQjwk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1Fg5iWmQjwk"
   },
   {
     "id": "mov-096",
@@ -2013,7 +2203,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXq.jpg",
     "description": "Coco is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "Rvr68u6k5sI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Rvr68u6k5sI"
   },
   {
     "id": "mov-097",
@@ -2034,7 +2226,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmx.jpg",
     "description": "WALL-E is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "alIq_8454BG",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/alIq_8454BG"
   },
   {
     "id": "mov-098",
@@ -2055,7 +2249,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/vpbaStTMt8qqGBE5.jpg",
     "description": "Up is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ORFWdXl_zJ4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ORFWdXl_zJ4"
   },
   {
     "id": "mov-099",
@@ -2076,7 +2272,9 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/t3vaWRPSf6W1nzt.jpg",
     "description": "Ratatouille is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "NgsQ8mVkN8w",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/NgsQ8mVkN8w"
   },
   {
     "id": "mov-100",
@@ -2097,6 +2295,8 @@
     "thumbnail": "https://image.tmdb.org/t/p/w500/92j28vY6n1fK8m.jpg",
     "description": "The Iron Giant is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "obLTY_a8D4s",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/obLTY_a8D4s"
   }
 ]

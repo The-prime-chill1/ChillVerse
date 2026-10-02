@@ -1,5 +1,214 @@
 [
   {
+    "id": "mus-davido-001",
+    "title": "Unavailable (feat. Musa Keys)",
+    "artist": "Davido",
+    "album": "Timeless",
+    "category": "music",
+    "type": "music",
+    "genre": "Afrobeats",
+    "year": 2023,
+    "date": "2023-03-31",
+    "tags": [
+      "Davido",
+      "Afrobeats",
+      "Amapiano",
+      "Timeless",
+      "Global Hit"
+    ],
+    "poster": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80",
+    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "youtubeId": "5j5E7fE1bA4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/5j5E7fE1bA4",
+    "description": "Davido's monumental Grammy-nominated Afrobeats and Amapiano club anthem from the groundbreaking album 'Timeless'.",
+    "popularity": 100,
+    "featured": true
+  },
+  {
+    "id": "mus-davido-002",
+    "title": "Feel",
+    "artist": "Davido",
+    "album": "Timeless",
+    "category": "music",
+    "type": "music",
+    "genre": "Afrobeats",
+    "year": 2023,
+    "date": "2023-03-31",
+    "tags": [
+      "Davido",
+      "Afrobeats",
+      "Timeless",
+      "Banger"
+    ],
+    "poster": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80",
+    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "youtubeId": "kC0y6fG2rP0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/kC0y6fG2rP0",
+    "description": "Davido delivers a cinematic Afrobeats masterclass in 'Feel', showcasing his signature rich vocals and buoyant rhythm.",
+    "popularity": 99,
+    "featured": true
+  },
+  {
+    "id": "mus-davido-003",
+    "title": "Fall",
+    "artist": "Davido",
+    "album": "A Good Time",
+    "category": "music",
+    "type": "music",
+    "genre": "Afrobeats",
+    "year": 2017,
+    "date": "2017-06-02",
+    "tags": [
+      "Davido",
+      "Afrobeats",
+      "Classic",
+      "Billboard"
+    ],
+    "poster": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80",
+    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "youtubeId": "3IYu_Jb_Z8o",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/3IYu_Jb_Z8o",
+    "description": "The historic Afrobeats anthem that became the longest-charting Nigerian pop song in Billboard history.",
+    "popularity": 99,
+    "featured": true
+  },
+  {
+    "id": "mus-davido-004",
+    "title": "IF",
+    "artist": "Davido",
+    "album": "A Good Time",
+    "category": "music",
+    "type": "music",
+    "genre": "Afrobeats",
+    "year": 2017,
+    "date": "2017-02-17",
+    "tags": [
+      "Davido",
+      "Afrobeats",
+      "30 Billion Gang",
+      "Hit"
+    ],
+    "poster": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80",
+    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "youtubeId": "helEv0kGHd4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/helEv0kGHd4",
+    "description": "The legendary Tekno-produced track featuring the iconic '30 billion for the account' line that conquered world charts.",
+    "popularity": 98,
+    "featured": true
+  },
+  {
+    "id": "mus-davido-005",
+    "title": "FEM",
+    "artist": "Davido",
+    "album": "A Better Time",
+    "category": "music",
+    "type": "music",
+    "genre": "Afrobeats",
+    "year": 2020,
+    "date": "2020-09-10",
+    "tags": [
+      "Davido",
+      "Afrobeats",
+      "Anthem",
+      "Cultural Movement"
+    ],
+    "poster": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80",
+    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "youtubeId": "lta5go9P-go",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/lta5go9P-go",
+    "description": "The energetic comeback anthem with an unstoppable hook that became an international cultural rallying cry.",
+    "popularity": 97,
+    "featured": true
+  },
+  {
+    "id": "mus-davido-006",
+    "title": "Blow My Mind (feat. Chris Brown)",
+    "artist": "Davido & Chris Brown",
+    "album": "A Good Time",
+    "category": "music",
+    "type": "music",
+    "genre": "Afrobeats",
+    "year": 2019,
+    "date": "2019-07-26",
+    "tags": [
+      "Davido",
+      "Chris Brown",
+      "Afrobeats",
+      "Global Collaboration"
+    ],
+    "poster": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80",
+    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "youtubeId": "iSgEDKjmQ5o",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/iSgEDKjmQ5o",
+    "description": "Electrifying cross-continental collaboration blending Afropop grooves with R&B star Chris Brown.",
+    "popularity": 97,
+    "featured": true
+  },
+  {
+    "id": "mus-davido-007",
+    "title": "Kante (feat. Fave)",
+    "artist": "Davido",
+    "album": "Timeless",
+    "category": "music",
+    "type": "music",
+    "genre": "Afrobeats",
+    "year": 2023,
+    "date": "2023-03-31",
+    "tags": [
+      "Davido",
+      "Fave",
+      "Afrobeats",
+      "Timeless"
+    ],
+    "poster": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80",
+    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "youtubeId": "5j_5w_8M9_c",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/5j_5w_8M9_c",
+    "description": "Smooth, melodic collaboration between Davido and breakout Nigerian vocalist Fave from 'Timeless'.",
+    "popularity": 96,
+    "featured": true
+  },
+  {
+    "id": "mus-davido-008",
+    "title": "Jowo",
+    "artist": "Davido",
+    "album": "A Better Time",
+    "category": "music",
+    "type": "music",
+    "genre": "Afrobeats",
+    "year": 2020,
+    "date": "2020-11-13",
+    "tags": [
+      "Davido",
+      "Afrobeats",
+      "Romance",
+      "Melody"
+    ],
+    "poster": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80",
+    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a",
+    "youtubeId": "l6QMJniQWxQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/l6QMJniQWxQ",
+    "description": "A beloved romantic Afropop serenade featuring an unforgettable guitar melody and sweet lyricism.",
+    "popularity": 96,
+    "featured": true
+  },
+  {
     "id": "mus-1739659144",
     "title": "WILDFLOWER",
     "artist": "Billie Eilish",
@@ -21,7 +230,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/c3/e8/dec3e884-7237-9622-718a-12c5f48c5ca2/mzaf_3134455671785145822.plus.aac.p.m4a",
     "description": "Hit single by Billie Eilish from the acclaimed album \"HIT ME HARD AND SOFT\".",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "d5gf9dXb4Cg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/d5gf9dXb4Cg"
   },
   {
     "id": "mus-1739659142",
@@ -45,7 +256,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/31/d3/3431d34e-847f-5d66-df83-0bce688d997e/mzaf_18106743962423782018.plus.aac.p.m4a",
     "description": "Hit single by Billie Eilish from the acclaimed album \"HIT ME HARD AND SOFT\".",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "d5gf9dXb4Cg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/d5gf9dXb4Cg"
   },
   {
     "id": "mus-1440899467",
@@ -69,7 +282,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/59/2b/d6592b0b-1e7e-4743-b2e4-f2af038fd783/mzaf_7697277787797935735.plus.aac.p.m4a",
     "description": "Hit single by Billie Eilish from the acclaimed album \"dont smile at me\".",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "viimfQi_pUw",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/viimfQi_pUw"
   },
   {
     "id": "mus-1369380479",
@@ -93,7 +308,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/d8/8d/1ed88d91-fb06-b3f2-5391-afd732cc2ff9/mzaf_18444937225262929488.plus.aac.p.m4a",
     "description": "Hit single by Billie Eilish & Khalid from the acclaimed album \"lovely - Single\".",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "V1Pl8CzNzCw",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/V1Pl8CzNzCw"
   },
   {
     "id": "mus-1696819855",
@@ -117,7 +334,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/89/79/4e8979d0-31cc-d2c7-751d-9c5368f53885/mzaf_8166853517153482173.plus.aac.p.m4a",
     "description": "Hit single by Billie Eilish from the acclaimed album \"What Was I Made For? (From The Motion Picture \"Barbie\") - Single\".",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "cW8VLC9nnTo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/cW8VLC9nnTo"
   },
   {
     "id": "mus-1450695739",
@@ -141,7 +360,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/87/1f/c3871f7e-3260-d615-1c66-5fdca2c3a48f/mzaf_10721331211699880949.plus.aac.p.m4a",
     "description": "Hit single by Billie Eilish from the acclaimed album \"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?\".",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "youtubeId": "DyDfgMOUjCI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/DyDfgMOUjCI"
   },
   {
     "id": "mus-1450695872",
@@ -165,7 +386,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/ba/44/2aba4410-ba71-89ce-e075-10120409c31c/mzaf_16887001963655152332.plus.aac.p.m4a",
     "description": "Hit single by Billie Eilish from the acclaimed album \"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?\".",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "youtubeId": "pbMwTqkKSps",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pbMwTqkKSps"
   },
   {
     "id": "mus-1487502476",
@@ -189,7 +412,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/f3/6b/23f36bc0-9edc-8d55-df7f-7b806310d4b4/mzaf_15718469078111904528.plus.aac.p.m4a",
     "description": "Hit single by Billie Eilish from the acclaimed album \"everything i wanted - Single\".",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "youtubeId": "egVU044OuW4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/egVU044OuW4"
   },
   {
     "id": "mus-1440899127",
@@ -213,7 +438,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/37/86/913786b5-4da9-5ecd-9c5f-8af4acc32dde/mzaf_1235507762698071430.plus.aac.p.m4a",
     "description": "Hit single by Billie Eilish from the acclaimed album \"dont smile at me\".",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "youtubeId": "-tn2S3kJlyU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/-tn2S3kJlyU"
   },
   {
     "id": "mus-1628837538",
@@ -237,7 +464,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d8/3d/76/d83d7698-1c9f-5bc5-3adb-de25bd6171aa/mzaf_6130794546284852233.plus.aac.p.m4a",
     "description": "Hit single by Armani White from the acclaimed album \"BILLIE EILISH. - Single\".",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "youtubeId": "H1U_R_g882c",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/H1U_R_g882c"
   },
   {
     "id": "mus-6814997425",
@@ -261,7 +490,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/be/8c/0bbe8c0a-dc77-af41-97a5-c745cc43d38c/mzaf_11790447166833591507.plus.aac.p.m4a",
     "description": "Hit single by Taylor Swift from the acclaimed album \"The Life of a Showgirl: The Encore\".",
     "popularity": 97,
-    "featured": true
+    "featured": true,
+    "youtubeId": "ic8j13piAhQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ic8j13piAhQ"
   },
   {
     "id": "mus-6814996161",
@@ -285,7 +516,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/6a/66/2e6a6692-b534-7a7a-960b-f03971890156/mzaf_5159890340173357660.plus.aac.p.m4a",
     "description": "Hit single by Taylor Swift from the acclaimed album \"The Life of a Showgirl: The Encore\".",
     "popularity": 97,
-    "featured": true
+    "featured": true,
+    "youtubeId": "e-ORhEE9VVg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/e-ORhEE9VVg"
   },
   {
     "id": "mus-6814997428",
@@ -309,7 +542,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/88/d5/1e88d560-253f-3fa2-87a0-2f83b9681948/mzaf_11928544907491655022.plus.aac.p.m4a",
     "description": "Hit single by Taylor Swift from the acclaimed album \"The Life of a Showgirl: The Encore\".",
     "popularity": 97,
-    "featured": true
+    "featured": true,
+    "youtubeId": "b1kbLwvqugk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/b1kbLwvqugk"
   },
   {
     "id": "mus-6814996163",
@@ -333,7 +568,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/4b/6a/144b6aa7-a2af-41a7-fd2f-8e8aac953c41/mzaf_15506372320552650974.plus.aac.p.m4a",
     "description": "Hit single by Taylor Swift from the acclaimed album \"The Life of a Showgirl: The Encore\".",
     "popularity": 97,
-    "featured": true
+    "featured": true,
+    "youtubeId": "q3zKK45oWek",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/q3zKK45oWek"
   },
   {
     "id": "mus-1440936016",
@@ -357,7 +594,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/04/86/32/048632f7-a5c5-0f5d-6213-a9e89c3a99b3/mzaf_8458239339293825693.plus.aac.p.m4a",
     "description": "Hit single by Taylor Swift from the acclaimed album \"1989\".",
     "popularity": 97,
-    "featured": true
+    "featured": true,
+    "youtubeId": "nfWlot6h_JM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/nfWlot6h_JM"
   },
   {
     "id": "mus-6814997402",
@@ -381,7 +620,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/eb/f7/b2/ebf7b2ce-1b88-3256-d7a1-bdb97cdb9d88/mzaf_11342796757749510764.plus.aac.p.m4a",
     "description": "Hit single by Taylor Swift from the acclaimed album \"The Life of a Showgirl: The Encore\".",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "zCq31m9f1A8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/zCq31m9f1A8"
   },
   {
     "id": "mus-1440881708",
@@ -405,7 +646,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/71/89/72718957-3475-8f6f-3685-aedd470ddc20/mzaf_4044691450436775386.plus.aac.p.m4a",
     "description": "Hit single by Kendrick Lamar from the acclaimed album \"DAMN.\".",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ox7RsX1Ee34",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ox7RsX1Ee34"
   },
   {
     "id": "mus-1781270323",
@@ -429,7 +672,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/1d/98/e01d9881-0953-f0ed-b03d-3a4bd6f3c769/mzaf_8283505998481315852.plus.aac.p.m4a",
     "description": "Hit single by Kendrick Lamar from the acclaimed album \"GNX\".",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "NPqDReWWnqo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/NPqDReWWnqo"
   },
   {
     "id": "mus-1781316956",
@@ -453,7 +698,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/9d/e5/439de547-4d51-bf5f-6763-8dc3e0b12d8f/mzaf_13125897401178674573.plus.aac.p.m4a",
     "description": "Hit single by Kendrick Lamar from the acclaimed album \"GNX\".",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "H58vbez_m4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/H58vbez_m4E"
   },
   {
     "id": "mus-1781316884",
@@ -477,7 +724,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/e5/aa/91e5aa0f-5d8b-532f-8a72-23d4f721d847/mzaf_14650418192241940161.plus.aac.p.m4a",
     "description": "Hit single by Kendrick Lamar from the acclaimed album \"GNX\".",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "B7x_1GkM2o8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/B7x_1GkM2o8"
   },
   {
     "id": "mus-1440882165",
@@ -501,7 +750,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/2e/37/1f2e37be-bdd0-d770-6ea4-091011a6aade/mzaf_2360827885900940865.plus.aac.p.m4a",
     "description": "Hit single by Kendrick Lamar from the acclaimed album \"DAMN.\".",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "tvTRZJ-4EyI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/tvTRZJ-4EyI"
   },
   {
     "id": "mus-1440903307",
@@ -525,7 +776,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/8b/2c/ea8b2cf4-95f2-b0b3-ffc5-10f4611bf98f/mzaf_6758805407695014001.plus.aac.p.m4a",
     "description": "Hit single by Kendrick Lamar, SZA from the acclaimed album \"Black Panther: The Album\".",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "GfCqMv--ncA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/GfCqMv--ncA"
   },
   {
     "id": "mus-1440819196",
@@ -549,7 +802,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/81/06/42810694-20ec-b75d-51bd-738e5d233b4e/mzaf_10116909866184224758.plus.aac.p.m4a",
     "description": "Hit single by Kendrick Lamar from the acclaimed album \"good kid, m.A.A.d city (Deluxe Version)\".",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "vjXvJ5dF2wA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vjXvJ5dF2wA"
   },
   {
     "id": "mus-1781353929",
@@ -573,7 +828,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/e0/e8/2de0e874-cd0b-e9a9-e876-76be13a86662/mzaf_12385336780649591409.plus.aac.p.m4a",
     "description": "Hit single by Kendrick Lamar from the acclaimed album \"Not Like Us - Single\".",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "H58vbez_m4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/H58vbez_m4E"
   },
   {
     "id": "mus-1162482639",
@@ -597,7 +854,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/2d/f3/912df318-6a30-963c-6174-3fb4fd2a3a71/mzaf_4988510191844596172.plus.aac.p.m4a",
     "description": "Hit single by Sia from the acclaimed album \"This Is Acting (Deluxe Version)\".",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "GKSRyLdjsPA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/GKSRyLdjsPA"
   },
   {
     "id": "mus-1363310482",
@@ -621,7 +880,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/2f/3d/d12f3d43-a2e2-eba4-8db5-91f3f3c13f5a/mzaf_8470584399239689698.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd from the acclaimed album \"My Dear Melancholy,\".",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "M4ZoCHID9GU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/M4ZoCHID9GU"
   },
   {
     "id": "mus-1440872304",
@@ -645,7 +906,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/50/1a/50501a86-bd74-e90d-8a56-68c9b5e6e7d6/mzaf_4588197682084244913.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd from the acclaimed album \"Starboy\".",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "QLCpqdqeoII",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/QLCpqdqeoII"
   },
   {
     "id": "mus-1693891139",
@@ -669,7 +932,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/2f/1f/9e2f1f11-20a8-767a-0e33-9029028a7024/mzaf_1603981766065362477.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd, JENNIE & Lily Rose Depp from the acclaimed album \"The Idol Episode 4 (Music from the HBO Original Series) - Single\".",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "f1r0XZLNlGQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/f1r0XZLNlGQ"
   },
   {
     "id": "mus-1440872309",
@@ -693,7 +958,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/af/e0/71afe07f-aae7-c4f0-db02-c05be07591d2/mzaf_5960554915698764959.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd from the acclaimed album \"Starboy\".",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "qFLhGq0060w",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/qFLhGq0060w"
   },
   {
     "id": "mus-1714908991",
@@ -717,7 +984,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/19/4a/d3194ac4-730a-b12b-b04f-e95bab0416a4/mzaf_4133956479160019549.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd from the acclaimed album \"Trilogy\".",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "L0yXunbOyo8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/L0yXunbOyo8"
   },
   {
     "id": "mus-1714908981",
@@ -741,7 +1010,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/f4/c0/b7f4c09c-d20c-d3a7-3a35-0acd3cc0ce1b/mzaf_1248819328861407392.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd from the acclaimed album \"Trilogy\".",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "s8O_N5tq9mE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/s8O_N5tq9mE"
   },
   {
     "id": "mus-1363310498",
@@ -765,7 +1036,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/af/de/f5afde85-49ec-d07a-94b8-561d6fd0695f/mzaf_1634234024178578725.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd & Gesaffelstein from the acclaimed album \"My Dear Melancholy,\".",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "jP1bK4B87mU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/jP1bK4B87mU"
   },
   {
     "id": "mus-1714909161",
@@ -789,7 +1062,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/00/99/8c00991b-2300-5d4b-96c6-ac980f238e6b/mzaf_5009266854929192602.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd from the acclaimed album \"Trilogy\".",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "q0xT_q9K6eY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/q0xT_q9K6eY"
   },
   {
     "id": "mus-1563812775",
@@ -813,7 +1088,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/df/e7/f9dfe78a-be4e-8e94-3043-9b5b3b15d7e0/mzaf_631836417436183085.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd & Ariana Grande from the acclaimed album \"Save Your Tears (Remix) - Single\".",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "XXYlFuWEuKI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/XXYlFuWEuKI"
   },
   {
     "id": "mus-1440871932",
@@ -837,7 +1114,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/44/cd/4f44cde1-7c13-76ff-fa5f-0f7ea97f1b83/mzaf_16488537537298210281.plus.aac.p.m4a",
     "description": "Hit single by The Weeknd from the acclaimed album \"Starboy\".",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "Wv63G92p_L4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Wv63G92p_L4"
   },
   {
     "id": "mus-1732348414",
@@ -861,7 +1140,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/28/b3/7c28b3ed-9aa9-6454-92c6-e46d20849bed/mzaf_518591709818271733.plus.aac.p.m4a",
     "description": "Hit single by SZA from the acclaimed album \"Saturn - Single\".",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "dYt_0YQz598",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/dYt_0YQz598"
   },
   {
     "id": "mus-1657869393",
@@ -885,7 +1166,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/2b/ea/452bead6-c7f5-82d4-f5f7-ec876014b4cc/mzaf_2905911853279084717.plus.aac.p.m4a",
     "description": "Hit single by SZA from the acclaimed album \"SOS\".",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "SQnc1Q3DVdQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/SQnc1Q3DVdQ"
   },
   {
     "id": "mus-1657869546",
@@ -909,7 +1192,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/e1/5c/bee15c13-45e4-a4de-a48d-407cc06a0cb6/mzaf_12967475487789835787.plus.aac.p.m4a",
     "description": "Hit single by SZA from the acclaimed album \"SOS\".",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "0v8b39Jk2Xk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/0v8b39Jk2Xk"
   },
   {
     "id": "mus-1658650499",
@@ -933,7 +1218,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/9b/ca/b39bca57-2627-1aec-77af-cbf551205394/mzaf_4430383240210492712.plus.aac.p.m4a",
     "description": "Hit single by SZA from the acclaimed album \"SOS\".",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ldYCO_5V_kI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ldYCO_5V_kI"
   },
   {
     "id": "mus-1657869488",
@@ -957,7 +1244,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/d6/6f/62d66f3b-cdbb-35d1-b74a-67c3afc1d872/mzaf_15816589370137508590.plus.aac.p.m4a",
     "description": "Hit single by SZA from the acclaimed album \"SOS\".",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "y7vB8_09w6M",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/y7vB8_09w6M"
   },
   {
     "id": "mus-852343743",
@@ -981,7 +1270,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/6d/17/9f6d176c-22d0-b241-1a41-7f3878b363bf/mzaf_196998682856691942.plus.aac.p.m4a",
     "description": "Hit single by SZA from the acclaimed album \"Z - EP\".",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "f8a7X_16GkU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/f8a7X_16GkU"
   },
   {
     "id": "mus-1657869535",
@@ -1005,7 +1296,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/c3/97/94c3976c-16f0-b48a-e3b2-a3f45ee77882/mzaf_16343337711365764081.plus.aac.p.m4a",
     "description": "Hit single by SZA from the acclaimed album \"SOS\".",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "b3h8_1M0p94",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/b3h8_1M0p94"
   },
   {
     "id": "mus-1396141904",
@@ -1029,7 +1322,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/cd/0d/94cd0d7c-dff1-9e52-0738-04a2ca960ecf/mzaf_14068279618621483247.plus.aac.p.m4a",
     "description": "Hit single by Maroon 5 from the acclaimed album \"Red Pill Blues (Deluxe)\".",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "5Wiio4koGe8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/5Wiio4koGe8"
   },
   {
     "id": "mus-6817803313",
@@ -1053,7 +1348,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/d4/b7/a3d4b784-1356-471f-3ea6-3774b6acd2c5/mzaf_8614607526220317705.plus.aac.p.m4a",
     "description": "Hit single by Opinel Douze from the acclaimed album \"Moon Light\".",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYx0hB69z4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYx0hB69z4E"
   },
   {
     "id": "mus-804145420",
@@ -1077,7 +1374,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/4d/8f/0a4d8f1c-6ad5-7d67-6937-8a248633ea86/mzaf_13659809313593484046.plus.aac.p.m4a",
     "description": "Hit single by Romeo Santos from the acclaimed album \"Fórmula, Vol. 2 (Deluxe Edition)\".",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYx0hB69z4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYx0hB69z4E"
   },
   {
     "id": "mus-1662168786",
@@ -1101,7 +1400,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/b6/05/e7b605d3-e1a7-9d3b-b226-1acea91f0899/mzaf_12789921691491209751.plus.aac.p.m4a",
     "description": "Hit single by Bad Bunny from the acclaimed album \"MIA (feat. Drake) - Single\".",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYx0hB69z4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYx0hB69z4E"
   },
   {
     "id": "mus-328449248",
@@ -1125,7 +1426,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/16/b3/fc16b34f-eba1-97be-be15-33d18e596de6/mzaf_189677896041748322.plus.aac.p.m4a",
     "description": "Hit single by Trey Songz from the acclaimed album \"Ready (Deluxe)\".",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYx0hB69z4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYx0hB69z4E"
   },
   {
     "id": "mus-1440843496",
@@ -1149,7 +1452,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/1b/68/ed1b680f-8ae3-0cbf-c249-0aff56cc96fe/mzaf_17999620630731562813.plus.aac.p.m4a",
     "description": "Hit single by Drake from the acclaimed album \"Views\".",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYx0hB69z4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYx0hB69z4E"
   },
   {
     "id": "mus-1440829630",
@@ -1173,7 +1478,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/29/77/6a29774b-1cde-2a24-c9a7-7b69c5dff602/mzaf_13454693018547391187.plus.aac.p.m4a",
     "description": "Hit single by Drake from the acclaimed album \"Nothing Was the Same (Deluxe)\".",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYx0hB69z4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYx0hB69z4E"
   },
   {
     "id": "mus-6814094653",
@@ -1197,7 +1504,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/c3/bc/a8c3bcf6-b900-63c4-fa5f-bb5108ce0b9d/mzaf_12429611204680569788.plus.aac.p.m4a",
     "description": "Hit single by PARTYNEXTDOOR from the acclaimed album \"PARTYMOBILE\".",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYx0hB69z4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYx0hB69z4E"
   },
   {
     "id": "mus-1440841730",
@@ -1221,7 +1530,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/73/56/5c/73565c27-16d4-1f8a-ec12-77616e3ca05d/mzaf_9178247693050174633.plus.aac.p.m4a",
     "description": "Hit single by Drake from the acclaimed album \"Views\".",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYx0hB69z4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYx0hB69z4E"
   },
   {
     "id": "mus-1447555315",
@@ -1245,7 +1556,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/ad/b6/72adb69d-18a8-a7cd-4534-bba34deb9486/mzaf_14761776520883767907.plus.aac.p.m4a",
     "description": "Hit single by Bad Bunny from the acclaimed album \"X 100PRE\".",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYx0hB69z4E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYx0hB69z4E"
   },
   {
     "id": "mus-1477880561",
@@ -1269,7 +1582,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/b1/aa/f9b1aaed-3e24-227f-153d-99969f8b8464/mzaf_6272498007975402144.plus.aac.p.m4a",
     "description": "Hit single by Post Malone from the acclaimed album \"Hollywood's Bleeding\".",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "wXhTHyIgQ_U",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/wXhTHyIgQ_U"
   },
   {
     "id": "mus-1445949267",
@@ -1293,7 +1608,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/f0/d6/98f0d67e-f8bf-762d-cac7-1c6b3b6b35dd/mzaf_4543283896248560946.plus.aac.p.m4a",
     "description": "Hit single by Post Malone & Swae Lee from the acclaimed album \"Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture)\".",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ApXoWvfEYVU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ApXoWvfEYVU"
   },
   {
     "id": "mus-1802104420",
@@ -1317,7 +1634,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/0f/99/5c0f99b9-7a29-e118-9f07-0c0b33b74edc/mzaf_2457402693465187868.plus.aac.p.m4a",
     "description": "Hit single by Morgan Wallen & Post Malone from the acclaimed album \"I’m The Problem\".",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "4QIZ7D3g7-0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/4QIZ7D3g7-0"
   },
   {
     "id": "mus-1752531909",
@@ -1341,7 +1660,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/36/5b/75365b00-85bb-f2bd-9eb8-7fef861efb06/mzaf_10285050304793701921.plus.aac.p.m4a",
     "description": "Hit single by Post Malone from the acclaimed album \"F-1 Trillion\".",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "n24N0mQ9o78",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/n24N0mQ9o78"
   },
   {
     "id": "mus-1477880568",
@@ -1365,7 +1686,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/bc/f4/f0bcf490-3c10-a4a7-f47d-77ff43cb5f7f/mzaf_593599495913580444.plus.aac.p.m4a",
     "description": "Hit single by Post Malone from the acclaimed album \"Hollywood's Bleeding\".",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "vUsmTPhkZf4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vUsmTPhkZf4"
   },
   {
     "id": "mus-1742057775",
@@ -1389,7 +1712,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/d8/d1/6ad8d1f0-a747-d646-20d1-8c8dfb0bce3a/mzaf_190295342267799968.plus.aac.p.m4a",
     "description": "Hit single by Taylor Swift from the acclaimed album \"THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY\".",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "q3zKK45oWek",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/q3zKK45oWek"
   },
   {
     "id": "mus-1477880487",
@@ -1413,7 +1738,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/cb/eb/39cbeb3a-b2de-ec65-64de-362391da9774/mzaf_14039724316393614108.plus.aac.p.m4a",
     "description": "Hit single by Post Malone from the acclaimed album \"Hollywood's Bleeding\".",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1k0_r5T7k4w",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1k0_r5T7k4w"
   },
   {
     "id": "mus-1478048055",
@@ -1437,7 +1764,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/f7/91/9df79169-68f7-5f70-cb4b-afec0b35b64e/mzaf_5271596099475592939.plus.aac.p.m4a",
     "description": "Hit single by Sam Feldt from the acclaimed album \"Post Malone (feat. RANI) [The Remixes]\".",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "T2iG5xQ7E7g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/T2iG5xQ7E7g"
   },
   {
     "id": "mus-1477846963",
@@ -1461,7 +1790,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/cc/e6/5acce690-cfee-a442-4cda-dc8f384eae4a/mzaf_13289668163416759174.plus.aac.p.m4a",
     "description": "Hit single by Sam Feldt from the acclaimed album \"Post Malone (feat. RANI) [VIZE Remix] - Single\".",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "T2iG5xQ7E7g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/T2iG5xQ7E7g"
   },
   {
     "id": "mus-1475500146",
@@ -1485,7 +1816,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e5/10/b9/e510b95d-f8b2-2c03-6fe8-f380c5f5e11b/mzaf_2680871771425546059.plus.aac.p.m4a",
     "description": "Hit single by Sam Feldt from the acclaimed album \"Post Malone (feat. RANI) [Joe Stone Remix] - Single\".",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "T2iG5xQ7E7g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/T2iG5xQ7E7g"
   },
   {
     "id": "mus-1750307079",
@@ -1509,7 +1842,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/57/a6/2657a620-c596-e0e4-efa2-e814f3572d1c/mzaf_5475540510703120797.plus.aac.p.m4a",
     "description": "Hit single by Sabrina Carpenter from the acclaimed album \"Short n' Sweet\".",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "k9zTrp2b_3k",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/k9zTrp2b_3k"
   },
   {
     "id": "mus-1819861170",
@@ -1533,7 +1868,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/e4/b1/fde4b14a-41c8-11bd-1c65-037ab12516fa/mzaf_3384880528362252893.plus.aac.p.m4a",
     "description": "Hit single by Sabrina Carpenter from the acclaimed album \"Man’s Best Friend\".",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "cF1Na4AIecM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/cF1Na4AIecM"
   },
   {
     "id": "mus-1795513143",
@@ -1557,7 +1894,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/af/3f/0aaf3fe4-09b8-8c27-aaa7-41a619a9d681/mzaf_11203249546377666462.plus.aac.p.m4a",
     "description": "Hit single by Sabrina Carpenter from the acclaimed album \"Short n' Sweet (Deluxe)\".",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "91x8L1v4f3A",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/91x8L1v4f3A"
   },
   {
     "id": "mus-1752215160",
@@ -1581,7 +1920,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cf/02/7e/cf027ecc-749e-f2a1-e77c-255bb4e8830a/mzaf_13760319481709366894.plus.aac.p.m4a",
     "description": "Hit single by Sabrina Carpenter from the acclaimed album \"Short n' Sweet\".",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "k9zTrp2b_3k",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/k9zTrp2b_3k"
   },
   {
     "id": "mus-1440632601",
@@ -1605,7 +1946,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/51/6a/9c516a3e-4a0d-5fa8-e92b-4fe6603624fe/mzaf_3902183216370696611.plus.aac.p.m4a",
     "description": "Hit single by Sabrina Carpenter from the acclaimed album \"EVOLution\".",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "uQUx8k2r0Xo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/uQUx8k2r0Xo"
   },
   {
     "id": "mus-1676555845",
@@ -1629,7 +1972,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/c8/83/2ac883cf-707f-a5cb-06e5-0e229f562230/mzaf_3100170880444736160.plus.aac.p.m4a",
     "description": "Hit single by Sabrina Carpenter from the acclaimed album \"emails i can’t send fwd:\".",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "58s_3d0Y1Fw",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/58s_3d0Y1Fw"
   },
   {
     "id": "mus-1819861167",
@@ -1653,7 +1998,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/0d/bd/330dbd9f-1867-7da0-3608-a69e84ff0c2b/mzaf_12588135108426765352.plus.aac.p.m4a",
     "description": "Hit single by Sabrina Carpenter from the acclaimed album \"Man’s Best Friend\".",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "eVli-tstM5E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/eVli-tstM5E"
   },
   {
     "id": "mus-1438671365",
@@ -1677,7 +2024,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/8d/10/9d8d1096-8224-4d45-7e18-15574b9ccc05/mzaf_4521217301408050376.plus.aac.p.m4a",
     "description": "Hit single by Sabrina Carpenter from the acclaimed album \"Singular Act I\".",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "8i90V5s8a7c",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/8i90V5s8a7c"
   },
   {
     "id": "mus-1819861157",
@@ -1701,7 +2050,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/39/c2/8e39c256-a452-8928-5f45-9a82d6873f5e/mzaf_11132789052180673913.plus.aac.p.m4a",
     "description": "Hit single by Sabrina Carpenter from the acclaimed album \"Man’s Best Friend\".",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "XXYlFuWEuKI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/XXYlFuWEuKI"
   },
   {
     "id": "mus-1675173768",
@@ -1725,7 +2076,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/52/be/fc52be82-306b-6da5-286b-61056757c008/mzaf_1618848737251148796.plus.aac.p.m4a",
     "description": "Hit single by Chappell Roan from the acclaimed album \"Pink Pony Club - Single\".",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1f8K_9i7t3E",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1f8K_9i7t3E"
   },
   {
     "id": "mus-1737497080",
@@ -1749,7 +2102,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/6d/4f/c36d4f23-b87f-046d-7a0e-e3e05d180b2a/mzaf_17235999651335214399.plus.aac.p.m4a",
     "description": "Hit single by Chappell Roan from the acclaimed album \"Good Luck, Babe! - Single\".",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1RKqOmSkGgM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1RKqOmSkGgM"
   },
   {
     "id": "mus-1698723221",
@@ -1773,7 +2128,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/3b/23/113b236e-82b6-648e-d692-518ddae782a9/mzaf_148449383941125134.plus.aac.p.m4a",
     "description": "Hit single by Chappell Roan from the acclaimed album \"The Rise and Fall of a Midwest Princess\".",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "x32b5p1L6W4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/x32b5p1L6W4"
   },
   {
     "id": "mus-1698723222",
@@ -1797,7 +2154,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/46/f7/f446f79b-bba7-ffe9-7c52-423b6fec3f28/mzaf_1972541389943329398.plus.aac.p.m4a",
     "description": "Hit single by Chappell Roan from the acclaimed album \"The Rise and Fall of a Midwest Princess\".",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "e8rY3nK0v1Q",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/e8rY3nK0v1Q"
   },
   {
     "id": "mus-1801197851",
@@ -1821,7 +2180,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/47/17/724717d8-d2f2-979b-4f23-befb0031e10e/mzaf_13751565621225225258.plus.aac.p.m4a",
     "description": "Hit single by Chappell Roan from the acclaimed album \"The Giver - Single\".",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1RKqOmSkGgM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1RKqOmSkGgM"
   },
   {
     "id": "mus-1707413104",
@@ -1845,7 +2206,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/ab/6e/3aab6e0b-8b00-bd85-eb24-0c59f233242a/mzaf_11157997594032396496.plus.aac.p.m4a",
     "description": "Hit single by Chappell Roan from the acclaimed album \"The Rise and Fall of a Midwest Princess\".",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "7j8B5c9Z2qA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/7j8B5c9Z2qA"
   },
   {
     "id": "mus-1698723324",
@@ -1869,7 +2232,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/c8/27/6ac82702-9d50-d5d6-9911-a5b3e10c4d37/mzaf_11752152985738118502.plus.aac.p.m4a",
     "description": "Hit single by Chappell Roan from the acclaimed album \"The Rise and Fall of a Midwest Princess\".",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "b1o4K383Lg0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/b1o4K383Lg0"
   },
   {
     "id": "mus-1698723210",
@@ -1893,7 +2258,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/aa/68/c3aa689f-f8ce-dd26-1d46-7b61c9e57872/mzaf_17260629673491468764.plus.aac.p.m4a",
     "description": "Hit single by Chappell Roan from the acclaimed album \"The Rise and Fall of a Midwest Princess\".",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "3v38V0F1g5w",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/3v38V0F1g5w"
   },
   {
     "id": "mus-1889992115",
@@ -1917,7 +2284,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/d6/78/abd678a1-bf4e-7ee9-d0b2-ba8afee10914/mzaf_3280183609788906841.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"you seem pretty sad for a girl so in love\".",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "gNi_6U5Pm_o",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/gNi_6U5Pm_o"
   },
   {
     "id": "mus-1560735421",
@@ -1941,7 +2310,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4f/ae/6c/4fae6c93-6bb3-d320-00bf-f32310705b3f/mzaf_16796881619991035581.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"SOUR\".",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "CRrf3h9gph8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/CRrf3h9gph8"
   },
   {
     "id": "mus-1889992113",
@@ -1965,7 +2336,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/57/ad/8957adf6-1862-4e4e-bcb5-810d6cf79cc4/mzaf_7752581374620577831.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"you seem pretty sad for a girl so in love\".",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ZsJ-BHohC8s",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ZsJ-BHohC8s"
   },
   {
     "id": "mus-1560735480",
@@ -1989,7 +2362,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/62/61/366261be-0996-d73d-de6f-03417867c800/mzaf_8201528327761821135.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"SOUR\".",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ZmDBbnmKpqQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ZmDBbnmKpqQ"
   },
   {
     "id": "mus-1889992116",
@@ -2013,7 +2388,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/7f/68/077f68ac-3720-0963-8185-347458b4a3c8/mzaf_826887783104606101.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"you seem pretty sad for a girl so in love\".",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "cii6ruuycQA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/cii6ruuycQA"
   },
   {
     "id": "mus-1560735856",
@@ -2037,7 +2414,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/eb/3a/a4eb3aeb-eb1f-c382-0aec-ff4eafc34e9e/mzaf_238907262667616343.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"SOUR\".",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "gNi_6U5Pm_o",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/gNi_6U5Pm_o"
   },
   {
     "id": "mus-1582277657",
@@ -2061,7 +2440,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/87/5e/52875e8f-1aba-83a8-6d2a-c5726ea5cc52/mzaf_12993596719243864295.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"SOUR (Video Version)\".",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "b6a7Z0f9w8Q",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/b6a7Z0f9w8Q"
   },
   {
     "id": "mus-1485659134",
@@ -2085,7 +2466,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/87/d0/4e87d0e6-4cfb-ac8a-9b35-b007f6c6a8bd/mzaf_14703076239447735930.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"High School Musical: The Musical: The Series (Music from the Disney+ Original Series)\".",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "f6N7B2k6k_w",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/f6N7B2k6k_w"
   },
   {
     "id": "mus-1560735847",
@@ -2109,7 +2492,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/5a/c2/835ac220-f31a-006f-b6a9-2acd29eb60d0/mzaf_13621843495437485054.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"SOUR\".",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "cii6ruuycQA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/cii6ruuycQA"
   },
   {
     "id": "mus-1694768031",
@@ -2133,7 +2518,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/2f/a6/702fa6b5-946c-7a8e-2dba-03de25c732d3/mzaf_12764345117177639836.plus.aac.p.m4a",
     "description": "Hit single by Olivia Rodrigo from the acclaimed album \"GUTS\".",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ZsJ-BHohC8s",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ZsJ-BHohC8s"
   },
   {
     "id": "mus-1866732797",
@@ -2157,7 +2544,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/fc/d7/61fcd7e8-ea20-2f90-3672-09516cd050e6/mzaf_12696195794831485731.plus.aac.p.m4a",
     "description": "Hit single by Bruno Mars from the acclaimed album \"The Romantic\".",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "kPa7bsKwL-8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/kPa7bsKwL-8"
   },
   {
     "id": "mus-1762656732",
@@ -2181,7 +2570,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/6a/99/076a99ed-b946-431b-6f1f-54fa187ca5bd/mzaf_8102882277995122875.plus.aac.p.m4a",
     "description": "Hit single by Lady Gaga & Bruno Mars from the acclaimed album \"Die With A Smile - Single\".",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "kPa7bsKwL-8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/kPa7bsKwL-8"
   },
   {
     "id": "mus-576670459",
@@ -2205,7 +2596,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/36/d3/5c36d391-5880-e0c5-a56e-68ac7d77229b/mzaf_9299593821852203765.plus.aac.p.m4a",
     "description": "Hit single by Bruno Mars from the acclaimed album \"Doo-Wops & Hooligans (Deluxe)\".",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "LjhCEhWiKXk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/LjhCEhWiKXk"
   },
   {
     "id": "mus-1161504024",
@@ -2229,7 +2622,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/c4/cb/45c4cb28-670f-f1fe-9678-7fa1601bbb5a/mzaf_2006385778979520718.plus.aac.p.m4a",
     "description": "Hit single by Bruno Mars from the acclaimed album \"24K Magic\".",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "UqyT8IEBkvY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/UqyT8IEBkvY"
   },
   {
     "id": "mus-573962555",
@@ -2253,7 +2648,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/86/81/6b868187-1d8c-a6c1-51ca-f1f0fbd4a7ac/mzaf_4398730586437868651.plus.aac.p.m4a",
     "description": "Hit single by Bruno Mars from the acclaimed album \"Unorthodox Jukebox\".",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ekzHIWGKmNY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ekzHIWGKmNY"
   },
   {
     "id": "mus-573962551",
@@ -2277,7 +2674,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/05/04/d5050434-1278-6b8e-9cd8-6261ea319fd1/mzaf_9746689865251353718.plus.aac.p.m4a",
     "description": "Hit single by Bruno Mars from the acclaimed album \"Unorthodox Jukebox\".",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "e-fA-gBCkj0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/e-fA-gBCkj0"
   },
   {
     "id": "mus-1866732800",
@@ -2301,7 +2700,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/ef/58/86ef584b-cb46-43df-12e3-fce4b436688c/mzaf_10081886156675578892.plus.aac.p.m4a",
     "description": "Hit single by Bruno Mars from the acclaimed album \"The Romantic\".",
     "popularity": 80,
-    "featured": false
+    "featured": false,
+    "youtubeId": "PMivT7MJ41M",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/PMivT7MJ41M"
   },
   {
     "id": "mus-576655094",
@@ -2325,7 +2726,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/70/01/567001be-26a3-6c61-cfe2-8184800dc347/mzaf_12349500431513219850.plus.aac.p.m4a",
     "description": "Hit single by Bruno Mars from the acclaimed album \"Doo-Wops & Hooligans\".",
     "popularity": 80,
-    "featured": false
+    "featured": false,
+    "youtubeId": "SR6iYWJxHqs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/SR6iYWJxHqs"
   },
   {
     "id": "mus-576655100",
@@ -2349,7 +2752,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/ce/e8/c4cee8c1-ac62-b308-9c8f-df0c9bb69383/mzaf_1726042899961262714.plus.aac.p.m4a",
     "description": "Hit single by Bruno Mars from the acclaimed album \"Doo-Wops & Hooligans\".",
     "popularity": 80,
-    "featured": false
+    "featured": false,
+    "youtubeId": "fXw0jcYbqdo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/fXw0jcYbqdo"
   },
   {
     "id": "mus-1161504043",
@@ -2373,7 +2778,9 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/a6/81/0fa681ef-af42-7b3f-7f62-9a43c2d8c222/mzaf_5126272821207786596.plus.aac.p.m4a",
     "description": "Hit single by Bruno Mars from the acclaimed album \"24K Magic\".",
     "popularity": 80,
-    "featured": false
+    "featured": false,
+    "youtubeId": "PMivT7MJ41M",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/PMivT7MJ41M"
   },
   {
     "id": "mus-1228739609",
@@ -2397,6 +2804,8 @@
     "audioUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/19/d9/6e19d9ca-1321-1eea-e797-51d7ab5b56c2/mzaf_5898999508314966855.plus.aac.p.m4a",
     "description": "Hit single by Dua Lipa from the acclaimed album \"Dua Lipa (Deluxe)\".",
     "popularity": 80,
-    "featured": false
+    "featured": false,
+    "youtubeId": "k2qgadSvNyU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/k2qgadSvNyU"
   }
 ]

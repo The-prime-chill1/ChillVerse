@@ -299,6 +299,61 @@ export function AppProvider({ children }) {
     volume: 0.6,
     tracks: [
       {
+        id: 'track-davido-unavailable',
+        title: 'Unavailable (feat. Musa Keys)',
+        artist: 'Davido',
+        album: 'Timeless',
+        category: 'Afrobeats',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
+        artwork: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80',
+        youtubeId: '5j5E7fE1bA4',
+        embedUrl: 'https://www.youtube-nocookie.com/embed/5j5E7fE1bA4'
+      },
+      {
+        id: 'track-davido-feel',
+        title: 'Feel',
+        artist: 'Davido',
+        album: 'Timeless',
+        category: 'Afrobeats',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
+        artwork: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80',
+        youtubeId: 'kC0y6fG2rP0',
+        embedUrl: 'https://www.youtube-nocookie.com/embed/kC0y6fG2rP0'
+      },
+      {
+        id: 'track-davido-fall',
+        title: 'Fall',
+        artist: 'Davido',
+        album: 'A Good Time',
+        category: 'Afrobeats',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
+        artwork: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80',
+        youtubeId: '3IYu_Jb_Z8o',
+        embedUrl: 'https://www.youtube-nocookie.com/embed/3IYu_Jb_Z8o'
+      },
+      {
+        id: 'track-davido-if',
+        title: 'IF',
+        artist: 'Davido',
+        album: 'A Good Time',
+        category: 'Afrobeats',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
+        artwork: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80',
+        youtubeId: 'helEv0kGHd4',
+        embedUrl: 'https://www.youtube-nocookie.com/embed/helEv0kGHd4'
+      },
+      {
+        id: 'track-davido-fem',
+        title: 'FEM',
+        artist: 'Davido',
+        album: 'A Better Time',
+        category: 'Afrobeats',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
+        artwork: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80',
+        youtubeId: 'lta5go9P-go',
+        embedUrl: 'https://www.youtube-nocookie.com/embed/lta5go9P-go'
+      },
+      {
         id: 'track-be-1739659142',
         title: 'BIRDS OF A FEATHER',
         artist: 'Billie Eilish',
@@ -314,7 +369,7 @@ export function AppProvider({ children }) {
         album: 'WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?',
         category: 'Pop / Alternative',
         url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/87/1f/c3871f7e-3260-d615-1c66-5fdca2c3a48f/mzaf_10721331211699880949.plus.aac.p.m4a',
-        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/600x600bb.jpg'
+        artwork: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80'
       },
       {
         id: 'track-be-1689239800',

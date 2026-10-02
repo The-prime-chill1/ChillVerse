@@ -18,7 +18,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1546990/library_600x900.jpg",
     "description": "Grand Theft Auto VI is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "QdBZY2fkU-0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0"
   },
   {
     "id": "gam-002",
@@ -39,7 +41,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/library_600x900.jpg",
     "description": "Elden Ring is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "bo4uH4701f8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/bo4uH4701f8"
   },
   {
     "id": "gam-003",
@@ -60,7 +64,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2358720/library_600x900.jpg",
     "description": "Black Myth: Wukong is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "oek3AQnS2Z0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/oek3AQnS2Z0"
   },
   {
     "id": "gam-004",
@@ -81,7 +87,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/library_600x900.jpg",
     "description": "Cyberpunk 2077 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "LembwKDo1dc",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/LembwKDo1dc"
   },
   {
     "id": "gam-005",
@@ -102,7 +110,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_600x900.jpg",
     "description": "Red Dead Redemption 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 100,
-    "featured": true
+    "featured": true,
+    "youtubeId": "eaW0tYpxyp0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/eaW0tYpxyp0"
   },
   {
     "id": "gam-006",
@@ -123,7 +133,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/292030/library_600x900.jpg",
     "description": "The Witcher 3: Wild Hunt is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "c0i88t0Kacs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/c0i88t0Kacs"
   },
   {
     "id": "gam-007",
@@ -144,7 +156,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/library_600x900.jpg",
     "description": "God of War is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "K0u_kODnGQU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/K0u_kODnGQU"
   },
   {
     "id": "gam-008",
@@ -165,7 +179,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2322010/library_600x900.jpg",
     "description": "God of War Ragnarok is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "hfJ4Km46A-0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/hfJ4Km46A-0"
   },
   {
     "id": "gam-009",
@@ -186,7 +202,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/library_600x900.jpg",
     "description": "Baldur's Gate 3 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "1T22wN1MoTY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1T22wN1MoTY"
   },
   {
     "id": "gam-010",
@@ -207,7 +225,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1888930/library_600x900.jpg",
     "description": "The Last of Us Part I is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 99,
-    "featured": true
+    "featured": true,
+    "youtubeId": "WxjeV48ahsw",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/WxjeV48ahsw"
   },
   {
     "id": "gam-011",
@@ -228,7 +248,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2215430/library_600x900.jpg",
     "description": "Ghost of Tsushima is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "youtubeId": "bHEkygR_6F8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/bHEkygR_6F8"
   },
   {
     "id": "gam-012",
@@ -249,7 +271,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1817070/library_600x900.jpg",
     "description": "Marvel's Spider-Man Remastered is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 98,
-    "featured": true
+    "featured": true,
+    "youtubeId": "bgqGdIoa52s",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/bgqGdIoa52s"
   },
   {
     "id": "gam-013",
@@ -270,7 +294,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2651280/library_600x900.jpg",
     "description": "Marvel's Spider-Man 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 98,
-    "featured": false
+    "featured": false,
+    "youtubeId": "bgqGdIoa52s",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/bgqGdIoa52s"
   },
   {
     "id": "gam-014",
@@ -291,7 +317,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1145350/library_600x900.jpg",
     "description": "Hades is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 98,
-    "featured": false
+    "featured": false,
+    "youtubeId": "91t0ha9x0AE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/91t0ha9x0AE"
   },
   {
     "id": "gam-015",
@@ -312,7 +340,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1145350/library_600x900.jpg",
     "description": "Hades II is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 98,
-    "featured": false
+    "featured": false,
+    "youtubeId": "7wGv_1K0oU0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/7wGv_1K0oU0"
   },
   {
     "id": "gam-016",
@@ -333,7 +363,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/367520/library_600x900.jpg",
     "description": "Hollow Knight is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pFAknD_WOeM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pFAknD_WOeM"
   },
   {
     "id": "gam-017",
@@ -354,7 +386,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/library_600x900.jpg",
     "description": "Resident Evil 4 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "E69tKrfEQag",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/E69tKrfEQag"
   },
   {
     "id": "gam-018",
@@ -375,7 +409,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1196590/library_600x900.jpg",
     "description": "Resident Evil Village is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "btFclZUXpzA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/btFclZUXpzA"
   },
   {
     "id": "gam-019",
@@ -396,7 +432,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1462040/library_600x900.jpg",
     "description": "Final Fantasy VII Remake is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ERgrFVhL-n4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ERgrFVhL-n4"
   },
   {
     "id": "gam-020",
@@ -417,7 +455,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2909400/library_600x900.jpg",
     "description": "Final Fantasy VII Rebirth is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 97,
-    "featured": false
+    "featured": false,
+    "youtubeId": "H_r_vA9kFq0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/H_r_vA9kFq0"
   },
   {
     "id": "gam-021",
@@ -438,7 +478,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/582010/library_600x900.jpg",
     "description": "Monster Hunter: World is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "Ro6r15eg0c8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Ro6r15eg0c8"
   },
   {
     "id": "gam-022",
@@ -459,7 +501,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2246340/library_600x900.jpg",
     "description": "Monster Hunter Wilds is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "rW2U0Nn5G4o",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/rW2U0Nn5G4o"
   },
   {
     "id": "gam-023",
@@ -480,7 +524,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/3280350/library_600x900.jpg",
     "description": "Death Stranding is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "x8y6nQ8e7g0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/x8y6nQ8e7g0"
   },
   {
     "id": "gam-024",
@@ -501,7 +547,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2561580/library_600x900.jpg",
     "description": "Horizon Zero Dawn is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "wzx96g0Fxqc",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/wzx96g0Fxqc"
   },
   {
     "id": "gam-025",
@@ -522,7 +570,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2420110/library_600x900.jpg",
     "description": "Horizon Forbidden West is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 96,
-    "featured": false
+    "featured": false,
+    "youtubeId": "Lq594XmpPBg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Lq594XmpPBg"
   },
   {
     "id": "gam-026",
@@ -543,7 +593,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/3274290/library_600x900.jpg",
     "description": "Alan Wake 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "q98a6B6p4K8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/q98a6B6p4K8"
   },
   {
     "id": "gam-027",
@@ -564,7 +616,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/782330/library_600x900.jpg",
     "description": "Doom Eternal is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "FkklG9MA0vM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/FkklG9MA0vM"
   },
   {
     "id": "gam-028",
@@ -585,7 +639,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/3017860/library_600x900.jpg",
     "description": "DOOM: The Dark Ages is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "4t_8m_2K0q0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/4t_8m_2K0q0"
   },
   {
     "id": "gam-029",
@@ -606,7 +662,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/814380/library_600x900.jpg",
     "description": "Sekiro: Shadows Die Twice is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "rXMX4YJ7Lks",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/rXMX4YJ7Lks"
   },
   {
     "id": "gam-030",
@@ -627,7 +685,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/374320/library_600x900.jpg",
     "description": "Dark Souls III is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 95,
-    "featured": false
+    "featured": false,
+    "youtubeId": "_zDZYrP8uL0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/_zDZYrP8uL0"
   },
   {
     "id": "gam-031",
@@ -648,7 +708,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1888160/library_600x900.jpg",
     "description": "Armored Core VI is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "HunoL6iM5h4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/HunoL6iM5h4"
   },
   {
     "id": "gam-032",
@@ -669,7 +731,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1627720/library_600x900.jpg",
     "description": "Lies of P is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "k2kHl_0s-5Y",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/k2kHl_0s-5Y"
   },
   {
     "id": "gam-033",
@@ -690,7 +754,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/553850/library_600x900.jpg",
     "description": "Helldivers 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "l_ah87mB2s8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/l_ah87mB2s8"
   },
   {
     "id": "gam-034",
@@ -711,7 +777,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1687950/library_600x900.jpg",
     "description": "Persona 5 Royal is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "SKpSpvfqdbg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/SKpSpvfqdbg"
   },
   {
     "id": "gam-035",
@@ -732,7 +800,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2161700/library_600x900.jpg",
     "description": "Persona 3 Reload is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 94,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1f2bS8k2X1g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1f2bS8k2X1g"
   },
   {
     "id": "gam-036",
@@ -753,7 +823,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2679460/library_600x900.jpg",
     "description": "Metaphor: ReFantazio is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "xQ7m9_2vK0s",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/xQ7m9_2vK0s"
   },
   {
     "id": "gam-037",
@@ -774,7 +846,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1778820/library_600x900.jpg",
     "description": "Tekken 8 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "2hPd_B-bQJw",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/2hPd_B-bQJw"
   },
   {
     "id": "gam-038",
@@ -795,7 +869,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1364780/library_600x900.jpg",
     "description": "Street Fighter 6 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1INU3bL33L4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1INU3bL33L4"
   },
   {
     "id": "gam-039",
@@ -816,7 +892,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1971870/library_600x900.jpg",
     "description": "Mortal Kombat 1 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "MY48WbO02Y4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/MY48WbO02Y4"
   },
   {
     "id": "gam-040",
@@ -837,7 +915,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2054970/library_600x900.jpg",
     "description": "Dragon's Dogma 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 93,
-    "featured": false
+    "featured": false,
+    "youtubeId": "d5N9p_2sK0g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/d5N9p_2sK0g"
   },
   {
     "id": "gam-041",
@@ -858,7 +938,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1716740/library_600x900.jpg",
     "description": "Starfield is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pYqyVpCV-3c",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pYqyVpCV-3c"
   },
   {
     "id": "gam-042",
@@ -879,7 +961,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1774580/library_600x900.jpg",
     "description": "Star Wars Jedi: Survivor is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "VRaobDJjiec",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/VRaobDJjiec"
   },
   {
     "id": "gam-043",
@@ -900,7 +984,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2124490/library_600x900.jpg",
     "description": "Silent Hill 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "pyC_qiW_408",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/pyC_qiW_408"
   },
   {
     "id": "gam-044",
@@ -921,7 +1007,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/3489700/library_600x900.jpg",
     "description": "Stellar Blade is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "t2a4K_vK0s0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/t2a4K_vK0s0"
   },
   {
     "id": "gam-045",
@@ -942,7 +1030,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2232520/library_600x900.jpg",
     "description": "Astro Bot is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 92,
-    "featured": false
+    "featured": false,
+    "youtubeId": "rW0_2mSK0q0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/rW0_2mSK0q0"
   },
   {
     "id": "gam-046",
@@ -963,7 +1053,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/library_600x900.jpg",
     "description": "Forza Horizon 5 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "FYH9n37B7Yw",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/FYH9n37B7Yw"
   },
   {
     "id": "gam-047",
@@ -984,7 +1076,9 @@
     "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7046.jpg",
     "description": "Gran Turismo 7 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1tBUsXIkG1A",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1tBUsXIkG1A"
   },
   {
     "id": "gam-048",
@@ -1005,7 +1099,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2138330/library_600x900.jpg",
     "description": "Cyberpunk 2077: Phantom Liberty is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "LembwKDo1dc",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/LembwKDo1dc"
   },
   {
     "id": "gam-049",
@@ -1026,7 +1122,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1643320/library_600x900.jpg",
     "description": "S.T.A.L.K.E.R. 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "SjDMwsbaSd8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/SjDMwsbaSd8"
   },
   {
     "id": "gam-050",
@@ -1047,7 +1145,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1771300/library_600x900.jpg",
     "description": "Kingdom Come: Deliverance II is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 91,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ZJ2jP3_vQ34",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ZJ2jP3_vQ34"
   },
   {
     "id": "gam-051",
@@ -1068,7 +1168,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/546560/library_600x900.jpg",
     "description": "Half-Life: Alyx is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "O2W0N3uKXmo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/O2W0N3uKXmo"
   },
   {
     "id": "gam-052",
@@ -1089,7 +1191,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/620/library_600x900.jpg",
     "description": "Portal 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "tax4gZF4vxs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/tax4gZF4vxs"
   },
   {
     "id": "gam-053",
@@ -1110,7 +1214,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1328670/library_600x900.jpg",
     "description": "Mass Effect Legendary Edition is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "n8i53TtQ6IQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/n8i53TtQ6IQ"
   },
   {
     "id": "gam-054",
@@ -1131,7 +1237,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/8870/library_600x900.jpg",
     "description": "BioShock Infinite is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "bLHW78X1XeE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/bLHW78X1XeE"
   },
   {
     "id": "gam-055",
@@ -1152,7 +1260,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/377160/library_600x900.jpg",
     "description": "Fallout 4 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 90,
-    "featured": false
+    "featured": false,
+    "youtubeId": "GE2BkLqMef4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/GE2BkLqMef4"
   },
   {
     "id": "gam-056",
@@ -1173,7 +1283,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/489830/library_600x900.jpg",
     "description": "The Elder Scrolls V: Skyrim is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "JSRtYpNRoN0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/JSRtYpNRoN0"
   },
   {
     "id": "gam-057",
@@ -1194,7 +1306,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1912410/library_600x900.jpg",
     "description": "Minecraft is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "MmB9b5njVbA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/MmB9b5njVbA"
   },
   {
     "id": "gam-058",
@@ -1215,7 +1329,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/3240220/library_600x900.jpg",
     "description": "Grand Theft Auto V is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "QdBZY2fkU-0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/QdBZY2fkU-0"
   },
   {
     "id": "gam-059",
@@ -1236,7 +1352,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_600x900.jpg",
     "description": "Red Dead Redemption is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "eaW0tYpxyp0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/eaW0tYpxyp0"
   },
   {
     "id": "gam-060",
@@ -1257,7 +1375,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/208650/library_600x900.jpg",
     "description": "Batman: Arkham Knight is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 89,
-    "featured": false
+    "featured": false,
+    "youtubeId": "wsf78BS9VE0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/wsf78BS9VE0"
   },
   {
     "id": "gam-061",
@@ -1278,7 +1398,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/3159330/library_600x900.jpg",
     "description": "Assassin's Creed Shadows is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "vovkzbtYBC8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vovkzbtYBC8"
   },
   {
     "id": "gam-062",
@@ -1299,7 +1421,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/3035570/library_600x900.jpg",
     "description": "Assassin's Creed Mirage is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "x55lAlFtXmw",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/x55lAlFtXmw"
   },
   {
     "id": "gam-063",
@@ -1320,7 +1444,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2208920/library_600x900.jpg",
     "description": "Assassin's Creed Valhalla is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "ssrNcwxALS4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/ssrNcwxALS4"
   },
   {
     "id": "gam-064",
@@ -1341,7 +1467,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2369390/library_600x900.jpg",
     "description": "Far Cry 6 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "-IJuKT1mHO8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/-IJuKT1mHO8"
   },
   {
     "id": "gam-065",
@@ -1362,7 +1490,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1693980/library_600x900.jpg",
     "description": "Dead Space is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 88,
-    "featured": false
+    "featured": false,
+    "youtubeId": "cUPC4N1j7kQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/cUPC4N1j7kQ"
   },
   {
     "id": "gam-066",
@@ -1383,7 +1513,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/3669870/library_600x900.jpg",
     "description": "Control is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "PT5yMfC9LQM",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/PT5yMfC9LQM"
   },
   {
     "id": "gam-067",
@@ -1404,7 +1536,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1252330/library_600x900.jpg",
     "description": "Deathloop is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "MCvX7qE3vY0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/MCvX7qE3vY0"
   },
   {
     "id": "gam-068",
@@ -1425,7 +1559,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1649240/library_600x900.jpg",
     "description": "Returnal is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "sH140g9l3G0",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/sH140g9l3G0"
   },
   {
     "id": "gam-069",
@@ -1446,7 +1582,9 @@
     "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7068.jpg",
     "description": "Demon's Souls is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "2TMs226If4A",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/2TMs226If4A"
   },
   {
     "id": "gam-070",
@@ -1467,7 +1605,9 @@
     "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7069.jpg",
     "description": "Bloodborne is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 87,
-    "featured": false
+    "featured": false,
+    "youtubeId": "G203e1HhixY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/G203e1HhixY"
   },
   {
     "id": "gam-071",
@@ -1488,7 +1628,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/524220/library_600x900.jpg",
     "description": "NieR: Automata is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "wJxNhJ8fiFk",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/wJxNhJ8fiFk"
   },
   {
     "id": "gam-072",
@@ -1509,7 +1651,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/403640/library_600x900.jpg",
     "description": "Dishonored 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "lNFtACeifcU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/lNFtACeifcU"
   },
   {
     "id": "gam-073",
@@ -1530,7 +1674,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/480490/library_600x900.jpg",
     "description": "Prey is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "LNHZ9WAertc",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/LNHZ9WAertc"
   },
   {
     "id": "gam-074",
@@ -1551,7 +1697,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1659040/library_600x900.jpg",
     "description": "Hitman World of Assassination is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "R_ObvshDYdQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/R_ObvshDYdQ"
   },
   {
     "id": "gam-075",
@@ -1572,7 +1720,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/894020/library_600x900.jpg",
     "description": "Death's Door is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 86,
-    "featured": false
+    "featured": false,
+    "youtubeId": "f7Y8L_6k0X8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/f7Y8L_6k0X8"
   },
   {
     "id": "gam-076",
@@ -1593,7 +1743,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1244090/library_600x900.jpg",
     "description": "Sea of Stars is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "1K00jYhB0pU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/1K00jYhB0pU"
   },
   {
     "id": "gam-077",
@@ -1614,7 +1766,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1057090/library_600x900.jpg",
     "description": "Ori and the Will of the Wisps is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "2reK8k87L0g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/2reK8k87L0g"
   },
   {
     "id": "gam-078",
@@ -1635,7 +1789,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/504230/library_600x900.jpg",
     "description": "Celeste is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "70d9irlxiB4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/70d9irlxiB4"
   },
   {
     "id": "gam-079",
@@ -1656,7 +1812,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/268910/library_600x900.jpg",
     "description": "Cuphead is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "NN-9SQXoi50",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/NN-9SQXoi50"
   },
   {
     "id": "gam-080",
@@ -1677,7 +1835,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1868140/library_600x900.jpg",
     "description": "Dave the Diver is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 85,
-    "featured": false
+    "featured": false,
+    "youtubeId": "xK5VwQ8kY-A",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/xK5VwQ8kY-A"
   },
   {
     "id": "gam-081",
@@ -1698,7 +1858,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/library_600x900.jpg",
     "description": "Palworld is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "bC3fFhZk3hY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/bC3fFhZk3hY"
   },
   {
     "id": "gam-082",
@@ -1719,7 +1881,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1203620/library_600x900.jpg",
     "description": "Enshrouded is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "V4rVf2d0fA8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/V4rVf2d0fA8"
   },
   {
     "id": "gam-083",
@@ -1740,7 +1904,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1363080/library_600x900.jpg",
     "description": "Manor Lords is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "2bLgN3vJ6hU",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/2bLgN3vJ6hU"
   },
   {
     "id": "gam-084",
@@ -1761,7 +1927,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1962700/library_600x900.jpg",
     "description": "Subnautica is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "Rz2SNm88GU4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Rz2SNm88GU4"
   },
   {
     "id": "gam-085",
@@ -1782,7 +1950,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/275850/library_600x900.jpg",
     "description": "No Man's Sky is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 84,
-    "featured": false
+    "featured": false,
+    "youtubeId": "nL34zDTPkcs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/nL34zDTPkcs"
   },
   {
     "id": "gam-086",
@@ -1803,7 +1973,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1085660/library_600x900.jpg",
     "description": "Destiny 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "hdWkPBzbpm8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/hdWkPBzbpm8"
   },
   {
     "id": "gam-087",
@@ -1824,7 +1996,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1172470/library_600x900.jpg",
     "description": "Apex Legends is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "oQtHENM_G5g",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/oQtHENM_G5g"
   },
   {
     "id": "gam-088",
@@ -1845,7 +2019,9 @@
     "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7087.jpg",
     "description": "Valorant is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "e_E9W2vsRbA",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/e_E9W2vsRbA"
   },
   {
     "id": "gam-089",
@@ -1866,7 +2042,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/730/library_600x900.jpg",
     "description": "Counter-Strike 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "nSE38xjMLqE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/nSE38xjMLqE"
   },
   {
     "id": "gam-090",
@@ -1887,7 +2065,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/4815780/library_600x900.jpg",
     "description": "Overwatch 2 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 83,
-    "featured": false
+    "featured": false,
+    "youtubeId": "GKXS_ACY6yI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/GKXS_ACY6yI"
   },
   {
     "id": "gam-091",
@@ -1908,7 +2088,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/359550/library_600x900.jpg",
     "description": "Rainbow Six Siege is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "KlbLLRdg9u8",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/KlbLLRdg9u8"
   },
   {
     "id": "gam-092",
@@ -1929,7 +2111,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/3595270/library_600x900.jpg",
     "description": "Call of Duty: Modern Warfare III is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "mHDEDDrGYvo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/mHDEDDrGYvo"
   },
   {
     "id": "gam-093",
@@ -1950,7 +2134,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/4384550/library_600x900.jpg",
     "description": "Call of Duty: Black Ops 6 is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "4Fw_p1G4iC4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/4Fw_p1G4iC4"
   },
   {
     "id": "gam-094",
@@ -1971,7 +2157,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/230410/library_600x900.jpg",
     "description": "Warframe is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "Q6cRkM11b_o",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Q6cRkM11b_o"
   },
   {
     "id": "gam-095",
@@ -1992,7 +2180,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2344520/library_600x900.jpg",
     "description": "Diablo IV is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 82,
-    "featured": false
+    "featured": false,
+    "youtubeId": "0SSYzl9fXOQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/0SSYzl9fXOQ"
   },
   {
     "id": "gam-096",
@@ -2013,7 +2203,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/2694490/library_600x900.jpg",
     "description": "Path of Exile is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "YS3tL5iM73c",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/YS3tL5iM73c"
   },
   {
     "id": "gam-097",
@@ -2034,7 +2226,9 @@
     "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7096.jpg",
     "description": "Genshin Impact is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "TAlKhARUcoY",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/TAlKhARUcoY"
   },
   {
     "id": "gam-098",
@@ -2055,7 +2249,9 @@
     "poster": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7097.jpg",
     "description": "Honkai: Star Rail is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "w8vPZrMFiZ4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/w8vPZrMFiZ4"
   },
   {
     "id": "gam-099",
@@ -2076,7 +2272,9 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/4162040/library_600x900.jpg",
     "description": "Zenless Zone Zero is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "P34Fk7d_0Z4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/P34Fk7d_0Z4"
   },
   {
     "id": "gam-100",
@@ -2097,6 +2295,8 @@
     "poster": "https://cdn.akamai.steamstatic.com/steam/apps/1276800/library_600x900.jpg",
     "description": "League of Legends is an award-winning gaming experience celebrated for its groundbreaking visuals and thrilling gameplay.",
     "popularity": 81,
-    "featured": false
+    "featured": false,
+    "youtubeId": "vzHrjPCr4RQ",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/vzHrjPCr4RQ"
   }
 ]
