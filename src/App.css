@@ -3225,11 +3225,24 @@ body.mobile-nav-open .chill-global-live-hud {
 }
 
 .footer-copy {
-  color: #6b7280;
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.95rem;
+  font-size: 0.825rem;
+  color: #7b8293;
+  line-height: 1.6;
 }
 
 .footer-copy strong {
-  color: #a0a6b5;
+  color: #c5cad6;
+  font-weight: 600;
+}
+
+.footer-dot-divider {
+  color: rgba(255, 255, 255, 0.22);
+  font-size: 0.9rem;
+  user-select: none;
 }
 
 .footer-sub-links {

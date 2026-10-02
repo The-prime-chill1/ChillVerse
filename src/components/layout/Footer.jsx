@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Sparkles, Flame, Gamepad2, Film, Tv, Mic2, Zap, BookOpen, Music,
-  Mail, Phone, Send, CheckCircle2, ShieldCheck, Heart
+  Mail, Phone, Send, CheckCircle2, ShieldCheck
 } from 'lucide-react';
 import BrandLogo from '../common/BrandLogo';
 
@@ -128,7 +128,11 @@ export default function Footer() {
         {/* Bottom Bar: Copyright & Attribution */}
         <div className="footer-bottom-bar">
           <div className="footer-copy">
-            © {currentYear} <strong>CHILLVERSE</strong> • Engineered with <Heart size={12} className="inline text-red mx-1" fill="#ff3b30" /> by <a href="https://chilltechltd.com" target="_blank" rel="noopener noreferrer" className="footer-chilltech-link"><strong>ChillTech Ltd.</strong></a> • All rights reserved.
+            <span>© {currentYear} <strong>CHILLVERSE</strong></span>
+            <span className="footer-dot-divider">•</span>
+            <span>Engineered by <a href="https://chilltechltd.com" target="_blank" rel="noopener noreferrer" className="footer-chilltech-link"><strong>ChillTech Ltd.</strong></a></span>
+            <span className="footer-dot-divider">•</span>
+            <span>All rights reserved.</span>
           </div>
         </div>
       </div>
