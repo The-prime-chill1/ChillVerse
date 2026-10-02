@@ -130,9 +130,10 @@ export default function Footer() {
           <div className="footer-copy">
             <span>© {currentYear} <strong>CHILLVERSE</strong></span>
             <span className="footer-dot-divider">•</span>
-            <span>Engineered by <a href="https://chilltechltd.com" target="_blank" rel="noopener noreferrer" className="footer-chilltech-link"><strong>ChillTech Ltd.</strong></a></span>
-            <span className="footer-dot-divider">•</span>
             <span>All rights reserved.</span>
+          </div>
+          <div className="footer-engineered-by">
+            <span>Engineered by <a href="https://chilltechltd.com" target="_blank" rel="noopener noreferrer" className="footer-chilltech-link" title="Visit ChillTech Ltd. Official Website"><strong>ChillTech Ltd.</strong></a></span>
           </div>
         </div>
       </div>

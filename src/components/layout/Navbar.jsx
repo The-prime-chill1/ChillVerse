@@ -178,23 +178,11 @@ export default function Navbar() {
               <span className="nav-search-shortcut">/</span>
             </form>
 
-            {/* Mobile ChillBot Trigger - Visible on Mobile Navbar Only */}
-            <button
-              type="button"
-              onClick={() => window.dispatchEvent(new CustomEvent('open-chillbot'))}
-              className="action-icon-btn mobile-chillbot-nav-btn mobile-only-btn"
-              title="Chat with ChillBot AI"
-              aria-label="Open ChillBot AI Assistant"
-            >
-              <Bot size={18} className="text-cyan" />
-              <span className="mobile-bot-badge">AI</span>
-            </button>
-
-            {/* Shopping Cart Drawer Trigger - Visible on Desktop & Mobile */}
+            {/* Desktop Only: Shopping Cart Drawer Trigger */}
             <button 
               type="button"
               onClick={() => setIsCartOpen(true)}
-              className="action-icon-btn cart-btn"
+              className="action-icon-btn cart-btn nav-desktop-only"
               title="Open Collector Cart"
               aria-label="Shopping Cart"
             >
@@ -204,9 +192,9 @@ export default function Navbar() {
               )}
             </button>
 
-            {/* User Auth Button / Profile */}
+            {/* Desktop Only: User Auth Button / Profile */}
             {user ? (
-              <div className="user-profile-menu">
+              <div className="user-profile-menu nav-desktop-only">
                 <button 
                   type="button"
                   onClick={dummyLogout}
@@ -216,35 +204,16 @@ export default function Navbar() {
                   <User size={14} />
                   <span>{user.username || 'Fan'}</span>
                 </button>
-                <button 
-                  type="button"
-                  onClick={dummyLogout}
-                  className="action-icon-btn mobile-only-btn" 
-                  title={`Signed in as ${user.username || 'Fan'}. Click to Sign Out.`}
-                >
-                  <User size={18} />
-                </button>
               </div>
             ) : (
-              <>
-                <button 
-                  type="button"
-                  onClick={() => openModal('auth', {})}
-                  className="btn-signin-nav nav-desktop-only"
-                >
-                  <User size={14} />
-                  <span>Sign In</span>
-                </button>
-                <button 
-                  type="button"
-                  onClick={() => openModal('auth', {})}
-                  className="action-icon-btn mobile-signin-icon-btn mobile-only-btn"
-                  title="Sign In to CHILLVERSE"
-                  aria-label="Sign In"
-                >
-                  <User size={18} />
-                </button>
-              </>
+              <button 
+                type="button"
+                onClick={() => openModal('auth', {})}
+                className="btn-signin-nav nav-desktop-only"
+              >
+                <User size={14} />
+                <span>Sign In</span>
+              </button>
             )}
 
             {/* Mobile Hamburger Toggle - Visible on Mobile */}
@@ -284,21 +253,22 @@ export default function Navbar() {
               </button>
             </div>
 
-            {/* Mobile Auth Profile / Sign In Banner */}
-            <div className="norse-auth-section">
+            {/* Primary Fandom Quick Actions: Sign In, Cart, ChillBot AI */}
+            <div className="norse-quick-actions">
+              {/* 1. Sign In / User Profile */}
               {user ? (
-                <div className="norse-user-card">
-                  <div className="norse-user-avatar">
-                    <User size={18} className="text-cyan" />
+                <div className="drawer-quick-card drawer-user-card">
+                  <div className="drawer-card-icon-wrap user-icon-wrap logged-in">
+                    <User size={18} />
                   </div>
-                  <div className="norse-user-info">
-                    <span className="norse-user-name">{user.username || 'Fandom Member'}</span>
-                    <span className="norse-user-badge">VIP Fan Pass</span>
+                  <div className="drawer-card-info">
+                    <span className="drawer-card-title">{user.username || 'Fandom Member'}</span>
+                    <span className="drawer-card-sub">VIP Fan Pass Active</span>
                   </div>
                   <button 
                     type="button" 
                     onClick={() => { dummyLogout(); setMobileMenuOpen(false); }} 
-                    className="norse-logout-pill"
+                    className="drawer-logout-btn"
                   >
                     Log Out
                   </button>
@@ -307,12 +277,56 @@ export default function Navbar() {
                 <button 
                   type="button" 
                   onClick={() => { setMobileMenuOpen(false); openModal('auth', {}); }} 
-                  className="norse-signin-full-btn"
+                  className="drawer-quick-card drawer-auth-card"
                 >
-                  <User size={16} />
-                  <span>Sign In / Join Fandom</span>
+                  <div className="drawer-card-icon-wrap user-icon-wrap">
+                    <User size={18} />
+                  </div>
+                  <div className="drawer-card-info">
+                    <span className="drawer-card-title">Sign In / Join Fandom</span>
+                    <span className="drawer-card-sub">Access your VIP fan vault</span>
+                  </div>
+                  <ChevronRight size={16} className="drawer-card-arrow" />
                 </button>
               )}
+
+              {/* 2. Shopping Cart Action */}
+              <button 
+                type="button" 
+                onClick={() => { setMobileMenuOpen(false); setIsCartOpen(true); }} 
+                className="drawer-quick-card drawer-cart-card"
+              >
+                <div className="drawer-card-icon-wrap cart-icon-wrap">
+                  <ShoppingBag size={18} />
+                </div>
+                <div className="drawer-card-info">
+                  <span className="drawer-card-title">Shopping Cart</span>
+                  <span className="drawer-card-sub">
+                    {cartCount > 0 ? `${cartCount} item${cartCount > 1 ? 's' : ''} in cart` : 'Bag is empty'}
+                  </span>
+                </div>
+                {cartCount > 0 ? (
+                  <span className="drawer-pill-badge cart-count-pill">{cartCount}</span>
+                ) : (
+                  <span className="drawer-card-tag">Open</span>
+                )}
+              </button>
+
+              {/* 3. ChillBot AI Assistant */}
+              <button 
+                type="button" 
+                onClick={() => { setMobileMenuOpen(false); window.dispatchEvent(new CustomEvent('open-chillbot')); }} 
+                className="drawer-quick-card drawer-ai-card"
+              >
+                <div className="drawer-card-icon-wrap ai-icon-wrap">
+                  <Bot size={18} />
+                </div>
+                <div className="drawer-card-info">
+                  <span className="drawer-card-title">Ask ChillBot AI</span>
+                  <span className="drawer-card-sub">Multiverse smart fandom guide</span>
+                </div>
+                <span className="drawer-pill-badge ai-badge-pill">24/7 AI</span>
+              </button>
             </div>
 
             {/* Quick Rounded Search Input */}
@@ -320,37 +334,12 @@ export default function Navbar() {
               <Search size={15} className="norse-search-icon" />
               <input 
                 type="text" 
-                placeholder="Search..."
+                placeholder="Search anime, games, lore..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="norse-search-input"
               />
             </form>
-
-            {/* Quick Action Button: + Explore 4K Player */}
-            <button 
-              type="button" 
-              onClick={() => { setMobileMenuOpen(false); navigate('/media'); }} 
-              className="norse-action-btn"
-            >
-              <div className="norse-plus-circle">
-                <Plus size={14} />
-              </div>
-              <span>Explore 4K Stream</span>
-            </button>
-
-            {/* ChillBot AI Mobile Action */}
-            <button 
-              type="button" 
-              onClick={() => { setMobileMenuOpen(false); window.dispatchEvent(new CustomEvent('open-chillbot')); }} 
-              className="norse-action-btn norse-chillbot-action-btn"
-            >
-              <div className="norse-plus-circle chillbot-circle">
-                <Sparkles size={14} className="text-cyan" />
-              </div>
-              <span>Ask ChillBot AI</span>
-              <span className="norse-counter-pill chillbot-pill-tag">24/7 AI</span>
-            </button>
 
             {/* Top Navigation Items */}
             <div className="norse-nav-group">
@@ -365,12 +354,15 @@ export default function Navbar() {
               <Link to="/shop" onClick={() => setMobileMenuOpen(false)} className="norse-nav-link">
                 <ShoppingBag size={16} className="text-amber" />
                 <span>Collector Vault</span>
-                {cartCount > 0 && <span className="norse-counter-pill">{cartCount}</span>}
               </Link>
               <Link to="/bookmarks" onClick={() => setMobileMenuOpen(false)} className="norse-nav-link">
                 <Bookmark size={16} className="text-purple" />
                 <span>Saved &amp; Watchlist</span>
                 {bookmarks.length > 0 && <span className="norse-counter-pill">{bookmarks.length}</span>}
+              </Link>
+              <Link to="/calendar" onClick={() => setMobileMenuOpen(false)} className="norse-nav-link">
+                <Calendar size={16} className="text-green" />
+                <span>Releases Calendar</span>
               </Link>
             </div>
 
