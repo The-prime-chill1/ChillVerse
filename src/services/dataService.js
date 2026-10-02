@@ -4,12 +4,30 @@
  * With fallback to static imports if network fetch fails.
  */
 
+// Load all datasets dynamically from root /data/*.json via Vite glob
+const localDatasets = import.meta.glob('/data/*.json');
+
 // Cache containers
 const cache = {};
 
-// Helper to fetch JSON from public /data/
+// Helper to fetch JSON from root /data/
 async function fetchDataset(name) {
   if (cache[name]) return cache[name];
+
+  // 1. Dynamic local module access from root /data/*.json
+  const globKey = `/data/${name}.json`;
+  if (localDatasets[globKey]) {
+    try {
+      const module = await localDatasets[globKey]();
+      const raw = module.default || module;
+      cache[name] = raw;
+      return raw;
+    } catch (e) {
+      console.warn(`Dynamic glob load failed for ${name}:`, e);
+    }
+  }
+
+  // 2. Network fetch from /data/*.json
   try {
     const res = await fetch(`/data/${name}.json`);
     if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
@@ -18,15 +36,7 @@ async function fetchDataset(name) {
     return data;
   } catch (err) {
     console.warn(`Failed to fetch /data/${name}.json:`, err);
-    // Fallback: try dynamic import from src/data
-    try {
-      const module = await import(`../data/${name}.json`);
-      cache[name] = module.default || module;
-      return cache[name];
-    } catch (importErr) {
-      console.error(`Static fallback import failed for ${name}:`, importErr);
-      return [];
-    }
+    return [];
   }
 }
 

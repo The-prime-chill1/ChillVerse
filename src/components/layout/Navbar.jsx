@@ -4,7 +4,7 @@ import {
   Search, Bookmark, ShoppingBag, Music, Clock, Users,
   Menu, X, ChevronDown, User, Sparkles, Film, Calendar,
   Flame, Gamepad2, Film as FilmIcon, Tv, Mic2, Zap, BookOpen,
-  Info, MapPin, Radio, Plus, ChevronRight
+  Info, MapPin, Radio, Plus, ChevronRight, Bot
 } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 import BrandLogo from '../common/BrandLogo';
@@ -178,6 +178,18 @@ export default function Navbar() {
               <span className="nav-search-shortcut">/</span>
             </form>
 
+            {/* Mobile ChillBot Trigger - Visible on Mobile Navbar Only */}
+            <button
+              type="button"
+              onClick={() => window.dispatchEvent(new CustomEvent('open-chillbot'))}
+              className="action-icon-btn mobile-chillbot-nav-btn mobile-only-btn"
+              title="Chat with ChillBot AI"
+              aria-label="Open ChillBot AI Assistant"
+            >
+              <Bot size={18} className="text-cyan" />
+              <span className="mobile-bot-badge">AI</span>
+            </button>
+
             {/* Shopping Cart Drawer Trigger - Visible on Desktop & Mobile */}
             <button 
               type="button"
@@ -316,6 +328,19 @@ export default function Navbar() {
                 <Plus size={14} />
               </div>
               <span>Explore 4K Stream</span>
+            </button>
+
+            {/* ChillBot AI Mobile Action */}
+            <button 
+              type="button" 
+              onClick={() => { setMobileMenuOpen(false); window.dispatchEvent(new CustomEvent('open-chillbot')); }} 
+              className="norse-action-btn norse-chillbot-action-btn"
+            >
+              <div className="norse-plus-circle chillbot-circle">
+                <Sparkles size={14} className="text-cyan" />
+              </div>
+              <span>Ask ChillBot AI</span>
+              <span className="norse-counter-pill chillbot-pill-tag">24/7 AI</span>
             </button>
 
             {/* Top Navigation Items */}

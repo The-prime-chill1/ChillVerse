@@ -39,8 +39,14 @@ function ChatbotWidget() {
     const handleKeyDown = (e) => {
       if (e.key === 'Escape' && isOpen) setIsOpen(false);
     };
+    const handleOpen = () => setIsOpen(true);
+
     window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    window.addEventListener('open-chillbot', handleOpen);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('open-chillbot', handleOpen);
+    };
   }, [isOpen]);
 
   const sendMessage = async (text = input) => {

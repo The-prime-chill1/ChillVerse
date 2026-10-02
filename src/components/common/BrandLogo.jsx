@@ -18,7 +18,6 @@ export default function BrandLogo({ height = 36, showSubtitle = false, className
       <svg 
         viewBox={showSubtitle ? "0 0 220 48" : "0 0 205 40"} 
         height={height} 
-        width="auto"
         fill="none" 
         xmlns="http://www.w3.org/2000/svg"
         style={{ 

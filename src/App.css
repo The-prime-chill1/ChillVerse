@@ -3888,3 +3888,93 @@ body.mobile-nav-open .chill-global-live-hud {
   }
 }
 
+/* ============================================================
+   CHILLBOT AI BUTTONS & RESPONSIVE BEHAVIOR
+   - Desktop: floating launcher button at bottom right (as before)
+   - Mobile: button on navbar, floating button completely hidden
+   ============================================================ */
+
+/* Mobile Navbar ChillBot Button (hidden on desktop) */
+.mobile-chillbot-nav-btn {
+  display: none !important;
+  position: relative;
+  background: rgba(0, 229, 255, 0.08) !important;
+  border: 1px solid rgba(0, 229, 255, 0.28) !important;
+  color: #00e5ff !important;
+}
+
+.mobile-chillbot-nav-btn:hover,
+.mobile-chillbot-nav-btn:active {
+  background: rgba(0, 229, 255, 0.18) !important;
+  border-color: rgba(0, 229, 255, 0.6) !important;
+}
+
+.mobile-bot-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  font-size: 0.58rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 0.15rem 0.3rem;
+  background: linear-gradient(135deg, #00e5ff, #ff6b00);
+  color: #0b0c10;
+  border-radius: 99px;
+  box-shadow: 0 0 6px rgba(0, 229, 255, 0.6);
+}
+
+/* Mobile Drawer Action */
+.norse-chillbot-action-btn {
+  margin-top: 0.35rem;
+  background: linear-gradient(135deg, rgba(0, 229, 255, 0.08), rgba(255, 107, 0, 0.08)) !important;
+  border: 1px solid rgba(0, 229, 255, 0.22) !important;
+}
+
+.norse-chillbot-action-btn:hover {
+  background: linear-gradient(135deg, rgba(0, 229, 255, 0.15), rgba(255, 107, 0, 0.15)) !important;
+  border-color: rgba(0, 229, 255, 0.45) !important;
+}
+
+.chillbot-circle {
+  background: rgba(0, 229, 255, 0.15) !important;
+  border: 1px solid rgba(0, 229, 255, 0.3) !important;
+}
+
+.chillbot-pill-tag {
+  background: rgba(0, 229, 255, 0.15) !important;
+  color: #00e5ff !important;
+  border: 1px solid rgba(0, 229, 255, 0.3) !important;
+}
+
+/* Responsive Behavior: Mobile vs Desktop */
+@media (max-width: 768px) {
+  /* Show ChillBot button directly on Mobile Navbar */
+  .mobile-chillbot-nav-btn {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Do NOT float on mobile - completely hide the floating circle launcher */
+  .chatbot-launcher-btn {
+    display: none !important;
+  }
+
+  .chatbot-widget-container {
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    pointer-events: none;
+    padding: 0 !important;
+  }
+
+  .chatbot-window-box {
+    width: 100% !important;
+    max-width: 100vw !important;
+    border-radius: 20px 20px 0 0 !important;
+    pointer-events: auto;
+    margin: 0 !important;
+  }
+}
+

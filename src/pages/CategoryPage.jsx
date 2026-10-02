@@ -327,7 +327,16 @@ export default function CategoryPage() {
                     className="char-strip-card"
                     onClick={() => openModal('character', char)}
                   >
-                    <img src={char.image || char.thumbnail} alt={char.name} className="char-strip-img" loading="lazy" />
+                    <img 
+                      src={char.image || char.thumbnail} 
+                      alt={char.name} 
+                      className="char-strip-img" 
+                      loading="lazy"
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80';
+                      }}
+                    />
                     <div className="char-strip-info">
                       <h4 className="char-strip-name">{char.name}</h4>
                       <span className="char-strip-role">{char.franchise}</span>

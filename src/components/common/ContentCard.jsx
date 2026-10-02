@@ -27,8 +27,11 @@ export default function ContentCard({ item, onClick }) {
     }
   };
 
-  const getFallbackPoster = (cat) => {
-    switch (cat?.toLowerCase()) {
+  const getFallbackPoster = (it) => {
+    if (it?.youtubeId) {
+      return `https://img.youtube.com/vi/${it.youtubeId}/hqdefault.jpg`;
+    }
+    switch (it?.category?.toLowerCase()) {
       case 'anime':
         return 'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80';
       case 'gaming':
@@ -51,7 +54,7 @@ export default function ContentCard({ item, onClick }) {
     }
   };
 
-  const initialPoster = item.poster || item.thumbnail || item.image || item.backdrop || getFallbackPoster(item.category);
+  const initialPoster = item.poster || item.thumbnail || item.image || item.backdrop || getFallbackPoster(item);
 
   return (
     <div className={`fandom-card ${isMusic ? 'fandom-card-music' : ''}`} onClick={onClick}>
@@ -63,9 +66,13 @@ export default function ContentCard({ item, onClick }) {
           className="card-poster-img"
           loading="lazy"
           onError={(e) => {
-            const fb = getFallbackPoster(item.category);
-            if (e.currentTarget.src !== fb) {
-              e.currentTarget.src = fb;
+            if (item.youtubeId && !e.currentTarget.src.includes('img.youtube.com')) {
+              e.currentTarget.src = `https://img.youtube.com/vi/${item.youtubeId}/hqdefault.jpg`;
+            } else {
+              const fb = getFallbackPoster(item);
+              if (e.currentTarget.src !== fb) {
+                e.currentTarget.src = fb;
+              }
             }
           }}
         />

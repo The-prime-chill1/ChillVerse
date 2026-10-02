@@ -11,6 +11,7 @@ import CharacterModal from './components/modals/CharacterModal';
 import MerchModal from './components/modals/MerchModal';
 import AuthModal from './components/modals/AuthModal';
 import LightboxModal from './components/modals/LightboxModal';
+import ChatbotWidget from './components/chat/ChatbotWidget';
 import { useApp } from './context/AppContext';
 import './styles/theme.css';
 import './App.css';
@@ -94,6 +95,7 @@ function AppShell() {
       {/* Global Persistent Widgets */}
       <CartDrawer />
       <AudioPlayerBar />
+      <ChatbotWidget />
       <MobileBottomNav />
       <GlobalModals />
     </div>

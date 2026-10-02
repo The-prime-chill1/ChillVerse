@@ -60,8 +60,8 @@
       "Theatrical",
       "2018"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/32OQzp0iwjqD9ttAnmUq9ZYo4qV.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/32OQzp0iwjqD9ttAnmUq9ZYo4qV.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/MGADip4thVSErP34FAAfzFBTZ5.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/MGADip4thVSErP34FAAfzFBTZ5.jpg",
     "description": "Rampage is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 100,
     "featured": true,
@@ -83,13 +83,13 @@
       "Theatrical",
       "2024"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/xEt2GSz9z5rVOEbIhbgmgCRnTQI.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/xEt2GSz9z5rVOEbIhbgmgCRnTQI.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/xEt2GSz9z5rSVpIHMiGdtf0czyf.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/xEt2GSz9z5rSVpIHMiGdtf0czyf.jpg",
     "description": "Rebel Ridge is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 100,
     "featured": true,
-    "youtubeId": "Qp49X0_36jU",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/Qp49X0_36jU"
+    "youtubeId": "R1JmB430Scs",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/R1JmB430Scs"
   },
   {
     "id": "mov-005",
@@ -106,8 +106,8 @@
       "Theatrical",
       "2018"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/c9XxwwhPHdaAzA2fmdqnUVi0xVR.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/c9XxwwhPHdaAzA2fmdqnUVi0xVR.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/x2Us3jR6ToMJjbcPbLimYoxf6xr.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/x2Us3jR6ToMJjbcPbLimYoxf6xr.jpg",
     "description": "Jurassic World: Fallen Kingdom is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 100,
     "featured": true,
@@ -129,13 +129,13 @@
       "Theatrical",
       "2025"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/kQk5k2p5o0rZ0y5R2c8E6k5F4l2.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/kQk5k2p5o0rZ0y5R2c8E6k5F4l2.jpg",
+    "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
     "description": "The Electric State is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
     "featured": true,
-    "youtubeId": "fF-iG2vA30k",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/fF-iG2vA30k"
+    "youtubeId": "coOKvrsmQiI",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/coOKvrsmQiI"
   },
   {
     "id": "mov-007",
@@ -152,8 +152,8 @@
       "Theatrical",
       "2023"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/7gKI9hpEMcZUwYeCu9i0Cviuhqh.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/7gKI9hpEMcZUwYeCu9i0Cviuhqh.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg",
     "description": "Extraction 2 is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
     "featured": true,
@@ -175,8 +175,8 @@
       "Theatrical",
       "2024"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/51tqzR133j4jBceZfU1N3QZ4d.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/51tqzR133j4jBceZfU1N3QZ4d.jpg",
+    "poster": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=600&q=80",
+    "thumbnail": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?auto=format&fit=crop&w=600&q=80",
     "description": "Hit Man is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
     "featured": true,
@@ -185,7 +185,7 @@
   },
   {
     "id": "mov-009",
-    "title": "Gladiator II",
+    "title": "Spider-Man: Across the Spider-Verse",
     "category": "movies",
     "type": "title",
     "format": "movie",
@@ -198,17 +198,17 @@
       "Theatrical",
       "2024"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRHbtCwcrRBXO.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRHbtCwcrRBXO.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
     "description": "Gladiator II is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
     "featured": true,
-    "youtubeId": "4rgYUipGJNo",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/4rgYUipGJNo"
+    "youtubeId": "cqGjhVJWtEg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/cqGjhVJWtEg"
   },
   {
     "id": "mov-010",
-    "title": "Carry-On",
+    "title": "Gladiator II",
     "category": "movies",
     "type": "title",
     "format": "movie",
@@ -221,13 +221,13 @@
       "Theatrical",
       "2024"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/sjMN7kO4kP0h8v1r5wQ2m3t5p7b.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/sjMN7kO4kP0h8v1r5wQ2m3t5p7b.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
     "description": "Carry-On is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 99,
     "featured": true,
-    "youtubeId": "y4vN_4Y9bK4",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/y4vN_4Y9bK4"
+    "youtubeId": "4rgYUipGJNo",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/4rgYUipGJNo"
   },
   {
     "id": "mov-011",
@@ -244,8 +244,8 @@
       "Theatrical",
       "2024"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xUMZqaC.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xUMZqaC.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/iADOJ8Zymht2JPMoy3R7xceZprc.jpg",
     "description": "Furiosa: A Mad Max Saga is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
     "featured": true,
@@ -272,8 +272,8 @@
     "description": "Atlas is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
     "featured": true,
-    "youtubeId": "Jcq3C212jcg",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/Jcq3C212jcg"
+    "youtubeId": "Jokpt_LJ3GE",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/Jokpt_LJ3GE"
   },
   {
     "id": "mov-013",
@@ -290,8 +290,8 @@
       "Theatrical",
       "2024"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/b33nnKl1GSFbao8l3xdZv074PGn.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/b33nnKl1GSFbao8l3xdZv074PGn.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/2uSWRTtCG336nuBiG8jOTEUKSy8.jpg",
     "description": "Alien: Romulus is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
     "featured": false,
@@ -300,7 +300,7 @@
   },
   {
     "id": "mov-014",
-    "title": "Inside Out 2",
+    "title": "Twisters",
     "category": "movies",
     "type": "title",
     "format": "movie",
@@ -313,17 +313,17 @@
       "Theatrical",
       "2024"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg",
     "description": "Inside Out 2 is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
     "featured": false,
-    "youtubeId": "LEjhY15eCx0",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/LEjhY15eCx0"
+    "youtubeId": "dqub_Xz_N1U",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/dqub_Xz_N1U"
   },
   {
     "id": "mov-015",
-    "title": "Twisters",
+    "title": "Civil War",
     "category": "movies",
     "type": "title",
     "format": "movie",
@@ -336,17 +336,17 @@
       "Theatrical",
       "2024"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
     "description": "Twisters is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 98,
     "featured": false,
-    "youtubeId": "Jb_5t_y682k",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/Jb_5t_y682k"
+    "youtubeId": "aDyQxtg0V2w",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/aDyQxtg0V2w"
   },
   {
     "id": "mov-016",
-    "title": "Oppenheimer",
+    "title": "The Batman",
     "category": "movies",
     "type": "title",
     "format": "movie",
@@ -359,17 +359,17 @@
       "Theatrical",
       "2023"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
     "description": "Oppenheimer is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 97,
     "featured": false,
-    "youtubeId": "uYPbbksJxIg",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/uYPbbksJxIg"
+    "youtubeId": "mqqft2x_Aa4",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/mqqft2x_Aa4"
   },
   {
     "id": "mov-017",
-    "title": "Barbie",
+    "title": "Kingdom of the Planet of the Apes",
     "category": "movies",
     "type": "title",
     "format": "movie",
@@ -382,17 +382,17 @@
       "Theatrical",
       "2023"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/gKkl37BQuKTanygYQG1pyYgLVgf.jpg",
     "description": "Barbie is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 97,
     "featured": false,
-    "youtubeId": "pBk4NYhWNMM",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/pBk4NYhWNMM"
+    "youtubeId": "XtfiYmZxJLg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/XtfiYmZxJLg"
   },
   {
     "id": "mov-018",
-    "title": "Avatar: The Way of Water",
+    "title": "Oppenheimer",
     "category": "movies",
     "type": "title",
     "format": "movie",
@@ -405,13 +405,13 @@
       "Theatrical",
       "2022"
     ],
-    "poster": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
-    "thumbnail": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "thumbnail": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
     "description": "Avatar: The Way of Water is an acclaimed cinematic production captivating audiences worldwide with breathtaking visual mastery.",
     "popularity": 97,
     "featured": false,
-    "youtubeId": "d9MyW72ELq0",
-    "embedUrl": "https://www.youtube-nocookie.com/embed/d9MyW72ELq0"
+    "youtubeId": "uYPbbksJxIg",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/uYPbbksJxIg"
   },
   {
     "id": "mov-019",
