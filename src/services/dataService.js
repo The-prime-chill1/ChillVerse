@@ -5,7 +5,7 @@
  */
 
 // Load all datasets dynamically from root /data/*.json via Vite glob
-const localDatasets = import.meta.glob('/data/*.json');
+const localDatasets = import.meta.glob('../../data/*.json');
 
 // Cache containers
 const cache = {};
@@ -15,7 +15,7 @@ async function fetchDataset(name) {
   if (cache[name]) return cache[name];
 
   // 1. Dynamic local module access from root /data/*.json
-  const globKey = `/data/${name}.json`;
+  const globKey = `../../data/${name}.json`;
   if (localDatasets[globKey]) {
     try {
       const module = await localDatasets[globKey]();

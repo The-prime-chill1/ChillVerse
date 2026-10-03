@@ -1,0 +1,80 @@
+import fs from 'fs';
+
+const musicPath = 'data/music.json';
+const music = JSON.parse(fs.readFileSync(musicPath, 'utf8'));
+
+const davidoUpdates = {
+  'mus-davido-001': {
+    title: 'Unavailable (feat. Musa Keys)',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6a/08/f8/6a08f8f4-05ac-fe83-68b9-85e4f8cac8b1/mzaf_11447656297166015034.plus.aac.p.m4a',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6a/08/f8/6a08f8f4-05ac-fe83-68b9-85e4f8cac8b1/mzaf_11447656297166015034.plus.aac.p.m4a',
+    poster: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f2/6f/40/f26f409e-958b-0b9f-adce-395673632c18/196871414814.jpg/600x600bb.jpg',
+    thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f2/6f/40/f26f409e-958b-0b9f-adce-395673632c18/196871414814.jpg/600x600bb.jpg'
+  },
+  'mus-davido-002': {
+    title: 'Feel',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/ec/07/89ec07d6-bc49-9e37-7eb2-98cf384ece2c/mzaf_757461899043186347.plus.aac.p.m4a',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/ec/07/89ec07d6-bc49-9e37-7eb2-98cf384ece2c/mzaf_757461899043186347.plus.aac.p.m4a',
+    poster: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/12/87/4012878d-d267-09b8-7fe0-8c3fd8fdf169/886449553617.jpg/600x600bb.jpg',
+    thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/12/87/4012878d-d267-09b8-7fe0-8c3fd8fdf169/886449553617.jpg/600x600bb.jpg'
+  },
+  'mus-davido-003': {
+    title: 'Fall',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/26/76/43267638-733c-c6e6-2252-9d6f448d3061/mzaf_9692574823920042259.plus.aac.p.m4a',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/26/76/43267638-733c-c6e6-2252-9d6f448d3061/mzaf_9692574823920042259.plus.aac.p.m4a',
+    poster: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/25/10/e825104f-95ac-5638-38bf-a3a3563ac24b/886446558943.jpg/600x600bb.jpg',
+    thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/25/10/e825104f-95ac-5638-38bf-a3a3563ac24b/886446558943.jpg/600x600bb.jpg'
+  },
+  'mus-davido-004': {
+    title: 'IF',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/9c/2a/dd9c2a05-e9e7-6ea9-f04f-948f3e2cf81a/mzaf_9657912625387707820.plus.aac.p.m4a',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/9c/2a/dd9c2a05-e9e7-6ea9-f04f-948f3e2cf81a/mzaf_9657912625387707820.plus.aac.p.m4a',
+    poster: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/9b/e9/489be9d2-4e64-90c4-ad49-beec27fdde3d/886446379210.jpg/600x600bb.jpg',
+    thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/9b/e9/489be9d2-4e64-90c4-ad49-beec27fdde3d/886446379210.jpg/600x600bb.jpg'
+  },
+  'mus-davido-005': {
+    title: 'FEM',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/8d/3a/c18d3a14-eb98-a7f4-b94c-2dabdd6b8a90/mzaf_15758329392578752168.plus.aac.p.m4a',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/8d/3a/c18d3a14-eb98-a7f4-b94c-2dabdd6b8a90/mzaf_15758329392578752168.plus.aac.p.m4a',
+    poster: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/01/60/0f/01600f6f-35ec-2d0a-bca6-670ed9aba76c/886448741688.jpg/600x600bb.jpg',
+    thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/01/60/0f/01600f6f-35ec-2d0a-bca6-670ed9aba76c/886448741688.jpg/600x600bb.jpg'
+  },
+  'mus-davido-006': {
+    title: 'KANTE (feat. Fave)',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/95/10/f2951075-d458-14e8-554f-058b9c073dca/mzaf_3536277524110924180.plus.aac.p.m4a',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/95/10/f2951075-d458-14e8-554f-058b9c073dca/mzaf_3536277524110924180.plus.aac.p.m4a',
+    poster: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/12/87/4012878d-d267-09b8-7fe0-8c3fd8fdf169/886449553617.jpg/600x600bb.jpg',
+    thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/12/87/4012878d-d267-09b8-7fe0-8c3fd8fdf169/886449553617.jpg/600x600bb.jpg'
+  },
+  'mus-davido-007': {
+    title: 'OVER DEM',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/d0/94/29d0942e-ebd8-fca4-0ee0-5819c519c0fe/mzaf_5949323175584436400.plus.aac.p.m4a',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/d0/94/29d0942e-ebd8-fca4-0ee0-5819c519c0fe/mzaf_5949323175584436400.plus.aac.p.m4a',
+    poster: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/12/87/4012878d-d267-09b8-7fe0-8c3fd8fdf169/886449553617.jpg/600x600bb.jpg',
+    thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/12/87/4012878d-d267-09b8-7fe0-8c3fd8fdf169/886449553617.jpg/600x600bb.jpg'
+  },
+  'mus-davido-008': {
+    title: 'Jowo',
+    url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/0f/8b/8e0f8bb6-a77f-b124-07b0-f5e1b332f5a5/mzaf_5095797864967625502.plus.aac.p.m4a',
+    audioUrl: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/0f/8b/8e0f8bb6-a77f-b124-07b0-f5e1b332f5a5/mzaf_5095797864967625502.plus.aac.p.m4a',
+    poster: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/63/ab/23/63ab2393-5151-4d11-a94d-3b5663180583/886448807254.jpg/600x600bb.jpg',
+    thumbnail: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/63/ab/23/63ab2393-5151-4d11-a94d-3b5663180583/886448807254.jpg/600x600bb.jpg'
+  }
+};
+
+let count = 0;
+for (let i = 0; i < music.length; i++) {
+  const item = music[i];
+  if (davidoUpdates[item.id]) {
+    const update = davidoUpdates[item.id];
+    item.title = update.title;
+    item.url = update.url;
+    item.audioUrl = update.audioUrl;
+    item.poster = update.poster;
+    item.thumbnail = update.thumbnail;
+    count++;
+  }
+}
+
+fs.writeFileSync(musicPath, JSON.stringify(music, null, 2));
+console.log(`Updated ${count} tracks in ${musicPath}`);

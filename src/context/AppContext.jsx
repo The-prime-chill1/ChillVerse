@@ -305,8 +305,8 @@ export function AppProvider({ children }) {
         artist: 'Davido',
         album: 'Timeless',
         category: 'Afrobeats',
-        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
-        artwork: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6a/08/f8/6a08f8f4-05ac-fe83-68b9-85e4f8cac8b1/mzaf_11447656297166015034.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f2/6f/40/f26f409e-958b-0b9f-adce-395673632c18/196871414814.jpg/600x600bb.jpg',
         youtubeId: '5j5E7fE1bA4',
         embedUrl: 'https://www.youtube-nocookie.com/embed/5j5E7fE1bA4'
       },
@@ -316,8 +316,8 @@ export function AppProvider({ children }) {
         artist: 'Davido',
         album: 'Timeless',
         category: 'Afrobeats',
-        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
-        artwork: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/ec/07/89ec07d6-bc49-9e37-7eb2-98cf384ece2c/mzaf_757461899043186347.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/40/12/87/4012878d-d267-09b8-7fe0-8c3fd8fdf169/886449553617.jpg/600x600bb.jpg',
         youtubeId: 'kC0y6fG2rP0',
         embedUrl: 'https://www.youtube-nocookie.com/embed/kC0y6fG2rP0'
       },
@@ -327,8 +327,8 @@ export function AppProvider({ children }) {
         artist: 'Davido',
         album: 'A Good Time',
         category: 'Afrobeats',
-        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
-        artwork: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/26/76/43267638-733c-c6e6-2252-9d6f448d3061/mzaf_9692574823920042259.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e8/25/10/e825104f-95ac-5638-38bf-a3a3563ac24b/886446558943.jpg/600x600bb.jpg',
         youtubeId: '3IYu_Jb_Z8o',
         embedUrl: 'https://www.youtube-nocookie.com/embed/3IYu_Jb_Z8o'
       },
@@ -338,8 +338,8 @@ export function AppProvider({ children }) {
         artist: 'Davido',
         album: 'A Good Time',
         category: 'Afrobeats',
-        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
-        artwork: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/9c/2a/dd9c2a05-e9e7-6ea9-f04f-948f3e2cf81a/mzaf_9657912625387707820.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/9b/e9/489be9d2-4e64-90c4-ad49-beec27fdde3d/886446379210.jpg/600x600bb.jpg',
         youtubeId: 'helEv0kGHd4',
         embedUrl: 'https://www.youtube-nocookie.com/embed/helEv0kGHd4'
       },
@@ -349,8 +349,8 @@ export function AppProvider({ children }) {
         artist: 'Davido',
         album: 'A Better Time',
         category: 'Afrobeats',
-        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4a/15/4a/4a154a4a-10ce-2b0e-9764-77a80b17173e/mzaf_7137351656885331665.plus.aac.p.m4a',
-        artwork: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/8d/3a/c18d3a14-eb98-a7f4-b94c-2dabdd6b8a90/mzaf_15758329392578752168.plus.aac.p.m4a',
+        artwork: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/01/60/0f/01600f6f-35ec-2d0a-bca6-670ed9aba76c/886448741688.jpg/600x600bb.jpg',
         youtubeId: 'lta5go9P-go',
         embedUrl: 'https://www.youtube-nocookie.com/embed/lta5go9P-go'
       },
@@ -450,7 +450,7 @@ export function AppProvider({ children }) {
         artist: 'ChillVerse Sounds',
         album: 'Night City Vibes',
         category: 'Gaming',
-        url: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/81/a6/20/81a62065-8ffd-8e43-653f-0aebcd7ede8a/mzaf_10500050305620563985.plus.aac.p.m4a',
         artwork: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80'
       },
       {
@@ -459,7 +459,7 @@ export function AppProvider({ children }) {
         artist: 'Ghibli Vibes Collective',
         album: 'Floating Lanterns',
         category: 'Anime',
-        url: 'https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=chill-lofi-song-8444.mp3',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/ba/44/2aba4410-ba71-89ce-e075-10120409c31c/mzaf_16887001963655152332.plus.aac.p.m4a',
         artwork: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80'
       },
       {
@@ -468,7 +468,7 @@ export function AppProvider({ children }) {
         artist: 'K-Wave Studio',
         album: 'Seoul Moonlight',
         category: 'K-Pop',
-        url: 'https://cdn.pixabay.com/download/audio/2021/11/24/audio_c3c3a7008b.mp3?filename=lofi-chill-medium-version-159456.mp3',
+        url: 'https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/39/71/a4397190-0168-cb2a-bbba-da96cd1fe2c0/mzaf_10010426081667198393.plus.aac.p.m4a',
         artwork: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80'
       }
     ]
@@ -508,13 +508,15 @@ export function AppProvider({ children }) {
           hasStarted: true 
         };
       }
+      const resolvedUrl = track.url || track.audioUrl || track.previewUrl || prev.tracks[0]?.url;
       const newTrack = {
         id: track.id || `track-${Date.now()}`,
         title: track.title,
         artist: track.artist || 'Featured Artist',
         album: track.album || 'ChillVerse Music',
         category: track.category || 'Music',
-        url: track.url || track.audioUrl || track.previewUrl,
+        url: resolvedUrl,
+        audioUrl: resolvedUrl,
         artwork: track.poster || track.artwork || track.thumbnail
       };
       return {

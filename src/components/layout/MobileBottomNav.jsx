@@ -3,7 +3,7 @@ import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { 
   Home, Compass, Film, ShoppingBag, Bookmark, X,
   Flame, Gamepad2, Film as FilmIcon, Tv, Music, Mic2, Zap, BookOpen,
-  ChevronRight, Sparkles
+  ChevronRight, Sparkles, Calendar, FileText, Building2
 } from 'lucide-react';
 import { useApp } from '../../context/AppContext';
 
@@ -30,6 +30,17 @@ export default function MobileBottomNav() {
   };
 
   const isCategoryActive = location.pathname.startsWith('/category');
+
+  // Close category sheet if resized above mobile breakpoint
+  React.useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 768 && categorySheetOpen) {
+        setCategorySheetOpen(false);
+      }
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [categorySheetOpen]);
 
   return (
     <>
@@ -156,21 +167,24 @@ export default function MobileBottomNav() {
                 onClick={() => { setCategorySheetOpen(false); navigate('/calendar'); }} 
                 className="mobile-sheet-portal-link"
               >
-                <span>📅 Schedule</span>
+                <Calendar size={13} className="portal-link-icon" />
+                <span>Schedule</span>
               </button>
               <button 
                 type="button" 
                 onClick={() => { setCategorySheetOpen(false); navigate('/about'); }} 
                 className="mobile-sheet-portal-link"
               >
-                <span>📖 Manifesto</span>
+                <FileText size={13} className="portal-link-icon" />
+                <span>Manifesto</span>
               </button>
               <button 
                 type="button" 
                 onClick={() => { setCategorySheetOpen(false); navigate('/contact'); }} 
                 className="mobile-sheet-portal-link"
               >
-                <span>🏢 Team HQ</span>
+                <Building2 size={13} className="portal-link-icon" />
+                <span>Team HQ</span>
               </button>
             </div>
           </div>

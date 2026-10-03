@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import Breadcrumbs from '../components/common/Breadcrumbs';
 import ContentCard from '../components/common/ContentCard';
+import CustomSelect from '../components/common/CustomSelect';
 import { dataService } from '../services/dataService';
 import { useApp } from '../context/AppContext';
 
@@ -227,36 +228,30 @@ export default function CategoryPage() {
             <div className="toolbar-right-controls">
               {/* Tag Selector */}
               {availableTags.length > 0 && (
-                <div className="filter-select-wrapper">
-                  <select 
-                    value={selectedTag} 
-                    onChange={(e) => setSelectedTag(e.target.value)}
-                    className="filter-select-input"
-                    aria-label="Filter by Tag"
-                  >
-                    <option value="all">All Sub-Tags</option>
-                    {availableTags.map(tag => (
-                      <option key={tag} value={tag}>#{tag}</option>
-                    ))}
-                  </select>
-                  <ChevronDown size={14} className="filter-select-chevron" />
-                </div>
+                <CustomSelect
+                  value={selectedTag}
+                  onChange={(val) => setSelectedTag(val)}
+                  options={[
+                    { value: 'all', label: 'All Sub-Tags' },
+                    ...availableTags.map(tag => ({ value: tag, label: `#${tag}` }))
+                  ]}
+                  placeholder="All Sub-Tags"
+                  ariaLabel="Filter by Tag"
+                />
               )}
 
               {/* Sort By Dropdown */}
-              <div className="filter-select-wrapper">
-                <select 
-                  value={sortBy} 
-                  onChange={(e) => setSortBy(e.target.value)}
-                  className="filter-select-input"
-                  aria-label="Sort by Criteria"
-                >
-                  <option value="popularity">Most Popular / Featured</option>
-                  <option value="newest">Newest Release</option>
-                  <option value="title">Alphabetical</option>
-                </select>
-                <ChevronDown size={14} className="filter-select-chevron" />
-              </div>
+              <CustomSelect
+                value={sortBy}
+                onChange={(val) => setSortBy(val)}
+                options={[
+                  { value: 'popularity', label: 'Most Popular / Featured' },
+                  { value: 'newest', label: 'Newest Release' },
+                  { value: 'title', label: 'Alphabetical' }
+                ]}
+                placeholder="Sort by"
+                ariaLabel="Sort by Criteria"
+              />
 
               <button 
                 onClick={() => setSortOrder(prev => prev === 'asc' ? 'desc' : 'asc')}
@@ -299,10 +294,12 @@ export default function CategoryPage() {
                   key={item.id} 
                   item={item} 
                   onClick={() => {
-                    if (item.category === 'music' || item.type === 'music' || item.audioUrl || item.previewUrl) {
+                    const isAudioItem = item.category === 'music' || item.category === 'k-pop' || item.type === 'music' || Boolean(item.artist) || Boolean(item.audioUrl);
+                    if (isAudioItem) {
                       playTrack(item);
+                    } else {
+                      openModal('trailer', item);
                     }
-                    openModal('trailer', item);
                   }}
                 />
               ))}

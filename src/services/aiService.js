@@ -52,7 +52,21 @@ const LORE_KNOWLEDGE = {
   ]
 };
 
-export async function askGemini(prompt, conversationHistory = []) {
+export async function askGemini(prompt, conversationHistory = [], lang = 'en') {
+  const langNameMap = {
+    en: 'English',
+    es: 'Spanish (Español)',
+    fr: 'French (Français)',
+    ja: 'Japanese (日本語)',
+    ko: 'Korean (한국어)',
+    de: 'German (Deutsch)',
+    yo: 'Yoruba (Yorùbá)'
+  };
+  const currentLangName = langNameMap[lang] || 'English';
+
+  const systemPromptWithLang = `${SYSTEM_INSTRUCTION}
+CRITICAL MULTI-LINGUAL DIRECTIVE: The user's active interface language is ${currentLangName}. You MUST respond entirely and fluently in ${currentLangName}. Keep all fandom excitement and technical lore accurate in that language.`;
+
   // Check for configured API Key in localStorage or env
   const apiKey = (typeof window !== 'undefined' ? localStorage.getItem('chillverse_gemini_api_key') : null) 
     || import.meta.env.VITE_GEMINI_API_KEY 
@@ -84,7 +98,7 @@ export async function askGemini(prompt, conversationHistory = []) {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             systemInstruction: {
-              parts: [{ text: SYSTEM_INSTRUCTION }]
+              parts: [{ text: systemPromptWithLang }]
             },
             contents,
             generationConfig: {
@@ -119,12 +133,22 @@ export async function askGemini(prompt, conversationHistory = []) {
     }
   }
 
-  // High-accuracy natural language fallback engine
+  // Multi-lingual Greetings Fallback
   const lower = prompt.toLowerCase();
 
-  if (lower.match(/\b(hi|hello|hey|greetings|morning|evening)\b/)) {
+  if (lower.match(/\b(hi|hello|hey|greetings|morning|evening|hola|bonjour|konnichiwa|annyeong|bawo|hallo)\b/)) {
+    const greetingsByLang = {
+      es: "¡Saludos, explorador! Soy la Inteligencia Artificial de CHILLVERSE, tu guía personal a través de Anime, Juegos, Películas, TV, K-Pop, Cómics y Manga. ¿En qué universo nos sumergimos hoy?",
+      fr: "Salutations, explorateur du fandom ! Je suis l'IA CHILLVERSE, votre guide intelligent pour l'Anime, le Gaming, le Cinéma, les Séries, la K-Pop et les Mangas. Quel univers explorons-nous aujourd'hui ?",
+      ja: "ファンタジーの世界へようこそ！私はCHILLVERSEのインテリジェントAIです。アニメ、ゲーム、映画、K-Pop、コミックの最新情報をお届けします。今日はどの世界を旅しますか？",
+      ko: "환영합니다! 저는 CHILLVERSE의 AI 엔터테인먼트 가이드입니다. 애니메이션, 게임, 영화, K-Pop, 만화에 대해 무엇이든 물어보세요!",
+      de: "Willkommen, Fandom-Entdecker! Ich bin die CHILLVERSE-KI, dein Guide für Anime, Gaming, Filme, Serien, K-Pop und Manga. Welches Universum erkunden wir heute?",
+      yo: "Ẹ n lẹ o! Èmi ni CHILLVERSE AI, amọ̀nà rẹ fún Anime, Eré orí itage, Sinima, K-Pop, àti Orin Davido. Kí ni a fẹ́ wò lónìí?",
+      en: "Greetings, fandom explorer! I'm CHILLVERSE AI, your intelligent guide across Anime, Gaming, Movies, TV, K-Pop, Comics, and Manga. What universe are we diving into today?"
+    };
+
     return {
-      text: "Greetings, fandom explorer! I'm ChillBot AI, your intelligent guide across Anime, Gaming, Movies, TV, K-Pop, Comics, and Manga. What universe are we diving into today?",
+      text: greetingsByLang[lang] || greetingsByLang.en,
       link: null,
       source: 'local-ai'
     };

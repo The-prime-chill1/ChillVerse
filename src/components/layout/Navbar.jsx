@@ -317,15 +317,16 @@ export default function Navbar() {
                 type="button" 
                 onClick={() => { setMobileMenuOpen(false); window.dispatchEvent(new CustomEvent('open-chillbot')); }} 
                 className="drawer-quick-card drawer-ai-card"
+                aria-label="Open CHILLVERSE AI Assistant"
               >
                 <div className="drawer-card-icon-wrap ai-icon-wrap">
-                  <Bot size={18} />
+                  <Sparkles size={18} />
                 </div>
                 <div className="drawer-card-info">
-                  <span className="drawer-card-title">Ask ChillBot AI</span>
-                  <span className="drawer-card-sub">Multiverse smart fandom guide</span>
+                  <span className="drawer-card-title">CHILLVERSE AI</span>
+                  <span className="drawer-card-sub">Multilingual smart fandom intelligence</span>
                 </div>
-                <span className="drawer-pill-badge ai-badge-pill">24/7 AI</span>
+                <span className="drawer-pill-badge ai-badge-pill">AI VOICE</span>
               </button>
             </div>
 
